@@ -8,7 +8,7 @@ The working thesis is that a well-designed cordial may compress flavour, sweetne
 
 ## Current status
 
-The repository has been initialised as an empty evidence framework. Existing research from the wider project is **awaiting verified import**. No research findings, recipes, safety claims, or measurements are asserted by the scaffolding.
+The repository is in the research migration and consolidation phase. Existing research from the wider project is **awaiting migration and validation**. No research findings, recipes, safety claims, or measurements are asserted by the repository scaffolding.
 
 Round 1 candidates are Yuzu, Strawberry–Vanilla, Peach–Tea–Thyme, Lychee, Pandan, and Mango. Mango development asks whether a cordial can plausibly replace mango purée in a successful Mango Matcha while improving cross-category versatility; superiority is not assumed. Strawberry development must account for seasonality and availability.
 
@@ -61,6 +61,7 @@ Claims about shelf life, preservation, pH, food safety, or similar risks require
 - Record all batches, including failures. Never delete or retrospectively sanitise failed experiments.
 - Use ISO dates (`YYYY-MM-DD`) and metric units. Preserve source units when quoting, then document conversions separately.
 - Keep raw imports in `01_research/imports_pending/` until reviewed, attributed, and filed.
+- Register every incoming package in `01_research/imports_pending/IMPORT_MANIFEST.md` and follow `00_project_control/RESEARCH_INGESTION_WORKFLOW.md`; ChatGPT research is not copied directly into canonical files.
 - Update `PROJECT_STATUS.md` after meaningful progress and `CHANGELOG.md` after consequential decisions or structural changes.
 - Do not place confidential, personal, licensed, or large binary source files in Git unless permission and storage policy are clear.
 
@@ -73,4 +74,3 @@ Claims about shelf life, preservation, pH, food safety, or similar risks require
 5. Create a batch record before execution and append results over time.
 6. Create separate application and shelf-life records linked to the batch ID.
 7. Add measured cost, yield, and waste data only when available.
-

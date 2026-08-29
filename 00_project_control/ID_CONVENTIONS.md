@@ -4,6 +4,7 @@ IDs are permanent once assigned. Never reuse an ID, even if a record is withdraw
 
 | Record | Pattern | Example |
 |---|---|---|
+| Research import package | `IMP-YYYY-NNN` | `IMP-2026-001` |
 | Source | `SRC-YYYY-NNN` | `SRC-2026-001` |
 | Professional recipe | `PR-NNNN` | `PR-0001` |
 | Candidate assessment | `CA-{CORDIAL}-VNN` | `CA-YUZU-V01` |
@@ -14,4 +15,3 @@ IDs are permanent once assigned. Never reuse an ID, even if a record is withdraw
 | Decision | `DEC-YYYY-NNN` | `DEC-2026-001` |
 
 Use short cordial codes consistently: `YUZU`, `STRVAN`, `PECTHY`, `LYCH`, `PAND`, and `MANG`.
-
