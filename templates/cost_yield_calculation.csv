@@ -1,0 +1,3 @@
+calculation_id,batch_id,version,price_date,currency,input_item,purchase_quantity,purchase_unit,purchase_cost,quantity_used,used_unit,calculated_input_cost,waste_quantity,waste_unit,data_type,source_or_measurement_note
+UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN
+

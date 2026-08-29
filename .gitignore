@@ -1,0 +1,36 @@
+# Windows and editor metadata
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Office temporary and lock files
+~$*
+*.tmp
+*.temp
+
+# Local operating files
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Generated exports and large working files
+*.bak
+*.autosave
+*.zip
+*.7z
+*.rar
+
