@@ -2,6 +2,13 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-08-29 — Round 1 source-validation queue
+
+- Created a targeted validation queue for every `IMP-2026-001` formulation and associated source.
+- Separated thresholds for exact sourced recipes, professional development benchmarks, and food-safety/shelf-life recommendations.
+- Prioritised Employees Only Strawberry, Diageo Base/Peach, Spago Lychee, Yuzu, Mango, and Pandan source retrieval.
+- Left all quarantined provenance classifications unchanged.
+
 ## 2026-08-29 — First controlled research ingestion
 
 - Registered `IMP-2026-001` and preserved its raw Round 1 research package.

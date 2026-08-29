@@ -8,14 +8,15 @@ Last updated: 2026-08-29
 - **Repository content:** First Round 1 package partially ingested; direct validation remains outstanding
 - **Active development round:** Round 1
 - **Latest consequential change:** IMP-2026-001 ingested as quarantined source and formulation leads
+- **Active validation queue:** `02_sources/VALIDATION_QUEUE.md`
 
 ## Workstreams
 
 | Workstream | Status | Current focus | Next action |
 |---|---|---|---|
 | Cordial taxonomy and techniques | Awaiting migration | Existing wider-project research | Ingest through import manifest and validate sources |
-| Professional recipe database | Partially ingested | 12 quarantined formulation leads; provenance UNKNOWN | Directly validate cited sources before classification |
-| Round 1 reference formulations | Partially ingested | IMP-2026-001 covers six candidates | Validate priority Batch 001 leads and incomplete formulations |
+| Professional recipe database | Validation queued | 12 quarantined formulation leads; provenance UNKNOWN | Retrieve exact priority source pages in queue order |
+| Round 1 reference formulations | Validation queued | IMP-2026-001 covers six candidates | Apply separate exact-recipe, benchmark, and safety thresholds |
 | Matcha compatibility | Awaiting migration | Existing wider-project research | Validate professional precedents and analysis |
 | Food science / preservation / shelf life | Awaiting migration | Existing wider-project research | Validate every material claim against credible evidence |
 | Economics and waste | Awaiting migration | Existing wider-project research | Separate sourced facts, assumptions, calculations, and measured data |
@@ -57,12 +58,12 @@ None scheduled. Formulations must first be created from verified source research
 
 ## Next actions
 
-1. Receive the first research package in the requested structured format.
-2. Assign an import ID and register the package in `01_research/imports_pending/IMPORT_MANIFEST.md`.
-3. Validate citations, provenance, evidence types, duplicates, unsupported claims, and conflicts.
-4. Record accepted, rejected, and pending items before promoting validated content.
-5. Create stable source and recipe records for accepted material.
-6. Continue package-by-package through all eight research streams and six Round 1 candidates.
+1. Retrieve `SRC-2026-003` (Epicurious Wild Strawberry Cordial).
+2. Retrieve `SRC-2026-007` and compare both Diageo regional pages.
+3. Retrieve `SRC-2026-008` (Diageo cordials-on-tap PDF).
+4. Retrieve `SRC-2026-010` (Liquor.com Lychee Rosé).
+5. Then retrieve Yuzu, Mango, and Pandan priority sources in queue order.
+6. Return compact validation packages; do not alter recipe provenance until evidence is ingested.
 
 ## Blockers and risks
 
