@@ -1,8 +1,8 @@
 # Yuzu — Round 1 Development
 
-- **Status:** Awaiting verified research import
+- **Status:** Research package partially ingested; direct validation pending
 - **Candidate assessment:** Not started; copy `templates/cordial_candidate_assessment.md`
-- **Reference recipes:** UNKNOWN
+- **Reference recipe lead:** `PR-0001` — quarantined; not Batch 001 ready
 - **Batches/application tests:** None
 
 ## Development question
@@ -11,5 +11,4 @@ Determine whether a yuzu cordial can meet the project thesis across the four dri
 
 ## Required next step
 
-Import and verify relevant professional sources before formulation.
-
+Directly validate `SRC-2026-001`, resolving peel type, method wording, yield, and the calculated/substituted variant before formulation.

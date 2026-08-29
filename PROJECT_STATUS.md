@@ -5,17 +5,17 @@ Last updated: 2026-08-29
 ## Control summary
 
 - **CURRENT PHASE:** Research migration and consolidation
-- **Repository content:** Controlled-ingestion scaffolding; research exists externally and awaits migration/validation
+- **Repository content:** First Round 1 package partially ingested; direct validation remains outstanding
 - **Active development round:** Round 1
-- **Latest consequential change:** Controlled research-ingestion workflow established
+- **Latest consequential change:** IMP-2026-001 ingested as quarantined source and formulation leads
 
 ## Workstreams
 
 | Workstream | Status | Current focus | Next action |
 |---|---|---|---|
 | Cordial taxonomy and techniques | Awaiting migration | Existing wider-project research | Ingest through import manifest and validate sources |
-| Professional recipe database | Awaiting migration | Existing wider-project research | Validate provenance and duplicate records before assigning IDs |
-| Round 1 reference formulations | Awaiting migration | Existing wider-project research | Validate formulations and map sources to candidates |
+| Professional recipe database | Partially ingested | 12 quarantined formulation leads; provenance UNKNOWN | Directly validate cited sources before classification |
+| Round 1 reference formulations | Partially ingested | IMP-2026-001 covers six candidates | Validate priority Batch 001 leads and incomplete formulations |
 | Matcha compatibility | Awaiting migration | Existing wider-project research | Validate professional precedents and analysis |
 | Food science / preservation / shelf life | Awaiting migration | Existing wider-project research | Validate every material claim against credible evidence |
 | Economics and waste | Awaiting migration | Existing wider-project research | Separate sourced facts, assumptions, calculations, and measured data |
@@ -28,12 +28,12 @@ Last updated: 2026-08-29
 
 | Candidate | Reference research | Candidate assessment | Experimental batches | Application tests | Key constraint/question |
 |---|---|---|---|---|---|
-| Yuzu | Research exists; awaiting migration/validation | Not started | None | None | Preserve and validate reference provenance |
-| Strawberry–Vanilla | Research exists; awaiting migration/validation | Not started | None | None | Seasonality and ingredient availability |
-| Peach–Tea–Thyme | Research exists; awaiting migration/validation | Not started | None | None | Preserve and validate reference provenance |
-| Lychee | Research exists; awaiting migration/validation | Not started | None | None | Preserve and validate reference provenance |
-| Pandan | Research exists; awaiting migration/validation | Not started | None | None | Preserve and validate reference provenance |
-| Mango | Research exists; awaiting migration/validation | Not started | None | None | Can cordial plausibly replace purée in Mango Matcha and improve versatility? Do not assume superiority. |
+| Yuzu | IMP-2026-001 ingested; PR-0001 quarantined | Not started | None | None | Peel/method/yield ambiguity; direct validation required |
+| Strawberry–Vanilla | IMP-2026-001 ingested; PR-0002 priority validation | Not started | None | None | Seasonality plus naming/classification and source validation |
+| Peach–Tea–Thyme | IMP-2026-001 ingested; PR-0004/0005 priority validation | Not started | None | None | Yield and shelf-life wording unresolved |
+| Lychee | IMP-2026-001 ingested; PR-0007 priority validation | Not started | None | None | Alcoholic benchmark; units/yield/storage unresolved |
+| Pandan | IMP-2026-001 ingested; three incomplete leads | Not started | None | None | No reproducible exact formulation yet; alcoholic limitation |
+| Mango | IMP-2026-001 ingested; PR-0012 incomplete | Not started | None | None | Clarification specification absent; purée remains incumbent |
 
 ## Open research questions
 

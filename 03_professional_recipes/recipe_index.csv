@@ -1,2 +1,13 @@
 recipe_id,title,professional,venue,provenance_classification,primary_source_id,cordial_or_component,status,record_path
-
+PR-0001,Kimball House Yuzu Cordial,Miles Macquarrie,Kimball House,UNKNOWN,SRC-2026-001,Yuzu,QUARANTINED,03_professional_recipes/quarantine/PR-0001.md
+PR-0002,Employees Only Wild Strawberry Cordial,Jason Kosmas and Dushan Zaric,Employees Only,UNKNOWN,SRC-2026-003,Strawberry–Vanilla,QUARANTINED,03_professional_recipes/quarantine/PR-0002.md
+PR-0003,Brian Elder Strawberry Cordial,Brian Elder,The Eddy,UNKNOWN,SRC-2026-004,Strawberry,QUARANTINED,03_professional_recipes/quarantine/PR-0003.md
+PR-0004,Diageo Base Cordial,UNKNOWN,Diageo Bar Academy,UNKNOWN,SRC-2026-007,Base cordial,QUARANTINED,03_professional_recipes/quarantine/PR-0004.md
+PR-0005,Diageo Peach Cordial,UNKNOWN,Diageo Bar Academy,UNKNOWN,SRC-2026-007,Peach–Tea–Thyme,QUARANTINED,03_professional_recipes/quarantine/PR-0005.md
+PR-0006,The Sylvester Strawberry-Peach Cordial,UNKNOWN,The Sylvester,UNKNOWN,SRC-2026-009,Strawberry–Peach,QUARANTINED,03_professional_recipes/quarantine/PR-0006.md
+PR-0007,Spago Salted Lychee Cordial,Adam Fournier,Spago Beverly Hills,UNKNOWN,SRC-2026-010,Lychee,QUARANTINED,03_professional_recipes/quarantine/PR-0007.md
+PR-0008,Shinhidaka Acidified Lychee Cordial,Dalton — full identity UNKNOWN,USBG Presents World Class,UNKNOWN,SRC-2026-011,Lychee,QUARANTINED,03_professional_recipes/quarantine/PR-0008.md
+PR-0009,Pacific Cocktail Haven Pandan Cordial,Kevin Diedrich,Pacific Cocktail Haven,UNKNOWN,SRC-2026-013,Pandan,QUARANTINED,03_professional_recipes/quarantine/PR-0009.md
+PR-0010,Birds of Paradise Elote-Pandan Cordial,UNKNOWN,Birds of Paradise,UNKNOWN,SRC-2026-014,Pandan,QUARANTINED,03_professional_recipes/quarantine/PR-0010.md
+PR-0011,Diageo Kaffir-Lime–Pandan Cordial,UNKNOWN,Diageo Bar Academy,UNKNOWN,SRC-2026-015,Pandan,QUARANTINED,03_professional_recipes/quarantine/PR-0011.md
+PR-0012,Experimental Cocktail Club Mango Cordial,Nathalie Durrieu,Experimental Cocktail Club,UNKNOWN,SRC-2026-016,Mango,QUARANTINED,03_professional_recipes/quarantine/PR-0012.md

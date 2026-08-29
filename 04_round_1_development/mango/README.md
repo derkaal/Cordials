@@ -1,8 +1,8 @@
 # Mango — Round 1 Development
 
-- **Status:** Awaiting verified research import
+- **Status:** Research package partially ingested; formulation evidence incomplete
 - **Candidate assessment:** Not started; copy `templates/cordial_candidate_assessment.md`
-- **Reference recipes:** UNKNOWN
+- **Reference recipe lead:** `PR-0012` — quarantined and not reproducible from the package
 - **Batches/application tests:** None
 
 ## Primary development question
@@ -13,7 +13,6 @@ Do **not** assume cordial is superior. The comparison must preserve a credible p
 
 ## Required next steps
 
-1. Import and verify professional Mango Matcha, mango purée, and relevant cordial precedents.
+1. Directly validate `SRC-2026-016`; essential clarification agents, quantities, method, and yields remain UNKNOWN.
 2. Define the control and fair-comparison protocol before formulating a test batch.
 3. Identify which outcomes are measurements and which require sensory or editorial judgement.
-

@@ -13,8 +13,7 @@ This manifest is the package-level audit trail for research migrated into CORDIA
 
 | Import ID | Research stream | Date received | Intended destination | Source/provenance status | Ingestion status | Validation issues | Resulting files/records | Commit hash |
 |---|---|---|---|---|---|---|---|---|
-
-No research packages have yet been received.
+| IMP-2026-001 | Professional recipe database / Round 1 reference formulations | 2026-08-29 | Round 1 research; sources; recipe leads; candidate records | PARTIALLY DOCUMENTED | PARTIALLY INGESTED | Direct source validation outstanding; one incomplete citation; one duplicate-source pair; all recipe provenance UNKNOWN | SRC-2026-001–017; PR-0001–0012; Round 1 canonical validation note | PENDING |
 
 ## Package record requirements
 
@@ -62,4 +61,3 @@ Record every substantive item, claim group, source, or recipe. Nothing should di
 - **Other resulting files/records:** UNKNOWN
 - **Validation issues remaining:** UNKNOWN
 - **Ingestion commit hash:** UNKNOWN
-
