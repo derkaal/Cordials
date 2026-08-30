@@ -2,6 +2,14 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-08-30 — Targeted Round 1 source validation
+
+- Promoted PR-0001, PR-0002, PR-0004, PR-0005, and PR-0007 as exact sourced recipes with required caveats and version labels.
+- Corrected Yuzu provenance from Miles Macquarrie / Kimball House to Jack Schramm / VinePair and retained the source's yuzu/lemon contradiction.
+- Preserved conflicting Diageo web and PDF Base Cordial versions without harmonising their salt ratios.
+- Approved PR-0009 Pandan and PR-0012 Mango as professional benchmarks only; Pandan exactness remains conditional and Mango exactness failed.
+- Kept every shelf-life statement as source-stated operational guidance; no Threshold C food-safety claim passed.
+
 ## 2026-08-29 — Round 1 source-validation queue
 
 - Created a targeted validation queue for every `IMP-2026-001` formulation and associated source.

@@ -1,6 +1,6 @@
 # Round 1 Reference-Recipe Research
 
-Status: **PARTIALLY INGESTED; DIRECT SOURCE VALIDATION PENDING**
+Status: **PARTIALLY VALIDATED; FIVE EXACT RECORDS PROMOTED**
 
 ## Imported package
 
@@ -35,19 +35,19 @@ The package is accepted as a historical research record and source/formulation l
 
 ## Batch 001 readiness gate
 
-No formulation is currently authorised as an `EXACT SOURCED RECIPE` for execution.
+Five version-specific formulation records now pass the exact-source threshold: `PR-0001`, `PR-0002`, `PR-0004`, `PR-0005`, and `PR-0007`. Exact provenance does not itself schedule a batch or validate shelf life.
 
-The following are sufficiently complete **within the package** to prioritise for direct-source validation and then consider for Batch 001:
+The following can now be considered for Batch 001 subject to ingredient, alcohol, seasonality, and experimental planning constraints:
 
-1. `PR-0002` — Employees Only Wild Strawberry Cordial: apparently complete, but classification/naming, exact wording, yield, storage, and conversions require checking; seasonal fruit constraint remains.
-2. `PR-0005` with `PR-0004` — Diageo Peach Cordial and Base Cordial: apparently complete, but exact text, yield, and shelf-life wording require checking.
-3. `PR-0007` — Spago Salted Lychee Cordial: apparently complete, but exact source, units, yield, and storage require checking; formulation is alcoholic.
+1. `PR-0001` — Jack Schramm / VinePair Yuzu Cordial: exact with the source's internal yuzu/lemon contradiction explicitly retained.
+2. `PR-0002` — Employees Only Wild Strawberry Cordial: exact licensed/reprint record; preserve between-purée-and-syrup description and seasonal constraint.
+3. `PR-0005` with `PR-0004` — Diageo current web Peach and Base Cordials: exact version-specific records; do not combine with the conflicting PDF version.
+4. `PR-0007` — Spago Salted Lychee Cordial: exact alcoholic benchmark from a secondary professional publication.
 
 Not yet sufficiently supported for Batch 001:
 
-- `PR-0001` Yuzu: peel and method ambiguity; approximate yield; calculated adaptation mixed into discussion.
-- `PR-0009` Pandan: missing simple-syrup ratio and spirit proof; alcoholic.
-- `PR-0012` Mango: missing essential clarification specification and yield.
+- `PR-0009` Pandan: benchmark threshold passes; exact status remains conditional on the linked simple-syrup definition.
+- `PR-0012` Mango: benchmark threshold passes; exact status fails because per-litre scaling is ambiguous.
 - All partial/reference-only leads: not reproducible.
 
 Direct validation may change this ordering. “Consider for Batch 001” is not authorisation to execute.

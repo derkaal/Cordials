@@ -1,13 +1,13 @@
 # Project Status
 
-Last updated: 2026-08-29
+Last updated: 2026-08-30
 
 ## Control summary
 
 - **CURRENT PHASE:** Research migration and consolidation
-- **Repository content:** First Round 1 package partially ingested; direct validation remains outstanding
+- **Repository content:** IMP-2026-001 partially validated; five exact and two benchmark-only records established
 - **Active development round:** Round 1
-- **Latest consequential change:** IMP-2026-001 ingested as quarantined source and formulation leads
+- **Latest consequential change:** Targeted external findings promoted five exact source-version records
 - **Active validation queue:** `02_sources/VALIDATION_QUEUE.md`
 
 ## Workstreams
@@ -15,8 +15,8 @@ Last updated: 2026-08-29
 | Workstream | Status | Current focus | Next action |
 |---|---|---|---|
 | Cordial taxonomy and techniques | Awaiting migration | Existing wider-project research | Ingest through import manifest and validate sources |
-| Professional recipe database | Validation queued | 12 quarantined formulation leads; provenance UNKNOWN | Retrieve exact priority source pages in queue order |
-| Round 1 reference formulations | Validation queued | IMP-2026-001 covers six candidates | Apply separate exact-recipe, benchmark, and safety thresholds |
+| Professional recipe database | Partially validated | Five exact records; two benchmark-only; remaining leads quarantined | Resolve Diageo PDF, Pandan dependency, Mango ambiguity, and remaining leads |
+| Round 1 reference formulations | Partially validated | Threshold A/B results recorded; all Threshold C claims fail/remain open | Select source versions explicitly before Batch 001 planning |
 | Matcha compatibility | Awaiting migration | Existing wider-project research | Validate professional precedents and analysis |
 | Food science / preservation / shelf life | Awaiting migration | Existing wider-project research | Validate every material claim against credible evidence |
 | Economics and waste | Awaiting migration | Existing wider-project research | Separate sourced facts, assumptions, calculations, and measured data |
@@ -29,12 +29,12 @@ Last updated: 2026-08-29
 
 | Candidate | Reference research | Candidate assessment | Experimental batches | Application tests | Key constraint/question |
 |---|---|---|---|---|---|
-| Yuzu | IMP-2026-001 ingested; PR-0001 quarantined | Not started | None | None | Peel/method/yield ambiguity; direct validation required |
-| Strawberry–Vanilla | IMP-2026-001 ingested; PR-0002 priority validation | Not started | None | None | Seasonality plus naming/classification and source validation |
-| Peach–Tea–Thyme | IMP-2026-001 ingested; PR-0004/0005 priority validation | Not started | None | None | Yield and shelf-life wording unresolved |
-| Lychee | IMP-2026-001 ingested; PR-0007 priority validation | Not started | None | None | Alcoholic benchmark; units/yield/storage unresolved |
-| Pandan | IMP-2026-001 ingested; three incomplete leads | Not started | None | None | No reproducible exact formulation yet; alcoholic limitation |
-| Mango | IMP-2026-001 ingested; PR-0012 incomplete | Not started | None | None | Clarification specification absent; purée remains incumbent |
+| Yuzu | PR-0001 exact with source contradiction | Not started | None | None | Jack Schramm provenance corrected; yuzu/lemon contradiction must remain visible |
+| Strawberry–Vanilla | PR-0002 exact | Not started | None | None | Between purée and syrup; seasonality remains operational constraint |
+| Peach–Tea–Thyme | PR-0004/0005 exact current web version | Not started | None | None | PDF has conflicting base quantities; source version must be named |
+| Lychee | PR-0007 exact; B pass | Not started | None | None | Alcoholic benchmark; Threshold C failed |
+| Pandan | PR-0009 B pass; A conditional | Not started | None | None | Capture linked simple-syrup definition; alcoholic limitation |
+| Mango | PR-0012 B pass; A fail | Not started | None | None | Per-litre scaling ambiguous; nominal 6 L yield; purée remains incumbent |
 
 ## Open research questions
 
@@ -58,12 +58,11 @@ None scheduled. Formulations must first be created from verified source research
 
 ## Next actions
 
-1. Retrieve `SRC-2026-003` (Epicurious Wild Strawberry Cordial).
-2. Retrieve `SRC-2026-007` and compare both Diageo regional pages.
-3. Retrieve `SRC-2026-008` (Diageo cordials-on-tap PDF).
-4. Retrieve `SRC-2026-010` (Liquor.com Lychee Rosé).
-5. Then retrieve Yuzu, Mango, and Pandan priority sources in queue order.
-6. Return compact validation packages; do not alter recipe provenance until evidence is ingested.
+1. Obtain exact Diageo PDF quantities as a separate versioned transcription; do not harmonise with web records.
+2. Capture the linked simple-syrup definition for PR-0009 Pandan.
+3. Preserve PR-0012 Mango scaling ambiguity unless better source evidence resolves it.
+4. Validate remaining quarantined formulation leads in queue order.
+5. Begin Batch 001 planning only with explicit recipe/source version and without shelf-life safety inference.
 
 ## Blockers and risks
 

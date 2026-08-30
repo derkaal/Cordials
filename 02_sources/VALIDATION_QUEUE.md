@@ -1,8 +1,22 @@
 # Source-Validation Queue
 
-Status: **ACTIVE**  
+Status: **PRIORITY FINDINGS INGESTED; OPEN TARGETS REMAIN**  
 Basis: `IMP-2026-001` at stable checkpoint `55fcfd1`  
 Scope: source retrieval and direct comparison only; no broad recipe hunt
+
+## Findings ingested 2026-08-30
+
+| Recipe | Threshold A | Threshold B | Threshold C | Canonical result |
+|---|---|---|---|---|
+| PR-0002 Employees Only Strawberry | PASS | PASS | FAIL | Promoted as exact; preserve “between purée and syrup” |
+| PR-0004/PR-0005 Diageo current web version | PASS | PASS | FAIL | Promoted as version-specific exact records |
+| Diageo PDF alternate version | PASS as separate version | PASS | FAIL | Conflict retained; exact alternate quantities not supplied locally |
+| PR-0007 Spago Salted Lychee | PASS | PASS | FAIL | Promoted as exact secondary professional reference |
+| PR-0001 VinePair Yuzu | PASS WITH CAVEAT | PASS | FAIL / UNKNOWN | Corrected to Jack Schramm; internal yuzu/lemon contradiction retained |
+| PR-0009 Pacific Cocktail Haven Pandan | CONDITIONAL | PASS | FAIL / UNKNOWN | Remains non-exact until linked simple-syrup definition is captured |
+| PR-0012 Experimental Cocktail Club Mango | FAIL | PASS | FAIL / UNKNOWN | Benchmark supported; per-litre scaling must not be inferred |
+
+All shelf-life statements remain source-stated operational guidance only.
 
 ## Validation thresholds
 
@@ -65,7 +79,7 @@ Keep outside the source transcription:
 - the calculated quarter batch; and
 - “Strawberry–Vanilla” as the repository candidate name.
 
-Current gate assessment: potentially A and B after direct validation; C requires separate evidence. Seasonal strawberry availability remains an operational constraint, not a provenance issue.
+Validation result: A PASS; B PASS; C FAIL. Promoted as `EXACT SOURCED RECIPE`. Seasonal strawberry availability remains an operational constraint, not a provenance issue.
 
 ## Priority 2 — PR-0004 / PR-0005 Diageo Base and Peach Cordials
 
@@ -95,7 +109,7 @@ Keep outside the source transcription:
 - the proposed cinnamon reduction; and
 - any inference that one-month storage is scientifically safe.
 
-Current gate assessment: potentially A and B after direct comparison of all versions; C remains unpassed regardless of source-stated shelf life.
+Validation result: A PASS for each source version separately; B PASS; C FAIL. `PR-0004` and `PR-0005` represent the current web version. The PDF differs, especially in salt ratio, and must receive separate versioned transcriptions when its exact quantities are supplied. Do not harmonise.
 
 ## Priority 3 — PR-0007 Spago Salted Lychee Cordial
 
@@ -122,7 +136,7 @@ Keep outside the source transcription:
 - any metric conversions of cups, tablespoons, or teaspoons; and
 - the proposed future non-alcoholic version.
 
-Current gate assessment: potentially A and B after validation, but only as an alcoholic benchmark; C requires separate evidence.
+Validation result: A PASS; B PASS; C FAIL. Promoted as an exact alcoholic professional benchmark from a secondary professional publication.
 
 ## Priority 4 — Yuzu leads
 
@@ -131,9 +145,9 @@ Current gate assessment: potentially A and B after validation, but only as an al
 - **Page to retrieve:** https://vinepair.com/articles/techniques-vaccum-distillation-miles-macquarrie-kimball-house/
 - **Source represented as:** Secondary source
 
-Establish:
+Validated findings:
 
-- exact page title, author, date, and attribution to Miles Macquarrie / Kimball House;
+- correct attribution is Jack Schramm / VinePair's Coconut Yuzu Martini; the earlier Miles Macquarrie / Kimball House attribution is rejected;
 - whether the page directly gives a cordial recipe;
 - exact formulation name, quantities, original units, peel type, and method;
 - where and when citric acid is added;
@@ -143,7 +157,7 @@ Establish:
 
 Explicitly exclude the calculated half batch and “lemon peel—or yuzu peel” substitution from source transcription.
 
-Current gate assessment: cannot pass A or B until peel, method, and yield ambiguity are resolved.
+Validation result: A PASS WITH CAVEAT; B PASS; C FAIL / UNKNOWN. The source's internal yuzu/lemon wording contradiction must remain explicit.
 
 ### SRC-2026-002 — pairing precedent only
 
@@ -173,7 +187,7 @@ Establish:
 
 Keep the purée comparison, “rebuilds texture,” and Mango Matcha suitability outside the source transcription as experimental design or hypothesis.
 
-Current gate assessment: cannot pass A or B because essential clarification details and yields are missing.
+Validation result: A FAIL due unresolved “remaining ingredients for every 1 liter” scaling ambiguity; B PASS; C FAIL / UNKNOWN. Preserve nominal 6 L yield and the source-supported clarification method. Do not infer a per-litre formulation.
 
 ## Priority 6 — Pandan leads
 
@@ -181,7 +195,7 @@ Current gate assessment: cannot pass A or B because essential clarification deta
 
 - **Page:** https://www.liquor.com/leeward-negroni-cocktail-recipe-5076006
 - Establish exact attribution, leaf quantity/specification, Everclear proof and quantity, infusion conditions, simple-syrup ratio and quantity, yield, storage, and Leeward Negroni context.
-- Current blocker: missing syrup ratio and spirit proof; alcoholic formulation.
+- Validation result: A CONDITIONAL on explicitly capturing the linked simple-syrup definition; B PASS; C FAIL / UNKNOWN. Alcoholic formulation.
 
 ### PR-0010 / SRC-2026-014
 
@@ -231,4 +245,3 @@ Retrieve these first, in order:
 7. Liquor.com Leeward Negroni page (`SRC-2026-013`)
 
 The validation return package for each source should include the preserved page/PDF, retrieval date, complete bibliographic metadata, exact transcription with page/section location, a field-by-field comparison against the quarantined PR record, conflicts, and an A/B/C threshold decision.
-
