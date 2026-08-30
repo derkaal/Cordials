@@ -13,7 +13,7 @@ This manifest is the package-level audit trail for research migrated into CORDIA
 
 | Import ID | Research stream | Date received | Intended destination | Source/provenance status | Ingestion status | Validation issues | Resulting files/records | Commit hash |
 |---|---|---|---|---|---|---|---|---|
-| IMP-2026-001 | Professional recipe database / Round 1 reference formulations | 2026-08-29 | Round 1 research; sources; recipe leads; candidate records | CONFLICTING — PARTIALLY VALIDATED | PARTIALLY INGESTED | Diageo source versions conflict; Yuzu wording contradiction; Pandan dependency; Mango scaling ambiguity; Threshold C failed/open | SRC-2026-001–017; PR-0001–0012; five exact records; two benchmark-only records | `75eeb16`; validation update pending |
+| IMP-2026-001 | Professional recipe database / Round 1 reference formulations | 2026-08-29 | Round 1 research; sources; recipe leads; candidate records | CONFLICTING — PARTIALLY VALIDATED | PARTIALLY INGESTED | Diageo source versions conflict; Yuzu wording contradiction; Pandan dependency; Mango scaling ambiguity; Threshold C failed/open | SRC-2026-001–017; PR-0001–0012; five exact records; two benchmark-only records | ingestion `75eeb16`; validation `dadb74e` |
 
 ## Package record requirements
 
