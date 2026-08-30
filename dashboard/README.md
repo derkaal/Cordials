@@ -4,16 +4,17 @@ The dashboard is the local human interface to the Cordials repository. It reads 
 
 ## Start on this computer
 
-Double-click `start-dashboard.bat` in the repository root, or run:
+Double-click `start-dashboard.bat` in the repository root, or run this from the repository root:
 
 ```powershell
-cd dashboard
-npm start
+node dashboard\server.js
 ```
 
 Open <http://127.0.0.1:4173>.
 
 The application has no third-party runtime dependencies. Node.js 20 or newer is required.
+
+If you prefer npm in PowerShell, use `npm.cmd --prefix dashboard start`. Some Windows installations block the `npm.ps1` wrapper under their PowerShell execution policy; calling `npm.cmd` avoids that wrapper and does not require weakening the policy.
 
 ## Open from a phone on the same Wi-Fi
 
