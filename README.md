@@ -6,6 +6,16 @@ The working thesis is that a well-designed cordial may compress flavour, sweetne
 
 > **Prep once. Waste less. Make more.**
 
+## Local dashboard
+
+The repository includes a responsive local dashboard for the Control Room, recipe book, lab notebook, feedback, shopping, equipment, research library, and project queue.
+
+- Double-click `start-dashboard.bat` for private access on this computer.
+- Open <http://127.0.0.1:4173>.
+- See [dashboard/README.md](dashboard/README.md) for phone access on trusted Wi-Fi and data-write behaviour.
+
+The repository remains the source of truth. Dashboard feedback, notes, and shopping changes are append-only records; historical research, recipes, and batches are not rewritten through the interface.
+
 ## Current status
 
 The repository is in the research migration and consolidation phase, with the first structured product-development case now active. Existing research from the wider project is **awaiting migration and validation**. No experimental measurements or approved production recipes are asserted by the repository scaffolding.

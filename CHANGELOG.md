@@ -2,6 +2,14 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-08-30 — Local Cordials Dashboard
+
+- Added a responsive local-first Control Room, recipe book, laboratory notebook, feedback surface, shopping view, equipment register, research library, and project queue.
+- Kept Markdown and CSV repository records canonical; the dashboard rebuilds its view directly from the existing registers and linked records.
+- Added append-only JSON Lines records for feedback, general Control Room notes, and shopping-state events without rewriting historical recipes, research, or batches.
+- Added private-computer and trusted-LAN Windows launchers plus phone-access and future private-hosting guidance.
+- Imported seven product/development records, fifteen professional recipe records, thirty-seven sources, one planned batch, one planned application test, twenty-four shopping/readiness items, and four equipment records.
+
 ## 2026-08-30 — PB-001 Batch 001 and German procurement plan
 
 - Selected KoRo 100% canned pumpkin purée as the default German procurement input; retained currently sold-out Libby's as an optional later comparator.
