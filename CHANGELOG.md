@@ -2,6 +2,15 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-08-30 — PB-001 Pumpkin Matcha Sauce opened
+
+- Created the first structured product brief, `PB-001`, inside the existing development architecture without assuming the product is a cordial.
+- Added stable IDs for product briefs, product research tasks, and glass-cling trials.
+- Verified and registered three exact professional/commercial pumpkin sauce or syrup references (`PR-0013`–`PR-0015`) and five commercial, technical, and regulatory context sources (`SRC-2026-021`–`SRC-2026-025`).
+- Established a reproducible cold-glass cling protocol controlling surface condition, temperature, dose, time, build disturbance, repeats, and squeeze-bottle consistency; numerical acceptance remains intentionally TBD pending controls.
+- Selected a real-pumpkin sauce with separately tunable texture as the strongest original experimental direction, subject to open ingredient and venue constraints; no formulation or batch was approved.
+- Preserved every published storage period as source-stated operational wording only and retained PB-001 shelf life as TBD.
+
 ## 2026-08-30 — Targeted Round 1 source validation
 
 - Promoted PR-0001, PR-0002, PR-0004, PR-0005, and PR-0007 as exact sourced recipes with required caveats and version labels.
