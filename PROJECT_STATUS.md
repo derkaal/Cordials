@@ -5,17 +5,17 @@ Last updated: 2026-08-30
 ## Control summary
 
 - **CURRENT PHASE:** Research migration and consolidation; PB-001 product discovery active
-- **Repository content:** IMP-2026-001 partially validated; PB-001 has three exact professional/commercial reference recipes and five additional technical/commercial sources
+- **Repository content:** IMP-2026-001 partially validated; PB-001 input/control procurement resolved and source-derived V01 planned
 - **Active development round:** Round 1
 - **Active product case:** `PB-001 — Pumpkin Matcha Sauce`
-- **Latest consequential change:** PB-001 brief, research gate, initial source set, and glass-cling protocol created
+- **Latest consequential change:** PB-001 German input/control selected; exact cling pilot, V01 batch, and iced-matcha build planned
 - **Active validation queue:** `02_sources/VALIDATION_QUEUE.md`
 
 ## Active product cases
 
 | Product | Current stage | Latest evidence | Batch/application status | Next gate |
 |---|---|---|---|---|
-| PB-001 — Pumpkin Matcha Sauce | Product brief complete; professional research in progress | PR-0013–PR-0015 exact source versions; SRC-2026-021–025 commercial/technical context | No batches; no application tests | Confirm inputs/constraints, procure control, run glass-cling benchmark pilot, fix iced-matcha build |
+| PB-001 — Pumpkin Matcha Sauce | Materials/readiness stage before first pilot | KoRo input and FONTE control selected; PR-0014 chosen as V01 lineage | B-20260830-PUMPMAT-V01-01, GC-20260830-PB001-01, and AT-20260830-001 PLANNED | Buy/receive items, record labels/glass/nozzle, calibrate refractometer, execute cling pilot |
 
 Preparation class remains `TBD`; sauce is the current functional descriptor and cordial is not assumed.
 
@@ -33,7 +33,7 @@ Preparation class remains `TBD`; sauce is the current functional descriptor and 
 | Publishing landscape | Awaiting migration | Existing wider-project research | Validate and cite competitive research |
 | Book structure | Not started | Outline placeholder | Draft after core research import |
 | Manuscript | Not started | Chapter placeholders | Begin only when evidence base is ready |
-| PB-001 product development | Research in progress | Pumpkin flavour precedents and wall-cling/texture evidence | Close remaining pre-batch gate and run benchmark cling pilot |
+| PB-001 product development | Batch/pilot planned | Source-derived V01 with no modifier; comparative control method | Complete readiness list and run GC-20260830-PB001-01 |
 
 ## Round 1 status
 
@@ -61,18 +61,38 @@ Preparation class remains `TBD`; sauce is the current functional descriptor and 
 
 ## Experiments awaiting execution
 
-- **PB-001 benchmark glass-cling pilot:** protocol drafted; awaiting commercial control, chosen pumpkin input, service glass, and bottle/nozzle.
-- **Experimental batches:** None scheduled. PB-001 Batch 001 is not authorised until the research/operational gate in `04_round_1_development/pumpkin_matcha/PB-001.md` is closed.
+- **B-20260830-PUMPMAT-V01-01:** planned 25% adaptation of PR-0014; no texture modifier; materials pending.
+- **GC-20260830-PB001-01:** FONTE vs KoRo purée vs V01 comparative cling/squeeze pilot; no arbitrary numerical threshold.
+- **AT-20260830-001:** exact 2.0 g matcha / 40.0 g water / 150.0 g whole milk / 100 ± 5 g ice / 18.0 g sauce house test build; conditional on cling-pilot advancement.
+
+## PB-001 — exact items to buy/receive
+
+| Status | Item | Exact selection/action |
+|---|---|---|
+| BUY | Pumpkin purée | 1 × KoRo Kürbispüree 425 g, 100% pumpkin |
+| BUY | Commercial control | 1 × FONTE Gourmet Pumpkin Spice Sauce 350 g/ml squeeze bottle |
+| BUY | Sweetened condensed milk | 1 × Nestlé Milchmädchen 400 g |
+| BUY | Spice | 1 × Ostmann Pumpkin Spice Latte 16 g if locally available; otherwise stop and record substitute before formulation change |
+| BUY | Application milk | 1 l one fixed whole-milk product, 3.5% fat |
+| BUY | House service bottle | 1 × food-grade 250–350 ml fine-nozzle squeeze bottle; measure opening |
+| BUY IF ABSENT | Test tools | 50 ml graduated measure, 1/8 and 1/16 tsp measures, 5/10 ml blunt syringe |
+| RECEIVE/CALIBRATE | Proster 0–80% refractometer | Ordered; inspect manual and calibrate before valid Brix results |
+| RECEIVE — NOT BATCH BLOCKER | CASO VC10 and Bonsenkitchen rolls | Ordered; not part of V01 and no shelf-life inference |
+
+Full list: `04_round_1_development/pumpkin_matcha/shopping_list_batch_001.md`.
 
 ## Pending measurements
 
 - PB-001 control/candidate wall descent at 30 and 300 seconds, pattern retention after build, weeping, and squeeze-dose repeatability.
-- PB-001 pumpkin-input Brix where measurable, sample and glass temperature, batch yield, pH, Brix, dose, preparation time, cost, and refrigerated observation history.
+- Physical labels/lots/prices for KoRo, FONTE, Milchmädchen, spice, milk, and matcha.
+- KoRo mass per 31.25 ml, Brix, appearance, aroma, and smoothness; FONTE physical ingredient list and Brix if readable.
+- Service-glass capacity/mass/internal dimensions/wall shape/temperature and house/control nozzle openings.
+- V01 actual yield, Brix, process temperatures/times, active labour, and deviations; pH remains `NOT MEASURED` unless a calibrated meter is available.
 - All Round 1 empirical measurements remain pending.
 
 ## Blocked decisions
 
-- PB-001 dairy/vegan and allergen constraints, available equipment, service glass, bottle/nozzle, target build time, and cost question are `UNKNOWN` pending user/venue input.
+- PB-001 dairy is permitted and standard café equipment plus Russell Hobbs 25630-56 are available. Exact glass/nozzle and scale/thermometer checks remain pre-test measurements, not formulation blockers.
 - PB-001 numeric cling threshold is intentionally `TBD` until controls show the useful measurement range.
 - PB-001 shelf-life target and any safety claim remain `TBD`; no source-stated period transfers to an original or adapted formula.
 
@@ -89,12 +109,12 @@ None. No production formulation has completed the required testing and validatio
 
 ## Next actions
 
-1. Confirm PB-001 operational constraints: dairy/vegan/allergen policy, equipment, glass, squeeze bottle/nozzle, build time, and cost context.
-2. Select at least two obtainable pumpkin inputs and one commercial sauce control; record specifications and measured comparison data.
-3. Run the PB-001 glass-cling benchmark pilot and use its observed range to set a dated numerical acceptance threshold.
-4. Fix an exact iced-pumpkin-matcha build before application testing; continue targeted pumpkin–matcha/tea precedent research.
-5. Define PB-001 conservative refrigerated development handling and escalation criteria before authorising Batch 001.
-6. Continue the existing queue: Diageo PDF, PR-0009 simple syrup, PR-0012 ambiguity, and quarantined leads.
+1. Buy/receive the exact PB-001 items listed above; photograph/record physical labels and lots.
+2. Calibrate the Proster refractometer; confirm scale/thermometer; measure service glass and both nozzle openings.
+3. Prepare B-20260830-PUMPMAT-V01-01 without any texture modifier and record actual yield/Brix/process data.
+4. Execute GC-20260830-PB001-01 and compare each metric against FONTE without a weighted total or invented threshold.
+5. If V01 advances, execute AT-20260830-001; optimise flavour/dose only in a new recorded version.
+6. Continue targeted pumpkin–matcha/tea precedent research and the existing source-validation queue.
 
 ## Blockers and risks
 

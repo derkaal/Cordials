@@ -2,6 +2,15 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-08-30 — PB-001 Batch 001 and German procurement plan
+
+- Selected KoRo 100% canned pumpkin purée as the default German procurement input; retained currently sold-out Libby's as an optional later comparator.
+- Selected FONTE Gourmet Pumpkin Spice Sauce as the first commercially purchasable German functional control, preserving the conflict between pumpkin marketing and an ingredient list without separately named pumpkin.
+- Planned B-20260830-PUMPMAT-V01-01 as a 25% adaptation of PR-0014 with no texture modifier and conservative same-day development handling.
+- Defined GC-20260830-PB001-01 with sample identities, randomised comparative runs, raw measurements, and control-relative scoring without an arbitrary numerical threshold.
+- Created AT-20260830-001 as an original experimental café-style iced-matcha build and fixed exact sauce, matcha, water, milk, ice, timing, and observation steps.
+- Recorded Russell Hobbs 25630-56 as available and the Proster refractometer, CASO VC10, and Bonsenkitchen rolls as ordered; vacuum equipment creates no shelf-life inference.
+
 ## 2026-08-30 — PB-001 Pumpkin Matcha Sauce opened
 
 - Created the first structured product brief, `PB-001`, inside the existing development architecture without assuming the product is a cordial.

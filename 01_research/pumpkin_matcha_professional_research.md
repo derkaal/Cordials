@@ -1,6 +1,6 @@
 # PB-001 — Pumpkin Matcha Professional Research
 
-Status: **INITIAL PROFESSIONAL-SOURCE PASS COMPLETE; TARGETED GAPS OPEN**  
+Status: **GERMAN INPUT/CONTROL SELECTED; BATCH 001 PLANNED; TARGETED GAPS OPEN**
 Last updated: 2026-08-30  
 Parent product: `PB-001`
 
@@ -73,6 +73,26 @@ This comparison selects research directions, not exact formulas.
 No sourced recipe deserves direct adoption. The strongest laboratory direction is a real-pumpkin sauce whose flavour base and texture system can be varied independently, compared against a condensed-milk professional benchmark and a commercial sauce control. This is provisionally a **sauce**, not a cordial: the defining requirement is decorative wall retention and squeeze service, while acidity and broad drink dilution are not yet primary functions.
 
 The first original formulation must be classified `ORIGINAL EXPERIMENTAL FORMULATION`. It should not be written until the actual pumpkin input, dairy/vegan constraint, service bottle, and benchmark cling range are known.
+
+## German procurement decision — 2026-08-30
+
+### Default pumpkin input: KoRo Kürbispüree 425 g
+
+KoRo's direct German page (`SRC-2026-026`) listed the 425 g product at EUR 3.25, immediately available with 2–4 working-day delivery, and containing 100% pumpkin. Its linked manufacturer specification (`SRC-2026-027`) describes a fine-grained, smooth but not pasty orange purée. Brix, pH, lot variability, and actual wall/squeeze performance remain unmeasured.
+
+Libby's 425 g (`SRC-2026-028`) is retained as a recognised optional input comparator, but the checked German retailer displayed it as sold out at EUR 5.99. It should not delay V01. Fresh roasted pumpkin remains a later process/flavour comparison rather than the default café route.
+
+### Commercial functional control: FONTE Gourmet Pumpkin Spice Sauce
+
+FONTE's manufacturer page (`SRC-2026-029`) positions the 350 g squeeze bottle for professional cafés, hot/cold drinks, lattes, frappés, and toppings. A German coffee retailer listed it at EUR 19.95 with 7–14 working-day delivery (`SRC-2026-030`). This makes it a practical functional/service comparator.
+
+Available narrative descriptions mention pumpkin, but the ingredient declaration captured by another European retailer (`SRC-2026-031`) names glucose syrup, condensed milk, sunflower oil, sugar, milk powder, molasses, emulsifier, natural flavours, sodium benzoate, and potassium sorbate—without separately named pumpkin. FONTE is therefore a **texture/squeeze/service control**, not evidence of real-pumpkin superiority. The purchased physical label must be photographed and may supersede online copy.
+
+## Batch 001 selection
+
+`B-20260830-PUMPMAT-V01-01` is a 25% scale/adaptation of PR-0014 using KoRo purée and Nestlé Milchmädchen as German inputs. It retains the source proportions and one-minute cook but adds controlled measurement/cooling. It is classified `ADAPTATION OF SOURCED RECIPE`, not an exact published recipe.
+
+V01 contains **no texture modifier**. This is deliberate: first establish whether the strongest professional body precedent already meets the function. A xanthan/gellan/starch/other modified version, if justified by the comparative pilot, will be a separate `ORIGINAL EXPERIMENTAL FORMULATION` and batch.
 
 ## Open targeted research/tasks before Batch 001
 

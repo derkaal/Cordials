@@ -6,6 +6,7 @@ IDs are permanent once assigned. Never reuse an ID, even if a record is withdraw
 |---|---|---|
 | Product brief | `PB-NNN` | `PB-001` |
 | Product research task | `RT-{PRODUCT_ID}-NNN` | `RT-PB-001-001` |
+| Equipment | `EQ-NNN` | `EQ-001` |
 | Research import package | `IMP-YYYY-NNN` | `IMP-2026-001` |
 | Source | `SRC-YYYY-NNN` | `SRC-2026-001` |
 | Professional recipe | `PR-NNNN` | `PR-0001` |

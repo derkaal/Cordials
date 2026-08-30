@@ -1,10 +1,10 @@
-# PB-001 Glass-Cling Test Protocol — Version 0.1
+# PB-001 Glass-Cling Test Protocol — Version 0.2
 
 ## Purpose and status
 
 Compare candidate preparations on the actual functional requirement: remaining as a visible decoration on the inside wall of a cold glass before and during a standardised build.
 
-- **Status:** DRAFT FOR BENCHMARK PILOT
+- **Status:** READY FOR COMPARATIVE BENCHMARK PILOT
 - **Evidence class:** ORIGINAL EXPERIMENTAL METHOD
 - **Applies to:** PB-001
 - **Trial ID pattern:** `GC-YYYYMMDD-PB001-NN`
@@ -34,6 +34,8 @@ Test at minimum:
 1. one selected commercial beverage-sauce control;
 2. the unmodified chosen pumpkin purée/input;
 3. each candidate preparation.
+
+For the first pilot these are fixed as FONTE Gourmet Pumpkin Spice Sauce (`SRC-2026-029` to `SRC-2026-031`), KoRo Kürbispüree (`SRC-2026-026`/`027`), and `B-20260830-PUMPMAT-V01-01`. See `GC-20260830-PB001-01.md`.
 
 Optional thin negative control: maple syrup or 1:1 sugar syrup, identified exactly. Controls are comparators, not automatic pass/fail standards.
 
@@ -96,4 +98,4 @@ Bottle performance is a separate decision variable from static cling. A sample c
 
 ## Pilot decision rule
 
-Do not set the PB-001 pass threshold before the commercial sauce, pumpkin input, and at least one feasibility sample have been measured. After the pilot, define the numerical limit from the service need and observed discriminating range; record it as a dated protocol revision. A visually appealing still photograph alone is not a pass.
+Do not set the PB-001 pass threshold before the commercial sauce, pumpkin input, and at least one feasibility sample have been measured. For the first pilot, compare each house sample with the commercial control on each recorded metric using `BETTER THAN CONTROL`, `NO MATERIAL DIFFERENCE OBSERVED`, `WORSE THAN CONTROL`, or `INCOMPARABLE`; do not create a weighted composite score. After the pilot, define any numerical limit from the service need and observed discriminating range and record it as a dated protocol revision. A visually appealing still photograph alone is not a pass.

@@ -1,2 +1,5 @@
 item_id,item,requirement_status,purpose,specification,source_id,supplier,price,currency,price_date,decision,notes
-
+EQ-001,Russell Hobbs Sous Vide Slow Cooker 25630-56,AVAILABLE — USER-CONFIRMED,Controlled-temperature/slow-cook/sous-vide and larger batch work,6.5 l nominal capacity; three cooking modes; temperature probe,SRC-2026-034,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,AVAILABLE,Not preferred for approximately 125 ml PB-001 V01 saucepan batch; actual temperature accuracy not measured
+EQ-002,Proster Brix hand refractometer B09KX71HMT,ORDERED — RECEIPT PENDING,Measure Brix/process consistency,0–80% range stated in ordered product title,SRC-2026-036,Amazon Germany,UNKNOWN,EUR,2026-08-30,ORDERED,Inspect manual and calibrate before use; Brix does not validate shelf life
+EQ-003,CASO VC 10 vacuum sealer,ORDERED — RECEIPT PENDING,Vacuum sealing and future sous-vide/storage experiments,Article 1340; seal up to 30 cm; 9 l/min pump; 110 W,SRC-2026-035,Amazon Germany,UNKNOWN,EUR,2026-08-30,ORDERED,Not required for PB-001 V01; no shelf-life inference
+EQ-004,Bonsenkitchen vacuum rolls B07JCNMR9S,ORDERED — RECEIPT PENDING,Vacuum-bag material for EQ-003/future sous-vide work,2 rolls each 28 x 600 cm,SRC-2026-037,Amazon Germany,UNKNOWN,EUR,2026-08-30,ORDERED,Verify physical packaging and food-contact/temperature claims before use

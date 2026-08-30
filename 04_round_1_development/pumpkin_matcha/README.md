@@ -1,12 +1,15 @@
 # Pumpkin Matcha Sauce — PB-001
 
 - **Product ID:** PB-001
-- **Current stage:** Product brief complete; professional research in progress
+- **Current stage:** Batch 001 and comparative pilot planned; materials/measurements pending
 - **Preparation classification:** TBD — sauce is the current functional descriptor; cordial is not assumed
-- **Batch status:** No batch scheduled
+- **Batch status:** `B-20260830-PUMPMAT-V01-01` planned — source-derived baseline without texture modifier
 - **Primary record:** `PB-001.md`
 - **Research synthesis:** `../../01_research/pumpkin_matcha_professional_research.md`
 - **Glass-cling protocol:** `glass_cling_test_protocol.md`
+- **Exact pilot:** `GC-20260830-PB001-01.md`
+- **Application build:** `../../06_application_testing/tests/AT-20260830-001.md`
+- **Shopping/readiness:** `shopping_list_batch_001.md`
 
 ## Stage links
 
@@ -14,9 +17,9 @@
 |---|---|
 | Product Brief | `PB-001.md` — ACTIVE |
 | Professional Research | `../../01_research/pumpkin_matcha_professional_research.md` — IN PROGRESS |
-| Candidate Formulations | Not created; texture system and flavour system must first be selected |
-| Experimental Batches | None |
-| Application Testing | None |
+| Candidate Formulations | V01 — 25% source-derived PR-0014 baseline; no texture modifier |
+| Experimental Batches | `B-20260830-PUMPMAT-V01-01` — PLANNED |
+| Application Testing | `AT-20260830-001` — exact original house test build, PLANNED |
 | Operational/Economic Evaluation | Not started; cost targets remain TBD |
 | Approved Production Version | None |
 
