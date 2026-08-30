@@ -2,6 +2,8 @@
 
 > Create this record before execution. Preserve failures and correct errors only with dated addenda.
 
+> Bench-measurability rule: write the operational formula in units the available equipment can resolve directly. Prefer mass for ingredients, use whole grams where practical, and use decimals only when the specified scale resolution supports them. Do not force awkward calculated quantities into the method. If linear scaling produces impractical amounts, choose a larger scale or explicitly round them and classify the change as an adaptation. Preserve the source quantity separately for provenance.
+
 ## Identity
 
 - **Batch ID:** UNKNOWN
@@ -71,4 +73,3 @@
 ## Addenda
 
 None.
-

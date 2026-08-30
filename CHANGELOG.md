@@ -2,6 +2,13 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-08-30 — Bench-measurable Batch 001 correction
+
+- Superseded the unexecuted V01 plan because exact 25% scaling created impractical 31.25 ml and sub-millilitre quantities.
+- Created `B-20260830-PUMPMAT-V02-01` as the operational Batch 001: 60 g water, 50 g sugar, 190 g condensed milk, 60 g pumpkin purée, 1.0 g spice, and 0.5 g salt.
+- Kept V02 classified as an adaptation of PR-0014, explicitly separating practical rounding from source-stated quantities and retaining the no-texture-modifier boundary.
+- Added a project-wide bench-measurability standard: prefer direct weights, match precision to available equipment, and enlarge or deliberately round a batch instead of publishing awkward calculator outputs.
+
 ## 2026-08-30 — Local Cordials Dashboard
 
 - Added a responsive local-first Control Room, recipe book, laboratory notebook, feedback surface, shopping view, equipment register, research library, and project queue.

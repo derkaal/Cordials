@@ -1,2 +1,2 @@
 test_id,date,batch_id,cordial,category,drink_name,cordial_dosage_g,cordial_dosage_ml,result,record_path
-AT-20260830-001,2026-08-30,B-20260830-PUMPMAT-V01-01,Pumpkin Matcha Sauce / PB-001,matcha/tea,PB-001 Standard Iced Pumpkin Matcha Test Build,18.0,UNKNOWN,PENDING,06_application_testing/tests/AT-20260830-001.md
+AT-20260830-001,2026-08-30,B-20260830-PUMPMAT-V02-01,Pumpkin Matcha Sauce / PB-001,matcha/tea,PB-001 Standard Iced Pumpkin Matcha Test Build,18.0,UNKNOWN,PENDING,06_application_testing/tests/AT-20260830-001.md

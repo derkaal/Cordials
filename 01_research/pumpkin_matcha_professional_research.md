@@ -80,7 +80,7 @@ The first original formulation must be classified `ORIGINAL EXPERIMENTAL FORMULA
 
 KoRo's direct German page (`SRC-2026-026`) listed the 425 g product at EUR 3.25, immediately available with 2–4 working-day delivery, and containing 100% pumpkin. Its linked manufacturer specification (`SRC-2026-027`) describes a fine-grained, smooth but not pasty orange purée. Brix, pH, lot variability, and actual wall/squeeze performance remain unmeasured.
 
-Libby's 425 g (`SRC-2026-028`) is retained as a recognised optional input comparator, but the checked German retailer displayed it as sold out at EUR 5.99. It should not delay V01. Fresh roasted pumpkin remains a later process/flavour comparison rather than the default café route.
+Libby's 425 g (`SRC-2026-028`) is retained as a recognised optional input comparator, but the checked German retailer displayed it as sold out at EUR 5.99. It should not delay V02. Fresh roasted pumpkin remains a later process/flavour comparison rather than the default café route.
 
 ### Commercial functional control: FONTE Gourmet Pumpkin Spice Sauce
 
@@ -90,9 +90,9 @@ Available narrative descriptions mention pumpkin, but the ingredient declaration
 
 ## Batch 001 selection
 
-`B-20260830-PUMPMAT-V01-01` is a 25% scale/adaptation of PR-0014 using KoRo purée and Nestlé Milchmädchen as German inputs. It retains the source proportions and one-minute cook but adds controlled measurement/cooling. It is classified `ADAPTATION OF SOURCED RECIPE`, not an exact published recipe.
+`B-20260830-PUMPMAT-V02-01` is a practical, approximately half-scale, weight-based adaptation of PR-0014 using KoRo purée and Nestlé Milchmädchen as German inputs. It retains the source ingredient set and one-minute cook, but replaces source volumes with deliberately rounded gram targets and adds controlled measurement/cooling. It is classified `ADAPTATION OF SOURCED RECIPE`, not an exact published recipe. The earlier V01 plan was superseded before execution because exact 25% scaling produced impractical bench quantities.
 
-V01 contains **no texture modifier**. This is deliberate: first establish whether the strongest professional body precedent already meets the function. A xanthan/gellan/starch/other modified version, if justified by the comparative pilot, will be a separate `ORIGINAL EXPERIMENTAL FORMULATION` and batch.
+V02 contains **no texture modifier**. This is deliberate: first establish whether the strongest professional body precedent already meets the function. A xanthan/gellan/starch/other modified version, if justified by the comparative pilot, will be a separate `ORIGINAL EXPERIMENTAL FORMULATION` and batch.
 
 ## Open targeted research/tasks before Batch 001
 
