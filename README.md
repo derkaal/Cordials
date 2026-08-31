@@ -18,11 +18,11 @@ The repository remains the source of truth. Dashboard feedback, notes, and shopp
 
 ## Current status
 
-The repository is in the research migration and consolidation phase, with the first structured product-development case now active. Existing research from the wider project is **awaiting migration and validation**. No experimental measurements or approved production recipes are asserted by the repository scaffolding.
+The repository is in the research migration and consolidation phase, with three structured purée-based matcha-sauce cases active. Existing research from the wider project is **awaiting migration and validation**. Planned experimental recipes are not approved production recipes, and no empirical results are asserted before execution.
 
-Round 1 candidates are Yuzu, Strawberry–Vanilla, Peach–Tea–Thyme, Lychee, Pandan, and Mango. Mango development asks whether a cordial can plausibly replace mango purée in a successful Mango Matcha while improving cross-category versatility; superiority is not assumed. Strawberry development must account for seasonality and availability.
+Round 1 candidates remain Yuzu, Strawberry–Vanilla, Peach–Tea–Thyme, Lychee, Pandan, and Mango. The active Lychee and Mango Matcha directions now deliberately test high-fruit purée sauces rather than assuming clarified cordials are superior. Strawberry development must account for seasonality and availability.
 
-`PB-001 — Pumpkin Matcha Sauce` is in professional-research and benchmark-design stage. It is provisionally treated as a sauce because cold-glass decoration and wall retention are the central functions; no cordial classification, experimental batch, shelf-life claim, or production approval has been made.
+PB-001 Pumpkin, PB-002 Lychee, and PB-003 Mango are treated as sauce cases because cold-glass decoration, wall retention, and purée-led flavour are central functions. Each has a planned comparative pilot; none has a validated shelf life or production approval.
 
 See [PROJECT_STATUS.md](PROJECT_STATUS.md) for the active control room.
 

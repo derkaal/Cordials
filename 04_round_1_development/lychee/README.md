@@ -1,14 +1,13 @@
-# Lychee — Round 1 Development
+# Lychee Matcha Sauce — PB-002
 
-- **Status:** Research package partially ingested; priority direct validation pending
-- **Candidate assessment:** Not started; copy `templates/cordial_candidate_assessment.md`
-- **Reference recipe leads:** `PR-0007` and `PR-0008`; both quarantined
-- **Batches/application tests:** None
+- **Product ID:** PB-002
+- **Current stage:** Purée-based Batch 001 and comparative pilot planned
+- **Primary record:** `PB-002.md`
+- **Operational batch:** `B-20260831-LYCH-V01-01`
+- **Cling pilot:** `GC-20260831-PB002-01.md`
+- **Application test:** `AT-20260831-002`
+- **Shopping list:** `../puree_matcha_batch_001_shopping.md`
 
-## Development question
+The active direction is a high-fruit purée sauce for iced matcha, not a thin cordial. The earlier alcoholic salted-lychee cordial remains a professional flavour reference only.
 
-Determine whether a lychee cordial can meet the project thesis across the four drink categories. Specific formulation and performance hypotheses are awaiting verified research.
-
-## Required next step
-
-Directly validate `SRC-2026-010`; `PR-0007` is sufficiently complete in the package to consider as an alcoholic benchmark after validation, not as a zero-proof café formulation.
+No production formula, shelf life, or safety outcome is approved.

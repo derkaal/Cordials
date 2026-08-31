@@ -113,7 +113,7 @@ function ids(markdown, pattern) { return [...new Set(markdown.match(pattern) || 
 
 function normalizeProductStatus(raw, productId) {
   const value = String(raw || '').toUpperCase();
-  if (productId === 'PB-001') return 'Ready to test';
+  if (productId && (value.includes('PLANNED') || value.includes('BATCH 001'))) return 'Ready to test';
   if (value.includes('APPROV')) return 'Approved';
   if (value.includes('TEST')) return 'Testing';
   if (value.includes('RESEARCH') || value.includes('VALIDATION') || value.includes('INGEST')) return 'Researching';
@@ -214,42 +214,54 @@ function getProducts(recipes, batches, tests) {
     const developmentQuestion = paragraphs(section(markdown, 'Development question'))[0] || null;
     let productBrief = markdown, overview = developmentQuestion || `Develop and validate ${name} using the repository's evidence and testing workflow.`;
     let nextAction = list(section(markdown, 'Required next steps'))[0] || paragraphs(section(markdown, 'Required next step'))[0] || 'Research and select a formulation before testing.';
+    let briefPath = recordPath;
     if (productId) {
-      productBrief = read(`04_round_1_development/${entry.name}/PB-001.md`);
+      const briefName = fs.readdirSync(path.join(base, entry.name)).find((name) => /^PB-\d{3}\.md$/i.test(name));
+      briefPath = briefName ? path.posix.join('04_round_1_development', entry.name, briefName) : recordPath;
+      productBrief = read(briefPath);
       overview = paragraphs(section(productBrief, 'Objective'))[0] || overview;
-      nextAction = productBatches[0]?.nextAction || nextAction;
+      const activeBatch = productBatches.find((batch) => !/SUPERSEDED|WITHDRAWN/i.test(batch.status)) || productBatches[0];
+      nextAction = activeBatch?.nextAction || nextAction;
     }
+    const activeBatch = productBatches.find((batch) => !/SUPERSEDED|WITHDRAWN/i.test(batch.status)) || productBatches[0];
     return {
       key: productId || entry.name, id: productId || `ROUND 1 / ${code}`, productId: productId || null, code, name,
       type: productId ? 'Sauce' : 'Cordial', status: normalizeProductStatus(rawStatus, productId), rawStatus,
-      provenance: productBatches[0]?.provenance || 'UNKNOWN — no formulation selected', mainFlavor: name.replace(' Sauce', ''),
-      applications: productId ? ['Matcha'] : [], currentVersion: productBatches[0] ? `${productBatches[0].id} · ${productBatches[0].version}` : 'Not selected',
+      provenance: activeBatch?.provenance || 'UNKNOWN — no formulation selected', mainFlavor: name.replace(' Sauce', ''),
+      applications: productId ? ['Matcha'] : [], currentVersion: activeBatch ? `${activeBatch.id} · ${activeBatch.version}` : 'Not selected',
       approval: 'EXPERIMENTAL — NOT YET APPROVED', overview, developmentQuestion, nextAction,
-      primaryUse: productId ? 'Iced pumpkin matcha' : 'Multi-category development candidate; not yet tested',
+      primaryUse: productId ? `Iced ${name.replace(/ Matcha Sauce$/i, '').toLowerCase()} matcha` : 'Multi-category development candidate; not yet tested',
       recipeIds: [...new Set([...ids(markdown + '\n' + productBrief, /PR-\d{4}/g), ...productRecipes.map((recipe) => recipe.id)])],
       sourceIds: ids(markdown + '\n' + productBrief, /SRC-\d{4}-\d{3}/g), batchIds: productBatches.map((batch) => batch.id),
-      testIds: productTests.map((test) => test.id), recordPath, briefPath: productId ? `04_round_1_development/${entry.name}/PB-001.md` : recordPath, stageIndex: productId ? 3 : 1,
+      testIds: productTests.map((test) => test.id), recordPath, briefPath, stageIndex: productId ? 3 : 1,
     };
   }).sort((a, b) => (a.productId ? -1 : 0) - (b.productId ? -1 : 0) || a.name.localeCompare(b.name));
 }
 
 function getShopping(sourceMap) {
-  const recordPath = '04_round_1_development/pumpkin_matcha/shopping_list_batch_001.md', markdown = read(recordPath);
   const latestState = new Map(readJsonl('shopping-events.jsonl').map((event) => [event.itemKey, event]));
   const sourceFor = (text) => { const sourceId = text.match(/SRC-\d{4}-\d{3}/)?.[0]; return sourceId ? sourceMap.get(sourceId) : null; };
-  const makeItems = (title, group, reasonFallback) => {
+  const makeItems = (markdown, recordPath, productLabel, keyPrefix, title, group, reasonFallback) => {
     const table = markdownTables(section(markdown, title))[0];
     return (table?.rows || []).map((row, index) => {
-      const item = row.Item || 'UNKNOWN', sourceText = row['Source/price status'] || row['Order status'] || '', source = sourceFor(sourceText);
-      const itemKey = `PB-001:${title}:${index}:${item}`;
-      return { itemKey, group, item, priority: row.Priority || group, selection: row['Exact selection'] || row['Minimum needed'] || '', quantity: row.Quantity || '', reason: row['Why needed'] || row['Required PB-001 action'] || row['Check/record before test'] || reasonFallback, sourceId: source?.id || null, url: source?.url || null, sourceStatus: sourceText, state: latestState.get(itemKey)?.state || (group === 'Soon' && /ORDERED/i.test(sourceText) ? 'Ordered' : 'Need'), recordPath };
+      const item = row.Item || 'UNKNOWN', sourceText = row['Source/price status'] || row['Current source status'] || row['Order status'] || '', source = sourceFor(sourceText);
+      const itemKey = `${keyPrefix}:${title}:${index}:${item}`;
+      return { itemKey, productLabel, group, item, priority: row.Priority || group, selection: row['Exact selection'] || row['Minimum needed'] || '', quantity: row.Quantity || '', reason: row['Why needed'] || row['Used for'] || row['Required PB-001 action'] || row['Check/record before test'] || reasonFallback, sourceId: source?.id || null, url: source?.url || null, sourceStatus: sourceText, state: latestState.get(itemKey)?.state || (group === 'Soon' && /ORDERED/i.test(sourceText) ? 'Ordered' : 'Need'), recordPath };
     });
   };
-  const optional = list(section(markdown, 'Optional, not a Batch 001 blocker')).map((line, index) => {
+  const pumpkinPath = '04_round_1_development/pumpkin_matcha/shopping_list_batch_001.md', pumpkin = read(pumpkinPath);
+  const optional = list(section(pumpkin, 'Optional, not a Batch 001 blocker')).map((line, index) => {
     const itemKey = `PB-001:Optional:${index}:${line.slice(0, 30)}`, sourceId = line.match(/SRC-\d{4}-\d{3}/)?.[0] || null;
-    return { itemKey, group: 'Optional / benchmark', item: line.split('.')[0], priority: 'OPTIONAL', selection: line, quantity: '', reason: 'Optional — not a Batch 001 blocker', sourceId, url: sourceMap.get(sourceId)?.url || null, sourceStatus: '', state: latestState.get(itemKey)?.state || 'Not needed', recordPath };
+    return { itemKey, productLabel: 'PB-001 / Batch 001', group: 'Optional / benchmark', item: line.split('.')[0], priority: 'OPTIONAL', selection: line, quantity: '', reason: 'Optional — not a Batch 001 blocker', sourceId, url: sourceMap.get(sourceId)?.url || null, sourceStatus: '', state: latestState.get(itemKey)?.state || 'Not needed', recordPath: pumpkinPath };
   });
-  return [...makeItems('Buy', 'Need now', 'Required for PB-001 / Batch 001'), ...makeItems('Confirm from existing stock', 'Need now', 'Confirm before PB-001 / Batch 001'), ...makeItems('Ordered — receive and verify', 'Soon', 'Receive and verify for future work'), ...optional];
+  const fruitPath = '04_round_1_development/puree_matcha_batch_001_shopping.md', fruit = read(fruitPath);
+  return [
+    ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Batch 001', 'PB-001', 'Buy', 'Need now', 'Required for PB-001 / Batch 001'),
+    ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Batch 001', 'PB-001', 'Confirm from existing stock', 'Need now', 'Confirm before PB-001 / Batch 001'),
+    ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Batch 001', 'PB-001', 'Ordered — receive and verify', 'Soon', 'Receive and verify for future work'),
+    ...makeItems(fruit, fruitPath, 'PB-002 / PB-003 Batch 001', 'PB-002-003', 'Buy', 'Need now', 'Required for Lychee/Mango Batch 001'),
+    ...optional,
+  ];
 }
 
 function getEquipment(sourceMap) {

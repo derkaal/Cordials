@@ -2,6 +2,14 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-08-31 — Purée-first Lychee and Mango Matcha cases
+
+- Opened PB-002 Lychee Matcha Sauce and PB-003 Mango Matcha Sauce as high-fruit, cold-glass service cases rather than thin cordials.
+- Selected Ponthier unsweetened lychee purée and Les Vergers Boiron 100% mango purée as preferred professional inputs, with MONIN Le Fruit Lychee/Mango as commercial service controls.
+- Added exact lychee–matcha, mango–matcha, and professional mango-coulis precedents while preserving the alcoholic PR-0007 and scaling-ambiguous PR-0012 boundaries.
+- Planned paired 321 g original Batch 001 formulations containing 240 g purée, 60 g condensed milk, 20 g sugar, 0.5 g citric acid, and 0.5 g salt; no texture modifier or shelf-life claim.
+- Added controlled three-way cling pilots and exact 40 g sauce iced-matcha builds using comparative scoring rather than arbitrary numerical thresholds.
+
 ## 2026-08-30 — Bench-measurable Batch 001 correction
 
 - Superseded the unexecuted V01 plan because exact 25% scaling created impractical 31.25 ml and sub-millilitre quantities.

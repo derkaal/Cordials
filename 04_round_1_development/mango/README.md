@@ -1,18 +1,13 @@
-# Mango — Round 1 Development
+# Mango Matcha Sauce — PB-003
 
-- **Status:** Research package partially ingested; formulation evidence incomplete
-- **Candidate assessment:** Not started; copy `templates/cordial_candidate_assessment.md`
-- **Reference recipe lead:** `PR-0012` — quarantined and not reproducible from the package
-- **Batches/application tests:** None
+- **Product ID:** PB-003
+- **Current stage:** Purée-based Batch 001 and comparative pilot planned
+- **Primary record:** `PB-003.md`
+- **Operational batch:** `B-20260831-MANG-V01-01`
+- **Cling pilot:** `GC-20260831-PB003-01.md`
+- **Application test:** `AT-20260831-003`
+- **Shopping list:** `../puree_matcha_batch_001_shopping.md`
 
-## Primary development question
+The active direction is a high-fruit purée sauce for iced matcha, not a clarified syrup or cordial. The Experimental Cocktail Club mango cordial remains a professional benchmark with unresolved scaling and is not executable as an exact formula.
 
-Can a mango cordial plausibly replace mango purée in a successful Mango Matcha while improving cross-category versatility?
-
-Do **not** assume cordial is superior. The comparison must preserve a credible purée control and record flavour, aroma, texture, dosage, preparation, yield, shelf life, cost, waste, and application range using evidence or measured results.
-
-## Required next steps
-
-1. Directly validate `SRC-2026-016`; essential clarification agents, quantities, method, and yields remain UNKNOWN.
-2. Define the control and fair-comparison protocol before formulating a test batch.
-3. Identify which outcomes are measurements and which require sensory or editorial judgement.
+No production formula, shelf life, or safety outcome is approved.
