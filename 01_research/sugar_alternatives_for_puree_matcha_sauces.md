@@ -37,11 +37,11 @@ The pumpkin V02 also contains 190 g Nestlé Milchmädchen. The current product d
 
 1. Run `B-20260830-PUMPMAT-V02-01` unchanged. It is an adaptation of PR-0014 and establishes the real-pumpkin flavour, service texture, and control comparison.
 2. Do not optimise shelf life or sweetness before the V02 flavour/cling/application gate.
-3. If V02 passes or nearly passes, open a new original experimental sweetener-comparison batch. Use the same KoRo purée, condensed milk, spice, salt, process, glass, dose, and control; change only the recorded sweetening system.
+3. If V02 passes or nearly passes, identify a commercially active or professional sourced sweetener formulation and open a new, explicit adaptation for comparison. Preserve the source formula beside every change; do not create an original sweetener formula.
 4. First serious candidate: pure food-use D-tagatose. Do not silently use a tagatose/galactose, tagatose/isomalt, inulin, polydextrose, or sucralose blend.
 5. Compare blind against the sucrose V02 on pumpkin clarity, matcha compatibility, sweetness character, aftertaste, cooling, body, squeeze pattern, wall descent, integration, and customer preference. Use comparative judgments; do not invent a health or sensory pass number.
 6. Treat refractometer readings from non-sucrose formulas as **apparent Brix** unless an ingredient-specific correction is available. Do not use equal Brix as proof of equal solids or sweetness.
-7. A materially lower-sugar pumpkin sauce will eventually require redesign of the condensed-milk system as well as the 50 g granulated sugar. That redesign is outside PR-0014 provenance and must be an original formulation.
+7. A materially lower-sugar pumpkin sauce will eventually require redesign of the condensed-milk system as well as the 50 g granulated sugar. That work requires a new professional/commercial source lineage and a disclosed adaptation; it must not be improvised outside PR-0014.
 
 For a defensible health direction, the strongest first move is a good-tasting product at a lower total sweetness/dose, not a one-for-one “health” substitution. The closest taste/bulk experiment is D-tagatose; the clearest lower-sugar development path is a later reformulation of both sucrose **and** sweetened condensed milk.
 

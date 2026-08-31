@@ -8,6 +8,8 @@
 - `ADAPTATION OF SOURCED RECIPE`
 - `ORIGINAL EXPERIMENTAL FORMULATION`
 
+Current formulation-authoring rule from 2026-08-31: active recipe, batch, and application formulations are limited to `EXACT SOURCED RECIPE` and `ADAPTATION OF SOURCED RECIPE` unless the user explicitly authorises an original formulation in writing. `ORIGINAL EXPERIMENTAL FORMULATION` remains available only to classify historical/imported material. `ORIGINAL EXPERIMENTAL METHOD` may be used for test protocols because a measurement method is not a recipe formulation.
+
 ### Evidence type
 
 - `SOURCE-STATED FACT`

@@ -56,6 +56,8 @@ Every formulation must use exactly one classification:
 2. `ADAPTATION OF SOURCED RECIPE`
 3. `ORIGINAL EXPERIMENTAL FORMULATION`
 
+**Active authoring constraint (2026-08-31):** New active recipe, batch, and application formulations may use only `EXACT SOURCED RECIPE` or `ADAPTATION OF SOURCED RECIPE`, unless the user explicitly reopens original formulation work in writing. `ORIGINAL EXPERIMENTAL FORMULATION` remains a controlled historical/import classification, not current authorisation. Original experimental test methods and measurement protocols remain permitted when clearly labelled as methods rather than recipes.
+
 Never invent an existing recipe, attribution, measurement, or missing field. Record unavailable information as `UNKNOWN`. Preserve the distinction among:
 
 - source-stated facts;
@@ -70,7 +72,7 @@ Claims about shelf life, preservation, pH, food safety, or similar risks require
 
 - Assign stable IDs using [00_project_control/ID_CONVENTIONS.md](00_project_control/ID_CONVENTIONS.md).
 - Copy the appropriate file from `templates/`; do not overwrite the template.
-- Record all batches, including failures. Never delete or retrospectively sanitise failed experiments.
+- Preserve every executed batch, including failures. Remove unexecuted noncompliant plans from active records when directed; retire their IDs and never present them as experiments that occurred.
 - Use ISO dates (`YYYY-MM-DD`) and metric units. Preserve source units when quoting, then document conversions separately.
 - Keep raw imports in `01_research/imports_pending/` until reviewed, attributed, and filed.
 - Register every incoming package in `01_research/imports_pending/IMPORT_MANIFEST.md` and follow `00_project_control/RESEARCH_INGESTION_WORKFLOW.md`; ChatGPT research is not copied directly into canonical files.

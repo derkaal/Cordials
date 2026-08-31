@@ -49,7 +49,7 @@ Price/availability snapshot: 2026-08-30
 ## Optional, not a Batch 001 blocker
 
 - Libby's 100% Pure Pumpkin 425 g for a future input comparison. The checked German retailer listed EUR 5.99 but displayed it as sold out (`SRC-2026-028`).
-- Xanthan/gellan/other texture modifiers. Do **not** buy or add them for V02 solely because they appeared in research. A separate original formulation is required if pilot evidence justifies texture modification.
+- Xanthan/gellan/other texture modifiers. Do **not** buy or add them for V02 solely because they appeared in research. If pilot evidence justifies texture work, first identify a professional/commercial formulation and create a separate sourced adaptation.
 - pH meter. Useful for later development control, but absence must be recorded as `NOT MEASURED`; no shelf-life conclusion is allowed either way.
 
 ## Measure/record before the first valid run

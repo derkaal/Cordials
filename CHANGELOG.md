@@ -2,6 +2,15 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-08-31 — Source-only Lychee/Mango rebuild and equipment boundary
+
+- Removed the unexecuted noncompliant lychee/mango V01 formulas, their dependent cling trials, and their original house drink builds; their IDs are retired and not reused.
+- Added Les Vergers Boiron's exact professional lychee and mango confit/compote formulations as PR-0019 and PR-0020.
+- Planned valid Batch 001 adaptations at a 200 g purée scale: lychee 200 g purée / 45 g sugar / 1.8 g NH pectin; mango 200 g purée / 45 g sugar / 1.4 g NH pectin. The lychee batch declares drained canned fruit as an input substitution.
+- Rebuilt both cling pilots against MONIN controls and both drink tests as explicit adaptations of PR-0017, with no invented numerical success threshold.
+- Added the active source-only formulation rule: new active formulas require an exact professional/commercial source or a permanently traced adaptation; original experimental methods remain permitted.
+- Confirmed that the active sauce sources require an open 103°C cook, so the Russell Hobbs sous-vide bath is not required. Added BfR/BZfE/CASO guidance for conservative freeze-first vacuum packaging after product-performance gates, without assigning shelf life.
+
 ## 2026-08-31 — Real-pumpkin requirement, canned lychee, and sugar-alternative review
 
 - Recorded Huong's seasonal-special requirement for actual pumpkin and confirmed that operational V02 contains 60 g KoRo 100% pumpkin purée rather than relying on pumpkin spice alone.
@@ -13,10 +22,9 @@ Consequential structural, methodological, and editorial changes are recorded her
 ## 2026-08-31 — Purée-first Lychee and Mango Matcha cases
 
 - Opened PB-002 Lychee Matcha Sauce and PB-003 Mango Matcha Sauce as high-fruit, cold-glass service cases rather than thin cordials.
-- Selected Ponthier unsweetened lychee purée and Les Vergers Boiron 100% mango purée as preferred professional inputs, with MONIN Le Fruit Lychee/Mango as commercial service controls.
+- Identified professional lychee/mango matcha and mango-coulis precedents, with MONIN Le Fruit Lychee/Mango as commercial service controls.
 - Added exact lychee–matcha, mango–matcha, and professional mango-coulis precedents while preserving the alcoholic PR-0007 and scaling-ambiguous PR-0012 boundaries.
-- Planned paired 321 g original Batch 001 formulations containing 240 g purée, 60 g condensed milk, 20 g sugar, 0.5 g citric acid, and 0.5 g salt; no texture modifier or shelf-life claim.
-- Added controlled three-way cling pilots and exact 40 g sauce iced-matcha builds using comparative scoring rather than arbitrary numerical thresholds.
+- The initial unexecuted formulation plans created in this step were later removed under the source-only rebuild recorded above.
 
 ## 2026-08-30 — Bench-measurable Batch 001 correction
 

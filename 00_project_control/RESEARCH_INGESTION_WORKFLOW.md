@@ -52,7 +52,7 @@ For every recipe or formulation:
 4. Use `EXACT SOURCED RECIPE` only when the recorded formulation is reproduced from a traceable source without inferred or altered formulation details.
 5. Never convert a reconstructed, completed, normalised, inferred, or ChatGPT-generated formulation into `EXACT SOURCED RECIPE`.
 6. Record departures from a sourced formulation as `ADAPTATION OF SOURCED RECIPE` and show the changes.
-7. Use `ORIGINAL EXPERIMENTAL FORMULATION` only when authorship and experimental status are clear; this classification does not imply successful testing.
+7. Do not create a new active `ORIGINAL EXPERIMENTAL FORMULATION` without explicit written user authorisation. Under the active source-only rule, formulate through `EXACT SOURCED RECIPE` or `ADAPTATION OF SOURCED RECIPE` and preserve the professional/commercial lineage. The original classification may still describe historical or imported material.
 8. Leave missing quantities, steps, yield, storage, shelf life, or attribution as `UNKNOWN`.
 
 ## 6. Detect conflicts and duplicates
@@ -88,4 +88,3 @@ Use `PARTIALLY INGESTED` when some items have been promoted but others remain pe
 5. Add the commit hash to the package record and manifest in a follow-up metadata commit if necessary; do not rewrite history merely to embed a commit's own hash.
 
 The original package and rejected or pending material remain traceable. Consolidation must not erase the evidentiary trail.
-

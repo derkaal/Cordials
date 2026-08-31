@@ -1,14 +1,14 @@
-# Purée Matcha Sauce Comparative Protocol — Version 0.1
+# Purée Matcha Sauce Comparative Protocol — Version 0.2
 
 ## Scope
 
-Applies to PB-002 Lychee Matcha Sauce and PB-003 Mango Matcha Sauce. This is an original comparative method derived from the control principles already used for PB-001; it is not a standard rheology method.
+Applies to PB-002 Lychee Matcha Sauce and PB-003 Mango Matcha Sauce. This is an `ORIGINAL EXPERIMENTAL METHOD`, not a recipe formulation or standard rheology method. Original methods remain permitted under the source-only formulation rule.
 
 ## Fixed samples per fruit
 
 1. **Commercial control:** corresponding MONIN Le Fruit product, used unchanged.
-2. **Input control:** selected professional fruit purée, used unchanged.
-3. **House candidate:** corresponding Batch 001, with no texture modifier.
+2. **Input control:** the exact fruit input used for that batch, puréed only as documented where canned fruit is involved.
+3. **Source-adapted candidate:** corresponding valid Batch 001, containing the fruit-specific NH pectin already published in PR-0019 or PR-0020.
 
 ## Controlled glass-cling run
 
@@ -19,15 +19,15 @@ Applies to PB-002 Lychee Matcha Sauce and PB-003 Mango Matcha Sauce. This is an 
 - Photograph immediately, at 30 seconds, and at 300 seconds from a fixed position.
 - Record wall descent, line continuity, pooling, weeping, colour/contrast, and whether the line remains visually legible. Do not invent a numerical pass threshold.
 - At 300 seconds add 100 ±5 g ice over 10 seconds, then 150 g milk over 10 seconds. Photograph immediately and after 60 seconds. Record scraping, wash-off, and retained pattern.
-- Run five 10.0 g squeeze attempts for the commercial control and five for the house sauce; record actual masses, line control, tailing, clogging, and operator force. Test plain purée only if it passes through the bottle without modification.
+- Run five 10.0 g squeeze attempts for the commercial control and five for the source-adapted sauce; record actual masses, line control, tailing, clogging, and operator force. Test plain purée only if it passes through the bottle without modification.
 
 ## First-pilot comparison language
 
-For each observed attribute compare house candidate with the commercial control using only:
+For each observed attribute compare the source-adapted candidate with the commercial control using only:
 
 - `BETTER THAN CONTROL`
 - `NO MATERIAL DIFFERENCE OBSERVED`
 - `WORSE THAN CONTROL`
 - `INCOMPARABLE`
 
-Do not calculate a weighted score. Advance the house candidate only if wall retention is not worse than the control, the pattern remains serviceably visible, and squeeze performance is usable. Flavour failure or texture failure creates a new formulation version; do not retrospectively modify Batch 001.
+Use the comparative record to decide whether drink testing is justified; do not calculate a weighted score or convert the observations into a manufactured numerical pass mark. Flavour failure or texture failure creates a new, traceable adaptation of a sourced recipe; do not retrospectively modify Batch 001.

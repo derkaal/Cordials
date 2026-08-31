@@ -65,14 +65,14 @@ This comparison selects research directions, not exact formulas.
 | Reduced pumpkin + maple sauce | PR-0013 | Real pumpkin; maple may compete with matcha | Natural solids/sugar may cling, but unmeasured | Very simple heat process | Maple dominance; batch variability | RETAIN AS FLAVOUR/PROCESS BENCHMARK |
 | Condensed-milk pumpkin sauce | PR-0014 and SRC-2026-025 | Real pumpkin with dairy sweetness; plausible latte compatibility | Strongest professional body precedent; cling unmeasured | Familiar café sauce; allergen/refrigeration burden | Dairy constraint; sweetness; matcha muting | PRIORITY STRUCTURE/FLAVOUR BENCHMARK, subject to constraints |
 | Pumpkin demerara syrup | PR-0015 | Clear pumpkin/spice potential | Likely less suited to wall cling; must be measured | Simple and versatile; exact cocktail dose | Runs/pools; spice may dominate | RETAIN AS THIN CONTROL/SECONDARY-USE BENCHMARK |
-| Real-pumpkin base with separately tuned hydrocolloid structure | SRC-2026-021 and SRC-2026-023 | Pumpkin intensity can be designed independently | Best direct route to test rest structure versus squeeze flow | Requires precise weighing and dispersion procedure | Gummy mouthfeel, poor dispersion, matrix-specific behaviour | PRIORITY ORIGINAL EXPERIMENTAL DIRECTION AFTER BENCHMARK PILOT |
+| Real-pumpkin base with separately tuned hydrocolloid structure | SRC-2026-021 and SRC-2026-023 | Pumpkin intensity can be designed independently | Potential route to test rest structure versus squeeze flow | Requires a professional/commercial formula source plus precise weighing and dispersion procedure | Gummy mouthfeel, poor dispersion, matrix-specific behaviour | RESEARCH A SOURCE LINEAGE AFTER BENCHMARK PILOT |
 | Commercial pumpkin-pie sauce used unchanged | SRC-2026-021 | Product flavour claim, but no named pumpkin ingredient | Purpose-built sauce architecture; actual cling unknown | Strong service convenience | May fail clear-pumpkin requirement and house-product objective | CONTROL ONLY; homemade is allowed to lose |
 
 ## Initial selection rationale
 
 No sourced recipe deserves direct adoption. The strongest laboratory direction is a real-pumpkin sauce whose flavour base and texture system can be varied independently, compared against a condensed-milk professional benchmark and a commercial sauce control. This is provisionally a **sauce**, not a cordial: the defining requirement is decorative wall retention and squeeze service, while acidity and broad drink dilution are not yet primary functions.
 
-The first original formulation must be classified `ORIGINAL EXPERIMENTAL FORMULATION`. It should not be written until the actual pumpkin input, dairy/vegan constraint, service bottle, and benchmark cling range are known.
+Any later formulation must remain an exact sourced recipe or a declared adaptation of a professional/commercial source. It should not be written until the actual pumpkin input, dairy/vegan constraint, service bottle, benchmark behaviour, and a suitable source lineage are known.
 
 ## German procurement decision — 2026-08-30
 
@@ -92,7 +92,7 @@ Available narrative descriptions mention pumpkin, but the ingredient declaration
 
 `B-20260830-PUMPMAT-V02-01` is a practical, approximately half-scale, weight-based adaptation of PR-0014 using KoRo purée and Nestlé Milchmädchen as German inputs. It retains the source ingredient set and one-minute cook, but replaces source volumes with deliberately rounded gram targets and adds controlled measurement/cooling. It is classified `ADAPTATION OF SOURCED RECIPE`, not an exact published recipe. The earlier V01 plan was superseded before execution because exact 25% scaling produced impractical bench quantities.
 
-V02 contains **no texture modifier**. This is deliberate: first establish whether the strongest professional body precedent already meets the function. A xanthan/gellan/starch/other modified version, if justified by the comparative pilot, will be a separate `ORIGINAL EXPERIMENTAL FORMULATION` and batch.
+V02 contains **no texture modifier**. This is deliberate: first establish whether the strongest professional body precedent already meets the function. A xanthan/gellan/starch/other modified version, if justified by the comparative pilot, requires a new professional/commercial source lineage and a separately identified `ADAPTATION OF SOURCED RECIPE` batch.
 
 ## Open targeted research/tasks before Batch 001
 
@@ -105,4 +105,4 @@ V02 contains **no texture modifier**. This is deliberate: first establish whethe
 
 ## Research conclusion
 
-Professional evidence supports pumpkin preparations as sauces and syrups across coffee, milk, and cocktail applications, but no verified source yet demonstrates the precise cold-glass decorative function. PB-001 should proceed through an objective benchmark pilot and controlled original formulation work, not by relabelling an existing pumpkin syrup as a cordial.
+Professional evidence supports pumpkin preparations as sauces and syrups across coffee, milk, and cocktail applications, but no verified source yet demonstrates the precise cold-glass decorative function. PB-001 should proceed through an objective benchmark pilot and controlled adaptations of professional/commercial source formulations, not by relabelling an existing pumpkin syrup as a cordial.

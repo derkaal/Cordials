@@ -192,7 +192,7 @@ function getTests() {
     const formula = markdownTables(section(markdown, 'Complete drink formulation — one build'))[0];
     return {
       id: test.test_id, date: test.date, batchId: test.batch_id, product: test.cordial, productId: field(markdown, 'Parent product') || null,
-      category: test.category, name: test.drink_name, doseG: test.cordial_dosage_g, result: test.result || 'PENDING',
+      category: test.category, name: test.drink_name, doseG: test.cordial_dosage_g, doseMl: test.cordial_dosage_ml, result: test.result || 'PENDING',
       status: field(markdown, 'Test status') || test.result, provenance: field(markdown, 'Provenance') || 'UNKNOWN',
       question: field(markdown, 'Test question') || 'UNKNOWN', ingredients: formula?.rows || [], ingredientHeaders: formula?.headers || [],
       method: list(section(markdown, 'Exact preparation and build')), recordPath: test.record_path,
@@ -207,7 +207,7 @@ function getProducts(recipes, batches, tests) {
     const markdown = read(recordPath), heading = firstHeading(markdown), productId = field(markdown, 'Product ID');
     const code = field(markdown, 'Short code') || PRODUCT_CODES[entry.name] || 'UNKNOWN';
     const name = heading.replace(/\s+[—-]\s+(PB-\d+)$/, '').replace(/\s+[—-]\s+Round 1 Development$/, '');
-    const productRecipes = recipes.filter((recipe) => recipe.component.toLowerCase().includes(name.split(/[–—-]/)[0].trim().toLowerCase()) || (productId && recipe.component === 'Pumpkin'));
+    const productRecipes = recipes.filter((recipe) => recipe.component.toLowerCase().includes(name.split(/[–—-]/)[0].trim().toLowerCase()) || (productId === 'PB-001' && recipe.component === 'Pumpkin'));
     const productBatches = batches.filter((batch) => batch.productId === productId || batch.product.toLowerCase().includes(name.toLowerCase()));
     const productTests = tests.filter((test) => test.productId === productId || test.product.toLowerCase().includes(name.toLowerCase()));
     const rawStatus = field(markdown, 'Current stage') || field(markdown, 'Status') || 'UNKNOWN';
