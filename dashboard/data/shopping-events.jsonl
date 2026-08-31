@@ -1,0 +1,18 @@
+{"id":"SHOP-20260830211135-DB62","type":"shopping-state","timestamp":"2026-08-30T21:11:35.843Z","itemKey":"PB-001:Buy:0:Pumpkin purée","state":"Ordered","author":"Andreas"}
+{"id":"SHOP-20260830211147-A69C","type":"shopping-state","timestamp":"2026-08-30T21:11:47.125Z","itemKey":"PB-001:Buy:2:Sweetened condensed milk","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211150-CC1B","type":"shopping-state","timestamp":"2026-08-30T21:11:50.199Z","itemKey":"PB-001:Buy:3:Pumpkin spice","state":"Ordered","author":"Andreas"}
+{"id":"SHOP-20260830211154-3CC6","type":"shopping-state","timestamp":"2026-08-30T21:11:54.939Z","itemKey":"PB-001:Buy:4:Whole milk","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211158-3C10","type":"shopping-state","timestamp":"2026-08-30T21:11:58.912Z","itemKey":"PB-001:Buy:5:House squeeze bottle","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211201-9F41","type":"shopping-state","timestamp":"2026-08-30T21:12:01.687Z","itemKey":"PB-001:Buy:6:Precision scale","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211215-E2EF","type":"shopping-state","timestamp":"2026-08-30T21:12:15.327Z","itemKey":"PB-001:Confirm from existing stock:0:Café matcha","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211217-CE6A","type":"shopping-state","timestamp":"2026-08-30T21:12:17.580Z","itemKey":"PB-001:Confirm from existing stock:1:Granulated white sugar","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211220-9F9B","type":"shopping-state","timestamp":"2026-08-30T21:12:20.361Z","itemKey":"PB-001:Confirm from existing stock:2:Fine salt","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211223-4EFC","type":"shopping-state","timestamp":"2026-08-30T21:12:23.118Z","itemKey":"PB-001:Confirm from existing stock:3:Ice","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211227-44FC","type":"shopping-state","timestamp":"2026-08-30T21:12:27.204Z","itemKey":"PB-001:Confirm from existing stock:4:Potable water","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211229-A3E4","type":"shopping-state","timestamp":"2026-08-30T21:12:29.325Z","itemKey":"PB-001:Confirm from existing stock:5:Ordinary clear matcha glasses","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211231-1742","type":"shopping-state","timestamp":"2026-08-30T21:12:31.797Z","itemKey":"PB-001:Confirm from existing stock:6:Precision scale","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211235-99EB","type":"shopping-state","timestamp":"2026-08-30T21:12:35.157Z","itemKey":"PB-001:Confirm from existing stock:7:Thermometer","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211241-BB1C","type":"shopping-state","timestamp":"2026-08-30T21:12:41.865Z","itemKey":"PB-001:Confirm from existing stock:9:Cleaning/sanitation supplies","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211244-6A36","type":"shopping-state","timestamp":"2026-08-30T21:12:44.022Z","itemKey":"PB-001:Confirm from existing stock:8:Ruler, timer, fixed phone/camera support","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260830211302-379C","type":"shopping-state","timestamp":"2026-08-30T21:13:02.284Z","itemKey":"PB-001:Buy:7:Blunt dosing syringe","state":"Available","author":"Andreas"}
+{"id":"SHOP-20260831202904-4220","type":"shopping-state","timestamp":"2026-08-31T20:29:04.201Z","itemKey":"PB-002-003:Buy:11:Canned lychee","state":"Available","author":"Andreas"}
