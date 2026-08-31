@@ -8,7 +8,7 @@ Last updated: 2026-08-31
 - **Repository content:** IMP-2026-001 partially validated; pumpkin plus two source-only fruit-sauce pilots planned
 - **Active development round:** Round 1
 - **Active product cases:** PB-001 Pumpkin, PB-002 Lychee, PB-003 Mango Matcha Sauces
-- **Latest consequential change:** Noncompliant unexecuted lychee/mango plans removed; PB-002/PB-003 rebuilt from Boiron professional source formulations
+- **Latest consequential change:** PB-002/PB-003 working quantities corrected to whole-gram adaptations derived from the Boiron professional formulations
 - **Active validation queue:** `02_sources/VALIDATION_QUEUE.md`
 
 ## Active product cases
@@ -16,7 +16,7 @@ Last updated: 2026-08-31
 | Product | Current stage | Latest evidence | Batch/application status | Next gate |
 |---|---|---|---|---|
 | PB-001 — Pumpkin Matcha Sauce | Materials/readiness stage before first pilot | KoRo 100% pumpkin purée ordered; FONTE control selected; PR-0014 chosen as V02 lineage | B-20260830-PUMPMAT-V02-01, GC-20260830-PB001-01, and AT-20260830-001 PLANNED; V01 superseded unexecuted | Receive/record KoRo; buy control and remaining gaps; calibrate refractometer; execute cling pilot |
-| PB-002 — Lychee Matcha Sauce | Source-adapted Batch 001 readiness | PR-0019 Boiron lychee confit/compote selected; canned fruit is a declared input substitution; MONIN control | B-20260831-LYCH-V02-01, GC-20260831-PB002-02, and AT-20260831-004 PLANNED | Record can/fruit/syrup data; buy NH pectin and control; confirm 200 g drained purée; execute source method |
+| PB-002 — Lychee Matcha Sauce | Source-adapted Batch 001 readiness | PR-0019 Boiron lychee confit/compote selected; canned fruit is a declared input substitution; MONIN control | B-20260831-LYCH-V02-01, GC-20260831-PB002-02, and AT-20260831-004 PLANNED | Record can/fruit/syrup data; buy NH pectin and control; confirm 222 g drained purée; execute source method |
 | PB-003 — Mango Matcha Sauce | Source-adapted Batch 001 readiness | PR-0020 Boiron mango confit/compote selected; PR-0017 application lineage; MONIN control | B-20260831-MANG-V02-01, GC-20260831-PB003-02, and AT-20260831-005 PLANNED | Buy Boiron purée, NH pectin and control; verify 0.1 g scale/105°C thermometer; execute source method |
 
 Sauce is the current functional class for all three product cases; cordial is not assumed.
@@ -72,9 +72,9 @@ Sauce is the current functional class for all three product cases; cordial is no
 - **B-20260830-PUMPMAT-V02-01:** planned weight-based adaptation of PR-0014; 361.5 g pre-cook ingredient mass; no texture modifier; materials pending.
 - **GC-20260830-PB001-01:** FONTE vs KoRo purée vs V02 comparative cling/squeeze pilot; no arbitrary numerical threshold.
 - **AT-20260830-001:** exact 2.0 g matcha / 40.0 g water / 150.0 g whole milk / 100 ± 5 g ice / 18.0 g sauce house test build; conditional on cling-pilot advancement.
-- **B-20260831-LYCH-V02-01:** PR-0019 adaptation — 200.0 g purée from drained recorded canned lychees / 45.0 g sugar / 1.8 g NH pectin; source 50°C addition and 103°C finish retained; input data pending.
+- **B-20260831-LYCH-V02-01:** PR-0019 whole-gram adaptation — 222 g purée from drained recorded canned lychees / 50 g sugar / 2 g NH pectin; source 50°C addition and 103°C finish retained; input data pending.
 - **GC-20260831-PB002-02 / AT-20260831-004:** canned input vs source-adapted candidate vs MONIN cling pilot, followed conditionally by a 30 ml fruit-component iced-matcha adaptation of PR-0017.
-- **B-20260831-MANG-V02-01:** 20% PR-0020 adaptation — 200.0 g Boiron mango purée / 45.0 g sugar / 1.4 g NH pectin; source 50°C addition and 103°C finish retained.
+- **B-20260831-MANG-V02-01:** PR-0020 whole-gram adaptation — 286 g Boiron mango purée / 64 g sugar / 2 g NH pectin; source 50°C addition and 103°C finish retained.
 - **GC-20260831-PB003-02 / AT-20260831-005:** Boiron input vs source-adapted candidate vs MONIN cling pilot, followed conditionally by a 30 ml fruit-component iced-matcha adaptation of PR-0017.
 
 ## PB-001 — exact items to buy/receive
@@ -98,12 +98,12 @@ Full list: `04_round_1_development/pumpkin_matcha/shopping_list_batch_001.md`.
 
 | Status | Item | Exact selection/action |
 |---|---|---|
-| AVAILABLE — MEASURE BEFORE USE | Canned lychee | Record brand/country/ingredients/nutrition/net and stated drained mass/liquid type/lot/BBD; weigh actual fruit and liquid; measure fruit/liquid Brix separately; confirm at least 200 g smooth drained-fruit purée. |
-| BUY | NH pectin | 1 × Sosa Fruit Pectin NH 500 g, BOS FOOD article 33027; physical allergen statement controls. |
+| AVAILABLE — MEASURE BEFORE USE | Canned lychee | Record brand/country/ingredients/nutrition/net and stated drained mass/liquid type/lot/BBD; weigh actual fruit and liquid; measure fruit/liquid Brix separately; confirm at least 222 g smooth drained-fruit purée. |
+| BUY | NH pectin | 1 × Sosa Fruit Pectin NH 500 g, EAN 8414933568001. Baktotaal route in SRC-2026-068; BOS FOOD alternative in SRC-2026-067; physical label/allergen statement controls. |
 | BUY | Mango purée | 1 × Les Vergers Boiron frozen 100% mango purée 1 kg, article 16738. |
 | BUY | Lychee control | 1 × MONIN Le Fruit Lychee 1 L |
 | BUY | Mango control | 1 × MONIN Le Fruit Mango 500 ml |
-| BUY/CONFIRM | Shared ingredients | At least 100 g one granulated white sugar product; 2 L one fixed 3.5% whole milk product. No condensed milk, citric acid, or salt is used in these valid Batch 001 sauces. |
+| BUY/CONFIRM | Shared ingredients | At least 120 g one granulated white sugar product; 2 L one fixed 3.5% whole milk product. No condensed milk, citric acid, or salt is used in these valid Batch 001 sauces. |
 | BUY | Service bottles | 2 × food-grade 350–500 ml fine-nozzle bottles |
 | BUY IF ABSENT | Tools | 0.1 g scale, food thermometer reading to at least 105°C, small saucepan/whisk, blender for drained fruit, 5/10 ml blunt dosing syringe. |
 | OPTIONAL LATER | Exact-brand lychee purée | 1 × Boiron frozen 100% lychee purée 1 kg, BOS FOOD article 59186, only for a later exact-brand PR-0019 execution. |
@@ -130,7 +130,7 @@ Full list: `04_round_1_development/puree_matcha_batch_001_shopping.md`.
 - PB-001 numeric cling threshold is intentionally `TBD` until controls show the useful measurement range.
 - PB-001 shelf-life target and any safety claim remain `TBD`; no source-stated period transfers to an original or adapted formula.
 - PB-002/PB-003 application adaptations use dairy because it is permitted; the sauces themselves contain no dairy. No handling period has been validated.
-- The canned-lychee batch cannot run until its label, drained yield, and Brix are recorded and at least 200 g smooth drained-fruit purée is confirmed.
+- The canned-lychee batch cannot run until its label, drained yield, and Brix are recorded and at least 222 g smooth drained-fruit purée is confirmed.
 - Sous vide is not required for any active Batch 001: PB-002/PB-003 require an open 103°C cook. Vacuum sealing is packaging, not a shelf-life control; freeze-first use requires a later quality test and appropriate food-safety controls.
 - The health review does not authorise a “healthy,” “healthier,” “low sugar,” or similar claim. PB-001 V02 remains unchanged; its condensed milk contributes more known sugar than the separate granulated-sugar addition.
 
@@ -150,9 +150,9 @@ None. No production formulation has completed the required testing and validatio
 ## Next actions
 
 1. Receive the ordered KoRo purée and photograph/record its physical label and lot; record the canned-lychee label, actual drained fruit/liquid masses, syrup composition, and separate fruit/syrup Brix.
-2. Buy Sosa Fruit Pectin NH, Boiron mango purée, both MONIN controls, one fixed whole milk, and two squeeze bottles; confirm 100 g sugar on hand.
+2. Buy Sosa Fruit Pectin NH, Boiron mango purée, both MONIN controls, one fixed whole milk, and two squeeze bottles; confirm 120 g sugar on hand.
 3. Calibrate the Proster refractometer; confirm the 0.1 g scale, blender, thermometer to at least 105°C, saucepan, glass, and nozzle measurements.
-4. Confirm at least 200 g smooth drained-lychee purée, then prepare B-20260831-LYCH-V02-01 and B-20260831-MANG-V02-01 exactly as written without substitutions.
+4. Confirm at least 222 g smooth drained-lychee purée, then prepare B-20260831-LYCH-V02-01 and B-20260831-MANG-V02-01 exactly as written without substitutions.
 5. Run each three-way cling pilot against its commercial control using comparative language only.
 6. Run the PR-0017-derived iced-matcha application tests only for candidates that advance; any formula change requires a newly documented sourced adaptation.
 7. After flavour, cling, squeeze and drink gates pass, decide whether a separately registered freeze–thaw quality pilot is worth opening. Do not assign a shelf life.

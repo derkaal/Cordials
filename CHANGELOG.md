@@ -2,11 +2,18 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-08-31 — Whole-gram Lychee/Mango batch correction
+
+- Replaced the awkward 1.8 g/1.4 g pectin and 22.5 g sugar portions with disclosed whole-gram adaptations derived from the same Boiron sources.
+- Set the working plans to lychee 222 g purée / 50 g sugar / 2 g NH pectin and mango 286 g purée / 64 g sugar / 2 g NH pectin; retained the 50°C addition and 103°C finish.
+- Recorded that these quantities contain sub-0.3 g practical rounding and therefore do not claim an unchanged source ratio.
+- Added a currently in-stock German purchase route for the exact Sosa Fruit Pectin NH 500 g product.
+
 ## 2026-08-31 — Source-only Lychee/Mango rebuild and equipment boundary
 
 - Removed the unexecuted noncompliant lychee/mango V01 formulas, their dependent cling trials, and their original house drink builds; their IDs are retired and not reused.
 - Added Les Vergers Boiron's exact professional lychee and mango confit/compote formulations as PR-0019 and PR-0020.
-- Planned valid Batch 001 adaptations at a 200 g purée scale: lychee 200 g purée / 45 g sugar / 1.8 g NH pectin; mango 200 g purée / 45 g sugar / 1.4 g NH pectin. The lychee batch declares drained canned fruit as an input substitution.
+- Planned valid Batch 001 adaptations from the Boiron ratios. Their initial 200 g-scale calculator outputs were subsequently replaced by the whole-gram plans recorded above. The lychee batch declares drained canned fruit as an input substitution.
 - Rebuilt both cling pilots against MONIN controls and both drink tests as explicit adaptations of PR-0017, with no invented numerical success threshold.
 - Added the active source-only formulation rule: new active formulas require an exact professional/commercial source or a permanently traced adaptation; original experimental methods remain permitted.
 - Confirmed that the active sauce sources require an open 103°C cook, so the Russell Hobbs sous-vide bath is not required. Added BfR/BZfE/CASO guidance for conservative freeze-first vacuum packaging after product-performance gates, without assigning shelf life.

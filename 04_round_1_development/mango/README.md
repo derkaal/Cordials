@@ -8,6 +8,6 @@
 - **Application test:** `AT-20260831-005`
 - **Shopping list:** `../puree_matcha_batch_001_shopping.md`
 
-The active direction is a 20% scale of Les Vergers Boiron's professionally published mango confit/compote (`PR-0020`), not an original formula, clarified syrup, or cordial. The Experimental Cocktail Club mango cordial remains a professional benchmark with unresolved scaling and is not executable as an exact formula.
+The active direction is a practical whole-gram scale of Les Vergers Boiron's professionally published mango confit/compote (`PR-0020`), not an original formula, clarified syrup, or cordial. The Experimental Cocktail Club mango cordial remains a professional benchmark with unresolved scaling and is not executable as an exact formula.
 
 No production formula, shelf life, or safety outcome is approved.

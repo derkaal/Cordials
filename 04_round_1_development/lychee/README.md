@@ -8,6 +8,6 @@
 - **Application test:** `AT-20260831-004`
 - **Shopping list:** `../puree_matcha_batch_001_shopping.md`
 
-The active direction is a 20% scale and canned-input adaptation of Les Vergers Boiron's professionally published lychee confit/compote (`PR-0019`), not an original formulation or thin cordial. The earlier alcoholic salted-lychee cordial remains a professional flavour reference only.
+The active direction is a practical whole-gram scale and canned-input adaptation of Les Vergers Boiron's professionally published lychee confit/compote (`PR-0019`), not an original formulation or thin cordial. The earlier alcoholic salted-lychee cordial remains a professional flavour reference only.
 
 No production formula, shelf life, or safety outcome is approved.

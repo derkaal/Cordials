@@ -19,18 +19,18 @@ Active recipe, batch, and application formulations must be exact sourced recipes
 
 ## Candidate decision
 
-Use a 20% scale of the Boiron source ratios because it creates the smallest useful, directly weighable pilot:
+Use practical whole-gram adaptations derived from the Boiron source ratios. A 2 g pectin portion was selected first so that the critical low-dose ingredient is not presented as an awkward fraction:
 
 | Fruit | Purée | Sugar | NH pectin | Planned ingredient mass |
 |---|---:|---:|---:|---:|
-| Lychee | 200 g | 45 g | 1.8 g | 246.8 g |
-| Mango | 200 g | 45 g | 1.4 g | 246.4 g |
+| Lychee | 222 g | 50 g | 2 g | 274 g |
+| Mango | 286 g | 64 g | 2 g | 352 g |
 
-The 0.1 g pectin values and 22.5 g half-sugar portions are intentional source-proportional calculations that are directly measurable on the required 0.1 g scale. No volume fractions or sub-0.1 g quantities are used.
+For lychee, exact scaling from the source at 2 g pectin gives 222.222 g purée and 50 g sugar; the working purée amount is rounded by -0.222 g. For mango, exact scaling gives 285.714 g purée and 64.286 g sugar; both are rounded to whole grams by less than 0.3 g. These are disclosed practical rounding decisions, so the batches remain `ADAPTATION OF SOURCED RECIPE` and do not claim an unchanged source ratio. A verified 0.1 g scale is still required for reliable control of a 2 g pectin dose.
 
 For lychee, the first available-input plan replaces Boiron purée with a purée made from drained canned lychees while preserving the Boiron ratio and method. That ingredient substitution makes the batch an `ADAPTATION OF SOURCED RECIPE`. It may not run until the can label, syrup type, drained yield, and fruit Brix are recorded. A future exact-brand Boiron-input batch remains possible through `SRC-2026-062`.
 
-For mango, the smaller scale and service-purpose change make the operational batch an `ADAPTATION OF SOURCED RECIPE`, while the formula ratio and method remain source-proportional.
+For mango, the practical scale, disclosed rounding, and service-purpose change make the operational batch an `ADAPTATION OF SOURCED RECIPE`; the professional source and the numerical derivation remain visible.
 
 ## Texture boundary
 
