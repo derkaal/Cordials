@@ -8,15 +8,15 @@ Last updated: 2026-08-31
 - **Repository content:** IMP-2026-001 partially validated; three purée-based matcha-sauce pilots planned
 - **Active development round:** Round 1
 - **Active product cases:** PB-001 Pumpkin, PB-002 Lychee, PB-003 Mango Matcha Sauces
-- **Latest consequential change:** Purée-first Lychee and Mango Batch 001 recipes, controls, cling pilots, and drink builds planned
+- **Latest consequential change:** Pumpkin purée order and canned-lychee availability recorded; sugar-alternative review completed without changing Batch 001
 - **Active validation queue:** `02_sources/VALIDATION_QUEUE.md`
 
 ## Active product cases
 
 | Product | Current stage | Latest evidence | Batch/application status | Next gate |
 |---|---|---|---|---|
-| PB-001 — Pumpkin Matcha Sauce | Materials/readiness stage before first pilot | KoRo input and FONTE control selected; PR-0014 chosen as V02 lineage | B-20260830-PUMPMAT-V02-01, GC-20260830-PB001-01, and AT-20260830-001 PLANNED; V01 superseded unexecuted | Buy/receive items, verify 0.1 g scale, record labels/glass/nozzle, calibrate refractometer, execute cling pilot |
-| PB-002 — Lychee Matcha Sauce | Materials/readiness stage before first pilot | Ponthier input preferred; MONIN control; PR-0007/PR-0016 precedents | B-20260831-LYCH-V01-01, GC-20260831-PB002-01, and AT-20260831-002 PLANNED | Confirm Ponthier stock, buy inputs/control, verify scale/blender, execute cling pilot |
+| PB-001 — Pumpkin Matcha Sauce | Materials/readiness stage before first pilot | KoRo 100% pumpkin purée ordered; FONTE control selected; PR-0014 chosen as V02 lineage | B-20260830-PUMPMAT-V02-01, GC-20260830-PB001-01, and AT-20260830-001 PLANNED; V01 superseded unexecuted | Receive/record KoRo; buy control and remaining gaps; calibrate refractometer; execute cling pilot |
+| PB-002 — Lychee Matcha Sauce | Materials/readiness stage before first pilot | Canned lychee user-confirmed available for a separately identified feasibility input; Ponthier remains preferred V01 input; MONIN control | B-20260831-LYCH-V01-01 remains PLANNED and is not silently changed to canned fruit | Record can label, syrup, net/drained mass and drained yield; decide whether to open a canned-input batch version or procure Ponthier |
 | PB-003 — Mango Matcha Sauce | Materials/readiness stage before first pilot | Boiron 100% mango input; MONIN control; PR-0017/PR-0018 precedents | B-20260831-MANG-V01-01, GC-20260831-PB003-01, and AT-20260831-003 PLANNED | Buy frozen input/control, record thawing/labels, verify scale/blender, execute cling pilot |
 
 Sauce is the current functional class for all three product cases; cordial is not assumed.
@@ -37,6 +37,7 @@ Sauce is the current functional class for all three product cases; cordial is no
 | Manuscript | Not started | Chapter placeholders | Begin only when evidence base is ready |
 | PB-001 product development | Batch/pilot planned | Practical weight-based V02 adaptation with no modifier; comparative control method | Complete readiness list and run GC-20260830-PB001-01 |
 | PB-002/PB-003 product development | Batches/pilots planned | Paired approximately 75%-purée original formulas; MONIN controls; no modifiers | Procure exact inputs and run GC-20260831-PB002-01 / PB003-01 |
+| Sweetener review | Initial decision complete | No exact same-taste/clearly-healthier replacement identified; pure D-tagatose is the leading later comparison | Keep all Batch 001 formulas unchanged; consider a separately registered tagatose comparison only after flavour/cling gates |
 
 ## Round 1 status
 
@@ -52,6 +53,7 @@ Sauce is the current functional class for all three product cases; cordial is no
 ## Open research questions
 
 - Which obtainable pumpkin input provides the clearest flavour, colour, smoothness, and batch consistency for PB-001?
+- Can V02 deliver unmistakable real-pumpkin character for Huong's seasonal special, rather than tasting primarily of spice or condensed milk?
 - Can a high-fruit lychee sauce remain visible and recognisable in a dairy matcha build without commercial pectin/citrus fibre?
 - Does mango's natural purée body already provide sufficient glass cling and squeeze control without a texture modifier?
 - Does the venue require dairy-free/vegan service, and are hydrocolloids/preservatives permitted?
@@ -79,7 +81,7 @@ Sauce is the current functional class for all three product cases; cordial is no
 
 | Status | Item | Exact selection/action |
 |---|---|---|
-| BUY | Pumpkin purée | 1 × KoRo Kürbispüree 425 g, 100% pumpkin |
+| ORDERED — RECEIVE/VERIFY | Pumpkin purée | 1 × KoRo Kürbispüree 425 g, 100% pumpkin; photograph label/lot and measure purée Brix/appearance before use |
 | BUY | Commercial control | 1 × FONTE Gourmet Pumpkin Spice Sauce 350 g/ml squeeze bottle |
 | BUY | Sweetened condensed milk | 1 × Nestlé Milchmädchen 400 g |
 | BUY | Spice | 1 × Ostmann Pumpkin Spice Latte 16 g if locally available; otherwise stop and record substitute before formulation change |
@@ -96,7 +98,8 @@ Full list: `04_round_1_development/pumpkin_matcha/shopping_list_batch_001.md`.
 
 | Status | Item | Exact selection/action |
 |---|---|---|
-| BUY | Lychee purée | 1 × Ponthier unsweetened lychee purée 1 kg; confirm retailer stock before order |
+| AVAILABLE — RECORD BEFORE USE | Canned lychee | User-confirmed on hand; record brand, country, ingredients, net mass, drained mass, nutrition/sugars, can liquid type, lot/BBD, drained fruit yield and Brix. It is not the Ponthier V01 input. |
+| BUY FOR PLANNED V01, OR OPEN NEW VERSION | Lychee purée | 1 × Ponthier unsweetened lychee purée 1 kg; confirm retailer stock. If canned lychee is used first, create a new formula/batch after its label and drained yield are known. |
 | BUY | Mango purée | 1 × Les Vergers Boiron frozen 100% mango purée 1 kg, article 16738 |
 | BUY | Lychee control | 1 × MONIN Le Fruit Lychee 1 L |
 | BUY | Mango control | 1 × MONIN Le Fruit Mango 500 ml |
@@ -110,10 +113,12 @@ Full list: `04_round_1_development/puree_matcha_batch_001_shopping.md`.
 
 - PB-001 control/candidate wall descent at 30 and 300 seconds, pattern retention after build, weeping, and squeeze-dose repeatability.
 - Physical labels/lots/prices for KoRo, FONTE, Milchmädchen, spice, milk, and matcha.
+- KoRo delivery condition and physical label; confirm that the ordered can is 100% pumpkin and record it as the actual real-pumpkin production input.
 - KoRo Brix, appearance, aroma, and smoothness; FONTE physical ingredient list and Brix if readable.
 - Service-glass capacity/mass/internal dimensions/wall shape/temperature and house/control nozzle openings.
 - V02 actual weighed ingredient amounts, yield, Brix, process temperatures/times, active labour, and deviations; pH remains `NOT MEASURED` unless a calibrated meter is available.
 - PB-002/PB-003 physical fruit labels/lots/prices, Brix, sauce yield, graininess/separation, squeeze repeatability, wall retention, pattern contrast, and fixed-build flavour balance.
+- Canned lychee brand/origin, complete ingredient and nutrition declarations, net and stated drained mass, actual drained fruit mass, retained syrup mass/type, fruit and syrup Brix separately, and texture after draining. Do not pool the syrup into a formula unless the new batch explicitly states it.
 - All Round 1 empirical measurements remain pending.
 
 ## Blocked decisions
@@ -123,6 +128,7 @@ Full list: `04_round_1_development/puree_matcha_batch_001_shopping.md`.
 - PB-001 shelf-life target and any safety claim remain `TBD`; no source-stated period transfers to an original or adapted formula.
 - PB-002/PB-003 formulas assume dairy remains acceptable as in PB-001; their same-day handling is not a shelf-life validation.
 - Ponthier lychee retailer stock wording conflicts; availability must be confirmed rather than silently substituting a sweetened purée.
+- The health review does not authorise a “healthy,” “healthier,” “low sugar,” or similar claim. PB-001 V02 remains unchanged; its condensed milk contributes more known sugar than the separate granulated-sugar addition.
 
 ## Approved products
 
@@ -137,12 +143,14 @@ None. No production formulation has completed the required testing and validatio
 
 ## Next actions
 
-1. Buy/receive the exact PB-001/PB-002/PB-003 items listed above; photograph and record physical labels and lots.
-2. Calibrate the Proster refractometer; confirm 0.1 g scale, blender, thermometer, glass, and nozzle measurements.
-3. Prepare each active batch exactly as written, without texture modifiers, and record actual amounts/yield/Brix/process data.
-4. Run each three-way cling pilot against its commercial control without a weighted total or invented threshold.
-5. Run the linked iced-matcha application test only for candidates that advance; optimise only in new recorded versions.
-6. Continue the existing source-validation queue; do not normalise the ambiguous PR-0012 mango cordial.
+1. Receive the ordered KoRo purée and photograph/record its physical label and lot; record the canned lychee label, drained mass, syrup composition, and separate fruit/syrup Brix before deciding its batch version.
+2. Buy/receive the remaining exact PB-001/PB-002/PB-003 items listed above; photograph and record physical labels and lots.
+3. Calibrate the Proster refractometer; confirm 0.1 g scale, blender, thermometer, glass, and nozzle measurements.
+4. Prepare each active batch exactly as written, without texture or sweetener substitutions, and record actual amounts/yield/Brix/process data.
+5. Run each three-way cling pilot against its commercial control without a weighted total or invented threshold.
+6. Run the linked iced-matcha application test only for candidates that advance; optimise only in new recorded versions.
+7. Consider pure food-use D-tagatose only in a separate post-V02 sweetener comparison; do not use allulose or make a health claim.
+8. Continue the existing source-validation queue; do not normalise the ambiguous PR-0012 mango cordial.
 
 ## Blockers and risks
 

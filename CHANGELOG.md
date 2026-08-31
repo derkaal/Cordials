@@ -2,6 +2,14 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-08-31 — Real-pumpkin requirement, canned lychee, and sugar-alternative review
+
+- Recorded Huong's seasonal-special requirement for actual pumpkin and confirmed that operational V02 contains 60 g KoRo 100% pumpkin purée rather than relying on pumpkin spice alone.
+- Recorded the KoRo purée as ordered and added receipt/label/Brix checks without marking it available before delivery.
+- Recorded canned lychee as an on-hand feasibility input, while preserving Ponthier as the written PB-002 V01 input; a canned version requires its own formula after label, syrup, drained-yield, and Brix measurements.
+- Reviewed current WHO, DGE, BfR, EFSA, EU regulatory, scientific, and German procurement evidence for sugar alternatives.
+- Kept every Batch 001 formula unchanged. Pure D-tagatose is the leading later sugar-like comparison; allulose is excluded from current German café use, and no health claim is authorised.
+
 ## 2026-08-31 — Purée-first Lychee and Mango Matcha cases
 
 - Opened PB-002 Lychee Matcha Sauce and PB-003 Mango Matcha Sauce as high-fruit, cold-glass service cases rather than thin cordials.

@@ -1,6 +1,6 @@
 # PB-001 — Batch 001 Shopping and Readiness List
 
-Status: **PURCHASE/RECEIPT AND MEASUREMENTS PENDING**  
+Status: **KORO PUMPKIN PURÉE ORDERED; OTHER PURCHASE/RECEIPT AND MEASUREMENTS PENDING**
 Applies to: `B-20260830-PUMPMAT-V02-01`, `GC-20260830-PB001-01`, `AT-20260830-001`
 Price/availability snapshot: 2026-08-30
 
@@ -8,7 +8,7 @@ Price/availability snapshot: 2026-08-30
 
 | Priority | Item | Exact selection | Quantity | Source/price status | Why needed |
 |---|---|---|---:|---|---|
-| REQUIRED | Pumpkin purée | KoRo Kürbispüree, 425 g, 100% pumpkin, product `KUERBIS_006` | 1 can | SRC-2026-026: EUR 3.25, immediately available, 2–4 working days at research time | Default production input and unmodified comparison |
+| ORDERED — RECEIVE/VERIFY | Pumpkin purée | KoRo Kürbispüree, 425 g, 100% pumpkin, product `KUERBIS_006` | 1 can | User-confirmed ordered 2026-08-31; earlier procurement lead SRC-2026-026 | Actual pumpkin ingredient for Huong's seasonal-special pilot and unmodified comparison |
 | REQUIRED | Commercial control | FONTE Gourmet Pumpkin Spice Sauce, nominal 350 g/ml squeeze bottle | 1 bottle | SRC-2026-030: EUR 19.95, German retailer, 7–14 working days at research time | Functional/squeeze/cling benchmark |
 | REQUIRED | Sweetened condensed milk | Nestlé Milchmädchen, 400 g | 1 can | SRC-2026-032: REWE listing; local stock/price require postcode | Principal PR-0014 body/sweetness ingredient |
 | REQUIRED | Pumpkin spice | Ostmann Pumpkin Spice Latte Gewürzmischung, 16 g, if locally available | 1 packet | SRC-2026-033: seasonal REWE listing; verify exact label | Reproduce source's pre-mixed-spice format without a new house blend |
@@ -36,6 +36,7 @@ Price/availability snapshot: 2026-08-30
 
 | Item | Order status | Required PB-001 action |
 |---|---|---|
+| KoRo Kürbispüree, 425 g | ORDERED | On receipt photograph the physical label/lot/BBD, confirm 100% pumpkin, record delivery condition, and measure appearance/smoothness/Brix before use |
 | Proster Brix refractometer, 0–80% | ORDERED; not yet treated as available | Inspect manual, check prism, calibrate as instructed, record model/serial if present and measurement temperature; required before Batch 001 measurement set is complete |
 | CASO VC10 vacuum sealer | ORDERED; not required for Batch 001 | Function check after receipt; do not use vacuum packaging to infer extended shelf life |
 | Bonsenkitchen rolls, 2 × 28 × 600 cm | ORDERED; not required for Batch 001 | Verify physical packaging/food-contact/sous-vide claims before use; not part of V02 |
@@ -60,3 +61,9 @@ Price/availability snapshot: 2026-08-30
 5. House bottle material/capacity/nozzle opening and five-dose repeatability.
 6. Scale and thermometer model/check status; refractometer calibration and temperature.
 7. Actual batch yield, Brix, temperatures, times, and all deviations.
+
+## Sweetener boundary
+
+- Buy no sugar alternative for operational Batch 001. V02 must first establish real-pumpkin flavour, texture, and service function with its recorded PR-0014 lineage.
+- `../../01_research/sugar_alternatives_for_puree_matcha_sauces.md` identifies pure D-tagatose as the leading later comparison, not an approved substitution.
+- Do not use allulose in the current German café project. Do not replace sucrose with honey, agave, maple, date syrup, coconut sugar, xylitol, erythritol, stevia, or a commercial blend without a new formulation/batch record.
