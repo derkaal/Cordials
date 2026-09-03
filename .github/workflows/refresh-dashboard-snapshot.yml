@@ -1,0 +1,31 @@
+name: Refresh dashboard snapshot
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - dashboard/data-snapshot.json
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generate repository dashboard data
+        run: npm --prefix dashboard run snapshot
+      - name: Commit refreshed snapshot when needed
+        run: |
+          if git diff --quiet -- dashboard/data-snapshot.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dashboard/data-snapshot.json
+          git commit -m "Refresh dashboard data snapshot"
+          git push

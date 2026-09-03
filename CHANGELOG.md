@@ -2,6 +2,12 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-09-03 — Phone-accessible hosted dashboard
+
+- Added a private ChatGPT Site build for the existing dashboard, retaining its established visual system and responsive layout.
+- Added a generated repository-data snapshot and GitHub workflow so pushes to `main` refresh the phone view's data source.
+- Kept the hosted mirror read-only: canonical formulation changes, feedback, notes, and shopping-state updates remain local/repository writes rather than creating a competing hosted database.
+
 ## 2026-09-03 — Dual-format recipes made explicit
 
 - Corrected PB-002 and PB-003 terminology from `sauce` to `glass-cling purée preparation`; the underlying Boiron source remains accurately identified as a cooked confit/compote rather than plain purée.

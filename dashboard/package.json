@@ -5,7 +5,9 @@
   "description": "Local-first dashboard for the Cordials repository",
   "scripts": {
     "start": "node server.js",
-    "check": "node --check server.js && node --check public/app.js"
+    "snapshot": "node snapshot-data.js",
+    "build:hosted": "node snapshot-data.js && node build-hosted.js",
+    "check": "node --check server.js && node --check public/app.js && node --check snapshot-data.js && node --check build-hosted.js"
   },
   "engines": {
     "node": ">=20"

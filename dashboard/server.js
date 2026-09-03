@@ -363,4 +363,8 @@ const server = http.createServer(async (request, response) => {
   } catch (error) { console.error(error); sendJson(response, 500, { error: 'The repository data could not be read or updated.' }); }
 });
 
-server.listen(PORT, HOST, () => console.log(`Cordials Dashboard: http://${HOST}:${PORT}`));
+if (require.main === module) {
+  server.listen(PORT, HOST, () => console.log(`Cordials Dashboard: http://${HOST}:${PORT}`));
+}
+
+module.exports = { buildData };

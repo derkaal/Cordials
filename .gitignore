@@ -34,3 +34,6 @@ __pycache__/
 *.7z
 *.rar
 
+# Generated dashboard deployment output
+dashboard/dist/
+dashboard/*.tgz

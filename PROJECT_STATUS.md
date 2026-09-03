@@ -8,7 +8,7 @@ Last updated: 2026-08-31
 - **Repository content:** IMP-2026-001 partially validated; pumpkin sauce plus dual-format lychee and mango development active
 - **Active development round:** Round 1
 - **Active product cases:** PB-001 Pumpkin Matcha Sauce; PB-002 Lychee Purée Preparation and Cordial; PB-003 Mango Purée Preparation and Cordial
-- **Latest consequential change:** PB-002/PB-003 product pages now show two distinct recipes; their high-fruit format is correctly labelled a purée preparation, not a sauce
+- **Latest consequential change:** A private, phone-accessible ChatGPT Site mirrors the dashboard from the public GitHub `main` branch; the local dashboard remains the writable interface
 - **Active validation queue:** `02_sources/VALIDATION_QUEUE.md`
 
 ## Active product cases
@@ -32,6 +32,7 @@ PB-001 remains sauce-led. PB-002 and PB-003 treat a cooked, glass-cling purée p
 | Food science / preservation / shelf life | Initial vacuum/freezing boundary validated | BfR/BZfE/CASO guidance recorded; no product shelf life established | Validate wider claims and open freeze–thaw work only after product-performance gates |
 | Economics and waste | Awaiting migration | Existing wider-project research | Separate sourced facts, assumptions, calculations, and measured data |
 | Equipment and procurement | Active pilot equipment assessed | Sous vide not required for the 103°C purée-preparation sources; freeze-first VC10 handling recorded | Receive/check equipment and use only for a later justified process |
+| Dashboard access | Hosted mirror prepared | Private ChatGPT Site reads the generated GitHub snapshot and canonical records; hosted writes intentionally disabled | Use the hosted URL on phone; continue recording edits locally or in the repository |
 | Publishing landscape | Awaiting migration | Existing wider-project research | Validate and cite competitive research |
 | Book structure | Not started | Outline placeholder | Draft after core research import |
 | Manuscript | Not started | Chapter placeholders | Begin only when evidence base is ready |
