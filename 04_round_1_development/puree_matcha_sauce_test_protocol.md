@@ -1,8 +1,8 @@
-# Purée Matcha Sauce Comparative Protocol — Version 0.2
+# Glass-Cling Purée Preparation Comparative Protocol — Version 0.2
 
 ## Scope
 
-Applies only to the glass-cling sauce tracks within PB-002 Lychee and PB-003 Mango. It does not evaluate their parallel cordial tracks. This is an `ORIGINAL EXPERIMENTAL METHOD`, not a recipe formulation or standard rheology method. Original methods remain permitted under the source-only formulation rule.
+Applies only to the glass-cling purée-preparation tracks within PB-002 Lychee and PB-003 Mango. It does not evaluate their parallel cordial tracks. This is an `ORIGINAL EXPERIMENTAL METHOD`, not a recipe formulation or standard rheology method. Original methods remain permitted under the source-only formulation rule.
 
 ## Fixed samples per fruit
 
@@ -19,7 +19,7 @@ Applies only to the glass-cling sauce tracks within PB-002 Lychee and PB-003 Man
 - Photograph immediately, at 30 seconds, and at 300 seconds from a fixed position.
 - Record wall descent, line continuity, pooling, weeping, colour/contrast, and whether the line remains visually legible. Do not invent a numerical pass threshold.
 - At 300 seconds add 100 ±5 g ice over 10 seconds, then 150 g milk over 10 seconds. Photograph immediately and after 60 seconds. Record scraping, wash-off, and retained pattern.
-- Run five 10.0 g squeeze attempts for the commercial control and five for the source-adapted sauce; record actual masses, line control, tailing, clogging, and operator force. Test plain purée only if it passes through the bottle without modification.
+- Run five 10.0 g squeeze attempts for the commercial control and five for the source-adapted purée preparation; record actual masses, line control, tailing, clogging, and operator force. Test plain purée only if it passes through the bottle without modification.
 
 ## First-pilot comparison language
 

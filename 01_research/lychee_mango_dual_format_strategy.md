@@ -4,12 +4,12 @@ Date: 2026-09-03
 
 ## Decision
 
-PB-002 and PB-003 each retain two parallel formats. The high-fruit sauce is not the successor to, or replacement for, the cordial.
+PB-002 and PB-003 each retain two parallel formats. The high-fruit purée preparation is not the successor to, or replacement for, the cordial.
 
 | Format | Primary job | Physical target | Priority applications |
 |---|---|---|---|
-| Glass-cling sauce | Visible fruit expression in an iced matcha build | Squeezable; retains a pattern on the inner glass wall; disperses after stirring | Iced matcha first; other uses only after the primary test |
-| Filtered/clarified cordial | Portable fruit, sweetness, and acidity in a pourable concentrate | Free-pouring; low suspended solids relative to the sauce; practical for dilution and carbonation | Tea, matcha, soda/zero-proof drinks, and cocktails |
+| Glass-cling purée preparation | Visible fruit expression in an iced matcha build | Squeezable; retains a pattern on the inner glass wall; disperses after stirring | Iced matcha first; other uses only after the primary test |
+| Filtered/clarified cordial | Portable fruit, sweetness, and acidity in a pourable concentrate | Free-pouring; low suspended solids relative to the purée preparation; practical for dilution and carbonation | Tea, matcha, soda/zero-proof drinks, and cocktails |
 
 The formats should not be forced into one texture or judged by one universal test. Each may succeed independently.
 
@@ -22,7 +22,7 @@ The formats should not be forced into one texture or judged by one universal tes
 Why it fits:
 
 - it uses canned lychee, matching the available input category;
-- it is filtered rather than served as a purée sauce;
+- it is filtered rather than served as a purée preparation;
 - it has a directly sourced cocktail/highball application;
 - all fixed quantities are whole grams.
 
@@ -44,9 +44,9 @@ Execution is not yet authorised. The source starts with mango juice, not Boiron 
 
 ## Comparative development logic
 
-The first sauce and cordial evaluations answer different questions:
+The first purée-preparation and cordial evaluations answer different questions:
 
-| Question | Sauce | Cordial |
+| Question | Purée preparation | Cordial |
 |---|---|---|
 | Does it hold a visible line on a cold glass? | Required | Not required |
 | Does it pour and disperse cleanly? | Secondary | Required |
@@ -59,17 +59,16 @@ No numerical success threshold is set before control data exist. First evaluatio
 
 ## Provenance and formulation boundary
 
-- Sauce batches remain adaptations of `PR-0019` and `PR-0020`.
+- Purée-preparation batches remain adaptations of `PR-0019` and `PR-0020`.
 - Cordial batches may be opened only from `PR-0022` and `PR-0021`, or another subsequently validated professional source.
-- Moving ingredients, ratios, or processing steps between the sauce and cordial tracks creates a new adaptation; it is not an exact source recipe.
+- Moving ingredients, ratios, or processing steps between the purée-preparation and cordial tracks creates a new adaptation; it is not an exact source recipe.
 - No new drink formula is authorised by this strategy record. Application builds must retain their own professional/commercial lineage or be explicitly permitted by the user.
 - Source-stated refrigerated periods are not project shelf-life approvals.
 
 ## Next gates
 
-1. Complete the existing sauce pilots without changing their formulation or purpose.
+1. Complete the existing purée-preparation pilots without changing their formulation or purpose.
 2. Record the canned-lychee label, total can size, drained fruit mass, retained liquid mass/type, and Brix values; determine whether PR-0022 can be executed exactly.
 3. Confirm whether the user wants the specialist enzyme route for mango before purchasing Töufood Pectinäse, Invertäse, and Citrus Blend.
 4. Verify German delivery, exact packs, physical labels, and an operationally safe sealed-bag method before opening a mango-cordial batch.
 5. Select purchasable cordial controls and sourced application builds for tea, matcha, zero-proof soda, and cocktail comparisons.
-

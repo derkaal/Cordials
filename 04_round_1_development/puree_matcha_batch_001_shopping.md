@@ -2,7 +2,7 @@
 
 Status: **PURCHASE/RECEIPT AND MEASUREMENTS PENDING**
 
-The first sauce batches remain unchanged: lychee uses the canned fruit as a declared substitution in PR-0019, and mango uses the Boiron purée named by PR-0020. Both sauce batches require NH pectin. The new cordial tracks are separate and do not use NH pectin.
+The first glass-cling purée-preparation batches remain unchanged: lychee uses the canned fruit as a declared substitution in PR-0019, and mango uses the Boiron purée named by PR-0020. Both purée-preparation batches require NH pectin. The cordial tracks are separate and do not use NH pectin.
 
 ## Buy
 
@@ -38,7 +38,7 @@ The first sauce batches remain unchanged: lychee uses the canned fruit as a decl
 
 ## Cordial-track items — resolve before buying
 
-These are not blockers for the current sauce Batch 001 work.
+These are not blockers for the current purée-preparation Batch 001 work.
 
 | Track | Source requirements | Current decision |
 |---|---|---|
@@ -70,4 +70,4 @@ The ordered Boiron mango purée is not silently treated as the mango juice speci
 
 ## Equipment and preservation boundary
 
-The Boiron source formulations require a saucepan or similar open vessel because the preparation must reach 103°C. The Russell Hobbs sous-vide function is therefore not part of Batch 001. If a passed sauce is later frozen, portion it first. With the VC10, freeze a sauce portion solid in a suitable container before vacuum sealing it, following the manufacturer guidance in SRC-2026-066. Label contents, quantity, batch, and freeze date. Open a separate freeze–thaw quality test only after flavour, cling, squeeze, and drink performance pass; do not infer a shelf life.
+The Boiron source formulations require a saucepan or similar open vessel because the preparation must reach 103°C. The Russell Hobbs sous-vide function is therefore not part of Batch 001. If a passed purée preparation is later frozen, portion it first. With the VC10, freeze a portion solid in a suitable container before vacuum sealing it, following the manufacturer guidance in SRC-2026-066. Label contents, quantity, batch, and freeze date. Open a separate freeze–thaw quality test only after flavour, cling, squeeze, and drink performance pass; do not infer a shelf life.

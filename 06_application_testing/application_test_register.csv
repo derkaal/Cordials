@@ -1,4 +1,4 @@
 test_id,date,batch_id,cordial,category,drink_name,cordial_dosage_g,cordial_dosage_ml,result,record_path
 AT-20260830-001,2026-08-30,B-20260830-PUMPMAT-V02-01,Pumpkin Matcha Sauce / PB-001,matcha/tea,PB-001 Standard Iced Pumpkin Matcha Test Build,18.0,UNKNOWN,PENDING,06_application_testing/tests/AT-20260830-001.md
-AT-20260831-004,2026-08-31,B-20260831-LYCH-V02-01,Lychee Matcha Sauce / PB-002,matcha/tea,PB-002 Iced Lychee Matcha — PR-0017 Adaptation,UNKNOWN,30.0,PENDING,06_application_testing/tests/AT-20260831-004.md
-AT-20260831-005,2026-08-31,B-20260831-MANG-V02-01,Mango Matcha Sauce / PB-003,matcha/tea,PB-003 Iced Mango Matcha — PR-0017 Adaptation,UNKNOWN,30.0,PENDING,06_application_testing/tests/AT-20260831-005.md
+AT-20260831-004,2026-08-31,B-20260831-LYCH-V02-01,Lychee Glass-Cling Purée Preparation / PB-002,matcha/tea,PB-002 Iced Lychee Matcha — PR-0017 Adaptation,UNKNOWN,30.0,PENDING,06_application_testing/tests/AT-20260831-004.md
+AT-20260831-005,2026-08-31,B-20260831-MANG-V02-01,Mango Glass-Cling Purée Preparation / PB-003,matcha/tea,PB-003 Iced Mango Matcha — PR-0017 Adaptation,UNKNOWN,30.0,PENDING,06_application_testing/tests/AT-20260831-005.md

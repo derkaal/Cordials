@@ -2,7 +2,7 @@
 
 Date: 2026-08-31
 
-Scope note (2026-09-03): this record governs the glass-cling sauce tracks only. The separate cordial tracks are documented in `lychee_mango_dual_format_strategy.md`; neither track supersedes the other.
+Scope note (2026-09-03): this record governs the glass-cling purée-preparation tracks only. The separate cordial tracks are documented in `lychee_mango_dual_format_strategy.md`; neither track supersedes the other.
 
 ## Governing constraint
 
@@ -10,13 +10,13 @@ Active recipe, batch, and application formulations must be exact sourced recipes
 
 ## Professional candidate comparison
 
-| Record | Professional relevance | Completeness | Fit to wall-cling sauce | Decision |
+| Record | Professional relevance | Completeness | Fit to glass-cling purée preparation | Decision |
 |---|---|---|---|---|
 | PR-0019 — Boiron Lychee Confit / Compote | Primary professional manufacturer chart; fruit-specific formula | Exact grams, temperatures, sequence; yield/storage unknown | High-fruit preparation with published NH pectin and cold smoothing; cling remains untested | **SELECT FOR PB-002 LINEAGE** |
 | PR-0020 — Boiron Mango Confit / Compote | Primary professional manufacturer chart; fruit-specific formula | Exact grams, temperatures, sequence; yield/storage unknown | Same professional technique with a different, source-stated mango pectin rate | **SELECT FOR PB-003 LINEAGE** |
 | PR-0018 — Boiron Passion Fruit and Mango Coulis | Named professional, cold blend, squeeze-bottle use | Complete | Strong service precedent, but passion fruit materially changes flavour and acidity | Retain as secondary mango reference |
 | PR-0017 — Clearspring Mango Matcha Latte | Commercially active matcha/food company | Exact mango, matcha, water and milk quantities; ice amount unstated | Direct fruit–matcha application and build-order precedent | **SELECT FOR APPLICATION LINEAGE** |
-| PR-0016 — Matchaful Lucent Lychee Matcha Latte | Direct café-menu lychee–matcha precedent | Matcha mass and yield remain unknown | Supports pairing, not sauce structure | Corroborating lychee application evidence |
+| PR-0016 — Matchaful Lucent Lychee Matcha Latte | Direct café-menu lychee–matcha precedent | Matcha mass and yield remain unknown | Supports pairing, not purée-preparation structure | Corroborating lychee application evidence |
 | MONIN Le Fruit Lychee/Mango | Current commercial fruit preparations for drinks | Proprietary formula amounts unknown | Realistically purchasable squeeze/service controls | **SELECT AS CONTROLS, NOT FORMULA SOURCES** |
 
 ## Candidate decision

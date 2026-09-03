@@ -2,6 +2,12 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-09-03 — Dual-format recipes made explicit
+
+- Corrected PB-002 and PB-003 terminology from `sauce` to `glass-cling purée preparation`; the underlying Boiron source remains accurately identified as a cooked confit/compote rather than plain purée.
+- Put both preparation options directly on each fruit's landing page: the whole-gram purée-preparation Batch 001 and the separate exact sourced cordial formula.
+- Updated the dashboard recipe view to render the purée-preparation batch and preferred professional cordial as two visibly distinct formulations, including the cordial's not-yet-opened batch status.
+
 ## 2026-09-03 — Parallel sauce and cordial tracks restored
 
 - Reframed PB-002 Lychee and PB-003 Mango as dual-format developments: the glass-cling sauces remain active, while separate filtered/clarified cordials restore broader tea, matcha, zero-proof, carbonation, and cocktail potential.

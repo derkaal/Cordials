@@ -7,8 +7,8 @@ Last updated: 2026-08-31
 - **CURRENT PHASE:** Research migration and consolidation; PB-001/PB-002/PB-003 product discovery active
 - **Repository content:** IMP-2026-001 partially validated; pumpkin sauce plus dual-format lychee and mango development active
 - **Active development round:** Round 1
-- **Active product cases:** PB-001 Pumpkin Matcha Sauce; PB-002 Lychee Sauce and Cordial; PB-003 Mango Sauce and Cordial
-- **Latest consequential change:** PB-002/PB-003 restored to parallel sauce and cordial tracks; PR-0021/0022 added as professional cordial lineages
+- **Active product cases:** PB-001 Pumpkin Matcha Sauce; PB-002 Lychee Purée Preparation and Cordial; PB-003 Mango Purée Preparation and Cordial
+- **Latest consequential change:** PB-002/PB-003 product pages now show two distinct recipes; their high-fruit format is correctly labelled a purée preparation, not a sauce
 - **Active validation queue:** `02_sources/VALIDATION_QUEUE.md`
 
 ## Active product cases
@@ -16,27 +16,27 @@ Last updated: 2026-08-31
 | Product | Current stage | Latest evidence | Batch/application status | Next gate |
 |---|---|---|---|---|
 | PB-001 — Pumpkin Matcha Sauce | Materials/readiness stage before first pilot | KoRo 100% pumpkin purée ordered; FONTE control selected; PR-0014 chosen as V02 lineage | B-20260830-PUMPMAT-V02-01, GC-20260830-PB001-01, and AT-20260830-001 PLANNED; V01 superseded unexecuted | Receive/record KoRo; buy control and remaining gaps; calibrate refractometer; execute cling pilot |
-| PB-002 — Lychee Sauce and Cordial | Dual-format: sauce Batch 001 readiness; cordial source gate | Sauce: PR-0019 Boiron with canned-input substitution. Cordial: PR-0022 Barney Toy filtered canned-lychee formula. | Sauce batch/pilot/application PLANNED; cordial batch NOT OPENED | Record can data; proceed with sauce; determine whether the 560 g-can cordial source can be executed exactly |
-| PB-003 — Mango Sauce and Cordial | Dual-format: sauce Batch 001 readiness; specialist cordial gate | Sauce: PR-0020 Boiron. Cordial: PR-0021 Michal Dojčák enzyme-clarified formula. | Sauce batch/pilot/application PLANNED; cordial batch NOT OPENED | Proceed with sauce; decide on specialist enzyme route and resolve juice input, procurement, and liquid sealing |
+| PB-002 — Lychee Purée Preparation and Cordial | Dual-format: purée-preparation Batch 001 readiness; cordial source gate | Purée preparation: PR-0019 Boiron with canned-input substitution. Cordial: PR-0022 Barney Toy filtered canned-lychee formula. | Purée-preparation batch/pilot/application PLANNED; cordial source recipe visible; cordial batch NOT OPENED | Record can data; proceed with purée preparation; determine whether the 560 g-can cordial source can be executed exactly |
+| PB-003 — Mango Purée Preparation and Cordial | Dual-format: purée-preparation Batch 001 readiness; specialist cordial gate | Purée preparation: PR-0020 Boiron. Cordial: PR-0021 Michal Dojčák enzyme-clarified formula. | Purée-preparation batch/pilot/application PLANNED; cordial source recipe visible; cordial batch NOT OPENED | Proceed with purée preparation; decide on specialist enzyme route and resolve juice input, procurement, and liquid sealing |
 
-PB-001 remains sauce-led. PB-002 and PB-003 now treat sauce and cordial as parallel functional classes; neither format supersedes the other.
+PB-001 remains sauce-led. PB-002 and PB-003 treat a cooked, glass-cling purée preparation and a cordial as parallel functional classes; neither format supersedes the other.
 
 ## Workstreams
 
 | Workstream | Status | Current focus | Next action |
 |---|---|---|---|
 | Cordial taxonomy and techniques | Awaiting migration | Existing wider-project research | Ingest through import manifest and validate sources |
-| Professional recipe database | Partially validated | PR-0019/0020 sauce sources and PR-0021/0022 cordial sources recorded; remaining leads quarantined where incomplete | Resolve operational gates for the new cordial sources and continue the wider validation queue |
+| Professional recipe database | Partially validated | PR-0019/0020 purée-preparation sources and PR-0021/0022 cordial sources recorded; remaining leads quarantined where incomplete | Resolve operational gates for the new cordial sources and continue the wider validation queue |
 | Round 1 reference formulations | Partially validated | Threshold A/B results recorded; all Threshold C claims fail/remain open | Select source versions explicitly before Batch 001 planning |
 | Matcha compatibility | Awaiting migration | Existing wider-project research | Validate professional precedents and analysis |
 | Food science / preservation / shelf life | Initial vacuum/freezing boundary validated | BfR/BZfE/CASO guidance recorded; no product shelf life established | Validate wider claims and open freeze–thaw work only after product-performance gates |
 | Economics and waste | Awaiting migration | Existing wider-project research | Separate sourced facts, assumptions, calculations, and measured data |
-| Equipment and procurement | Active pilot equipment assessed | Sous vide not required for 103°C sauce sources; freeze-first VC10 handling recorded | Receive/check equipment and use only for a later justified process |
+| Equipment and procurement | Active pilot equipment assessed | Sous vide not required for the 103°C purée-preparation sources; freeze-first VC10 handling recorded | Receive/check equipment and use only for a later justified process |
 | Publishing landscape | Awaiting migration | Existing wider-project research | Validate and cite competitive research |
 | Book structure | Not started | Outline placeholder | Draft after core research import |
 | Manuscript | Not started | Chapter placeholders | Begin only when evidence base is ready |
 | PB-001 product development | Batch/pilot planned | Practical weight-based V02 adaptation with no modifier; comparative control method | Complete readiness list and run GC-20260830-PB001-01 |
-| PB-002/PB-003 product development | Dual-format | Sauce: Boiron confit/compote ratios with NH pectin and MONIN controls. Cordial: filtered PR-0022 lychee and enzyme-clarified PR-0021 mango. | Run sauce pilots; resolve cordial input/procurement gates before opening separate batches |
+| PB-002/PB-003 product development | Dual-format | Purée preparation: Boiron confit/compote ratios with NH pectin and MONIN controls. Cordial: filtered PR-0022 lychee and enzyme-clarified PR-0021 mango. | Run purée-preparation pilots; resolve cordial input/procurement gates before opening separate batches |
 | Sweetener review | Initial decision complete | No exact same-taste/clearly-healthier replacement identified; pure D-tagatose is the leading later research candidate | Keep all Batch 001 formulas unchanged; seek a professional/commercial tagatose formulation before any post-gate adaptation |
 
 ## Round 1 status
@@ -46,9 +46,9 @@ PB-001 remains sauce-led. PB-002 and PB-003 now treat sauce and cordial as paral
 | Yuzu | PR-0001 exact with source contradiction | Not started | None | None | Jack Schramm provenance corrected; yuzu/lemon contradiction must remain visible |
 | Strawberry–Vanilla | PR-0002 exact | Not started | None | None | Between purée and syrup; seasonality remains operational constraint |
 | Peach–Tea–Thyme | PR-0004/0005 exact current web version | Not started | None | None | PDF has conflicting base quantities; source version must be named |
-| Lychee | PR-0019 exact sauce source; PR-0022 exact filtered-cordial source; PR-0016 matcha precedent | Dual-format PB-002 active | Sauce B-20260831-LYCH-V02-01 planned; cordial batch not opened | Sauce AT-20260831-004 planned; cordial applications not opened | Can-size/liquid interpretation plus sauce visibility require measurement |
+| Lychee | PR-0019 exact confit/compote source; PR-0022 exact filtered-cordial source; PR-0016 matcha precedent | Dual-format PB-002 active | Purée-preparation B-20260831-LYCH-V02-01 planned; cordial batch not opened | Purée-preparation AT-20260831-004 planned; cordial applications not opened | Can-size/liquid interpretation plus glass visibility require measurement |
 | Pandan | PR-0009 B pass; A conditional | Not started | None | None | Capture linked simple-syrup definition; alcoholic limitation |
-| Mango | PR-0020 exact sauce source; PR-0021 exact process-defined cordial source; PR-0017/0018 application/service precedents | Dual-format PB-003 active | Sauce B-20260831-MANG-V02-01 planned; cordial batch not opened | Sauce AT-20260831-005 planned; cordial applications not opened | Cordial requires juice/purée decision, specialist inputs, and liquid-sealing method |
+| Mango | PR-0020 exact confit/compote source; PR-0021 exact process-defined cordial source; PR-0017/0018 application/service precedents | Dual-format PB-003 active | Purée-preparation B-20260831-MANG-V02-01 planned; cordial batch not opened | Purée-preparation AT-20260831-005 planned; cordial applications not opened | Cordial requires juice/purée decision, specialist inputs, and liquid-sealing method |
 
 ## Open research questions
 
@@ -64,7 +64,7 @@ PB-001 remains sauce-led. PB-002 and PB-003 now treat sauce and cordial as paral
 - What measurements and controls are required for responsible shelf-life evaluation?
 - How should ingredient seasonality and sourcing be represented in candidate scoring?
 - Which objective comparison will fairly test mango cordial against mango purée?
-- For each fruit, when does the cordial outperform the sauce in tea, matcha, carbonation, zero-proof service, and cocktails?
+- For each fruit, when does the cordial outperform the purée preparation in tea, matcha, carbonation, zero-proof service, and cocktails?
 - Does the filtered/clarified cordial retain enough recognisable fruit character to justify its added process and yield loss?
 - What constitutes meaningful cross-category versatility and utilisation?
 
@@ -105,7 +105,7 @@ Full list: `04_round_1_development/pumpkin_matcha/shopping_list_batch_001.md`.
 | BUY | Mango purée | 1 × Les Vergers Boiron frozen 100% mango purée 1 kg, article 16738. |
 | BUY | Lychee control | 1 × MONIN Le Fruit Lychee 1 L |
 | BUY | Mango control | 1 × MONIN Le Fruit Mango 500 ml |
-| BUY/CONFIRM | Shared ingredients | At least 120 g one granulated white sugar product; 2 L one fixed 3.5% whole milk product. No condensed milk, citric acid, or salt is used in these valid Batch 001 sauces. |
+| BUY/CONFIRM | Shared ingredients | At least 120 g one granulated white sugar product; 2 L one fixed 3.5% whole milk product. No condensed milk, citric acid, or salt is used in these valid Batch 001 purée preparations. |
 | BUY | Service bottles | 2 × food-grade 350–500 ml fine-nozzle bottles |
 | BUY IF ABSENT | Tools | 0.1 g scale, food thermometer reading to at least 105°C, small saucepan/whisk, blender for drained fruit, 5/10 ml blunt dosing syringe. |
 | OPTIONAL LATER | Exact-brand lychee purée | 1 × Boiron frozen 100% lychee purée 1 kg, BOS FOOD article 59186, only for a later exact-brand PR-0019 execution. |
@@ -127,7 +127,7 @@ Full list: `04_round_1_development/puree_matcha_batch_001_shopping.md`.
 - KoRo Brix, appearance, aroma, and smoothness; FONTE physical ingredient list and Brix if readable.
 - Service-glass capacity/mass/internal dimensions/wall shape/temperature and house/control nozzle openings.
 - V02 actual weighed ingredient amounts, yield, Brix, process temperatures/times, active labour, and deviations; pH remains `NOT MEASURED` unless a calibrated meter is available.
-- PB-002/PB-003 physical fruit labels/lots/prices, Brix, sauce yield, graininess/separation, squeeze repeatability, wall retention, pattern contrast, and fixed-build flavour balance.
+- PB-002/PB-003 physical fruit labels/lots/prices, Brix, purée-preparation yield, graininess/separation, squeeze repeatability, wall retention, pattern contrast, and fixed-build flavour balance.
 - Canned lychee brand/origin, complete ingredient and nutrition declarations, net and stated drained mass, actual drained fruit mass, retained syrup mass/type, fruit and syrup Brix separately, and texture after blending. The syrup is excluded from B-20260831-LYCH-V02-01.
 - PB-002/PB-003 50°C addition time, 103°C endpoint time, transfer and final yield, cooling conditions, cold-whisk result, Brix/sample temperature, and actual disposition.
 - For the cordial tracks: lychee source-can compatibility; mango juice-versus-purée decision; specialist product labels; clarified yield; sugar added to the source-defined Brix endpoint; final Brix/pH where measurable; filtration loss; dispersion and fruit recognition by application.
@@ -139,7 +139,7 @@ Full list: `04_round_1_development/puree_matcha_batch_001_shopping.md`.
 - PB-001 dairy is permitted and standard café equipment plus Russell Hobbs 25630-56 are available. Exact glass/nozzle and scale/thermometer checks remain pre-test measurements, not formulation blockers.
 - PB-001 numeric cling threshold is intentionally `TBD` until controls show the useful measurement range.
 - PB-001 shelf-life target and any safety claim remain `TBD`; no source-stated period transfers to an original or adapted formula.
-- PB-002/PB-003 application adaptations use dairy because it is permitted; the sauces themselves contain no dairy. No handling period has been validated.
+- PB-002/PB-003 application adaptations use dairy because it is permitted; the purée preparations themselves contain no dairy. No handling period has been validated.
 - The canned-lychee batch cannot run until its label, drained yield, and Brix are recorded and at least 222 g smooth drained-fruit purée is confirmed.
 - Sous vide is not required for any active Batch 001: PB-002/PB-003 require an open 103°C cook. Vacuum sealing is packaging, not a shelf-life control; freeze-first use requires a later quality test and appropriate food-safety controls.
 - PR-0021's mango cordial uses a sealed bag under refrigeration, not a heated sous-vide bath. The CASO VC10's suitability for sealing this unfrozen liquid process is unresolved; do not substitute a freeze-first step into the source method.
@@ -158,7 +158,7 @@ None. No production formulation has completed the required testing and validatio
 | 2026-08-29 | Preserve every experimental batch, including failures. | Prevents hindsight bias and protects the laboratory record. | `README.md` |
 | 2026-08-31 | Limit new active formulations to exact sourced recipes or disclosed adaptations. | Enforces the agreed professional/commercial source-only rule; original test methods remain allowed. | `README.md`; `00_project_control/DATA_DICTIONARY.md` |
 | 2026-08-31 | Remove invalid unexecuted lychee/mango plans and retire their IDs. | They were not experiments and were never built under the agreed rule. | `CHANGELOG.md` |
-| 2026-09-03 | Retain parallel sauce and cordial tracks for lychee and mango. | The glass-cling sauce serves matcha presentation; the filtered/clarified cordial preserves broader tea, carbonation, zero-proof, and cocktail versatility. Neither format supersedes the other. | `01_research/lychee_mango_dual_format_strategy.md`; PR-0021; PR-0022 |
+| 2026-09-03 | Retain parallel purée-preparation and cordial tracks for lychee and mango. | The glass-cling purée preparation serves matcha presentation; the filtered/clarified cordial preserves broader tea, carbonation, zero-proof, and cocktail versatility. Neither format supersedes the other. | `01_research/lychee_mango_dual_format_strategy.md`; PR-0021; PR-0022 |
 
 ## Next actions
 
@@ -166,8 +166,8 @@ None. No production formulation has completed the required testing and validatio
 2. Buy Sosa Fruit Pectin NH, Boiron mango purée, both MONIN controls, one fixed whole milk, and two squeeze bottles; confirm 120 g sugar on hand.
 3. Calibrate the Proster refractometer; confirm the 0.1 g scale, blender, thermometer to at least 105°C, saucepan, glass, and nozzle measurements.
 4. Confirm at least 222 g smooth drained-lychee purée, then prepare B-20260831-LYCH-V02-01 and B-20260831-MANG-V02-01 exactly as written without substitutions.
-5. Run each three-way sauce cling pilot against its commercial control using comparative language only.
-6. Run the PR-0017-derived iced-matcha sauce tests only for candidates that advance; any formula change requires a newly documented sourced adaptation.
+5. Run each three-way purée-preparation cling pilot against its commercial control using comparative language only.
+6. Run the PR-0017-derived iced-matcha purée-preparation tests only for candidates that advance; any formula change requires a newly documented sourced adaptation.
 7. Determine whether the on-hand lychee can supports an exact PR-0022 cordial execution; otherwise write a whole-gram sourced adaptation before batching.
 8. Decide whether to pursue PR-0021's specialist mango enzyme route. If yes, verify procurement and liquid sealing before writing its batch adaptation.
 9. Select sourced or explicitly authorised cordial application builds and purchasable controls for tea, matcha, zero-proof soda, and cocktails; compare without preset numerical thresholds.

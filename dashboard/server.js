@@ -211,7 +211,7 @@ function getProducts(recipes, batches, tests) {
     const productBatches = batches.filter((batch) => batch.productId === productId || batch.product.toLowerCase().includes(name.toLowerCase()));
     const productTests = tests.filter((test) => test.productId === productId || test.product.toLowerCase().includes(name.toLowerCase()));
     const rawStatus = field(markdown, 'Current stage') || field(markdown, 'Status') || 'UNKNOWN';
-    const formats = field(markdown, 'Formats') || (productId ? 'Sauce' : 'Cordial');
+    const formats = field(markdown, 'Formats') || (productId ? 'Preparation' : 'Cordial');
     const applications = field(markdown, 'Applications')?.split(';').map((value) => value.trim()).filter(Boolean) || (productId ? ['Matcha'] : []);
     const primaryUse = field(markdown, 'Primary use') || (productId ? `Iced ${name.replace(/ Matcha Sauce$/i, '').toLowerCase()} matcha` : 'Multi-category development candidate; not yet tested');
     const developmentQuestion = paragraphs(section(markdown, 'Development question'))[0] || null;
@@ -230,7 +230,7 @@ function getProducts(recipes, batches, tests) {
     return {
       key: productId || entry.name, id: productId || `ROUND 1 / ${code}`, productId: productId || null, code, name,
       type: formats, status: normalizeProductStatus(rawStatus, productId), rawStatus,
-      provenance: activeBatch?.provenance || 'UNKNOWN — no formulation selected', mainFlavor: name.replace(' Sauce', ''),
+      provenance: activeBatch?.provenance || 'UNKNOWN — no formulation selected', mainFlavor: name.split(/[–—-]/)[0].trim(),
       applications, currentVersion: activeBatch ? `${activeBatch.id} · ${activeBatch.version}` : 'Not selected',
       approval: 'EXPERIMENTAL — NOT YET APPROVED', overview, developmentQuestion, nextAction,
       primaryUse,
