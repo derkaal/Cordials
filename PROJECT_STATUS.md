@@ -32,7 +32,7 @@ PB-001 remains sauce-led. PB-002 and PB-003 treat a cooked, glass-cling purée p
 | Food science / preservation / shelf life | Initial vacuum/freezing boundary validated | BfR/BZfE/CASO guidance recorded; no product shelf life established | Validate wider claims and open freeze–thaw work only after product-performance gates |
 | Economics and waste | Awaiting migration | Existing wider-project research | Separate sourced facts, assumptions, calculations, and measured data |
 | Equipment and procurement | Active pilot equipment assessed | Sous vide not required for the 103°C purée-preparation sources; freeze-first VC10 handling recorded | Receive/check equipment and use only for a later justified process |
-| Dashboard access | Hosted mirror prepared | Private ChatGPT Site reads the generated GitHub snapshot and canonical records; hosted writes intentionally disabled | Use the hosted URL on phone; continue recording edits locally or in the repository |
+| Dashboard access | Hosted and deployed | Private ChatGPT Site at `https://cordials-control-room.adonath.chatgpt.site` reads the generated GitHub snapshot and canonical records; hosted writes intentionally disabled | Open it on phone while signed in to the same ChatGPT account; continue recording edits locally or in the repository |
 | Publishing landscape | Awaiting migration | Existing wider-project research | Validate and cite competitive research |
 | Book structure | Not started | Outline placeholder | Draft after core research import |
 | Manuscript | Not started | Chapter placeholders | Begin only when evidence base is ready |

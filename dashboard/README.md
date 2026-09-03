@@ -16,7 +16,7 @@ The application has no third-party runtime dependencies. Node.js 20 or newer is 
 
 ## Phone-accessible hosted mirror
 
-The private ChatGPT Site is a read-only mirror. Its recipe, batch, shopping, equipment, source, and project data come from `dashboard/data-snapshot.json` on the public GitHub `main` branch. Repository pushes automatically refresh that snapshot through `.github/workflows/refresh-dashboard-snapshot.yml`; the hosted page reads the latest snapshot and canonical Markdown/CSV records directly from GitHub.
+Open the private [Cordials Control Room](https://cordials-control-room.adonath.chatgpt.site) while signed in to the same ChatGPT account. It is a read-only mirror. Its recipe, batch, shopping, equipment, source, and project data come from `dashboard/data-snapshot.json` on the public GitHub `main` branch. Repository pushes automatically refresh that snapshot through `.github/workflows/refresh-dashboard-snapshot.yml`; the hosted page reads the latest snapshot and canonical Markdown/CSV records directly from GitHub.
 
 Keep feedback, notes, shopping-state changes, and formulation edits in the local dashboard or repository. The hosted mirror deliberately does not create a second writable data store.
 
