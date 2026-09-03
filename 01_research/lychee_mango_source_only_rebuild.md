@@ -2,6 +2,8 @@
 
 Date: 2026-08-31
 
+Scope note (2026-09-03): this record governs the glass-cling sauce tracks only. The separate cordial tracks are documented in `lychee_mango_dual_format_strategy.md`; neither track supersedes the other.
+
 ## Governing constraint
 
 Active recipe, batch, and application formulations must be exact sourced recipes or explicit adaptations of sourced recipes from commercially active/professional sources. The discarded V01 lychee and mango plans were unexecuted original formulations and are not retained as development candidates.

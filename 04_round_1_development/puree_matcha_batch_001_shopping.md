@@ -2,7 +2,7 @@
 
 Status: **PURCHASE/RECEIPT AND MEASUREMENTS PENDING**
 
-The first valid lychee batch uses the canned lychees already on hand as a declared substitution in PR-0019. The first valid mango batch uses the exact Boiron purée named by PR-0020. Both batches require NH pectin because it is part of the professional source formulations.
+The first sauce batches remain unchanged: lychee uses the canned fruit as a declared substitution in PR-0019, and mango uses the Boiron purée named by PR-0020. Both sauce batches require NH pectin. The new cordial tracks are separate and do not use NH pectin.
 
 ## Buy
 
@@ -35,6 +35,17 @@ The first valid lychee batch uses the canned lychees already on hand as a declar
 | Item | Decision |
 |---|---|
 | Boiron frozen 100% lychee purée, 1 kg, BOS FOOD article 59186 | Buy only if the canned-input adaptation fails or an exact-brand PR-0019 execution is desired. SRC-2026-062 listed EUR 22.95 plus applicable shipping at research time. |
+
+## Cordial-track items — resolve before buying
+
+These are not blockers for the current sauce Batch 001 work.
+
+| Track | Source requirements | Current decision |
+|---|---|---|
+| Lychee cordial / PR-0022 | One 560 g can lychees; 150 g caster sugar; 10 g food-grade citric acid; 1 g sea salt; coffee filter/Chemex or cheesecloth/strainer | Record the on-hand can first. Buy or allocate the remaining items only after the can-size and canning-liquid interpretation gate is resolved. |
+| Mango cordial / PR-0021 | 400 g mango juice; 8 g Töufood Pectinäse; 8 g Töufood Invertäse; sugar to 50 Brix; Töufood Citrus Blend diluted 1:9; filtration material; liquid-compatible sealed bag | Do not buy yet. Confirm whether to pursue the specialist enzyme route, then verify exact variants, packs, German delivery, and sealing method through SRC-2026-072. |
+
+The ordered Boiron mango purée is not silently treated as the mango juice specified by PR-0021. Using it for the cordial would require a declared adaptation.
 
 ## Canned lychee — measure before the batch
 

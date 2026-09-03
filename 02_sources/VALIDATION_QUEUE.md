@@ -18,6 +18,15 @@ Scope: source retrieval and direct comparison only; no broad recipe hunt
 
 All shelf-life statements remain source-stated operational guidance only.
 
+## Dual-format cordial findings ingested 2026-09-03
+
+| Recipe | Threshold A | Threshold B | Threshold C | Canonical result |
+|---|---|---|---|---|
+| PR-0021 Michal Dojčák Mango Cordial with enzymes | PASS | PASS | FAIL | Exact process-defined source recorded; specialist-input, juice/purée, and liquid-sealing gates remain before a batch adaptation |
+| PR-0022 Barney Toy Salted Lychee Cordial | PASS WITH CAN-CONTENTS GATE | PASS | FAIL | Exact source recorded; user's can size and source treatment of canning liquid must be resolved before batching |
+
+These records restore separate cordial lineages for PB-002 and PB-003. They do not modify or supersede the Boiron sauce sources PR-0019 and PR-0020.
+
 ## Validation thresholds
 
 These thresholds are independent. Passing one does not imply passing another.

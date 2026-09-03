@@ -2,6 +2,14 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-09-03 — Parallel sauce and cordial tracks restored
+
+- Reframed PB-002 Lychee and PB-003 Mango as dual-format developments: the glass-cling sauces remain active, while separate filtered/clarified cordials restore broader tea, matcha, zero-proof, carbonation, and cocktail potential.
+- Added PR-0022, Barney Toy's professionally published filtered canned-lychee cordial, as the preferred lychee-cordial lineage.
+- Added PR-0021, Michal Dojčák's enzyme-clarified, 50-Brix mango cordial, as the preferred mango-cordial lineage; its green-tea dilution and cocktail/carbonation contexts are source-stated.
+- Opened no cordial batch and invented no application recipe. Lychee can interpretation and mango input/specialist-equipment procurement remain explicit gates.
+- Updated the dashboard to display repository-defined formats, applications, and primary uses instead of labeling every PB record as sauce-only.
+
 ## 2026-08-31 — Whole-gram Lychee/Mango batch correction
 
 - Replaced the awkward 1.8 g/1.4 g pectin and 22.5 g sugar portions with disclosed whole-gram adaptations derived from the same Boiron sources.

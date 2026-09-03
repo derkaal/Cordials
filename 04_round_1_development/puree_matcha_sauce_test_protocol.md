@@ -2,7 +2,7 @@
 
 ## Scope
 
-Applies to PB-002 Lychee Matcha Sauce and PB-003 Mango Matcha Sauce. This is an `ORIGINAL EXPERIMENTAL METHOD`, not a recipe formulation or standard rheology method. Original methods remain permitted under the source-only formulation rule.
+Applies only to the glass-cling sauce tracks within PB-002 Lychee and PB-003 Mango. It does not evaluate their parallel cordial tracks. This is an `ORIGINAL EXPERIMENTAL METHOD`, not a recipe formulation or standard rheology method. Original methods remain permitted under the source-only formulation rule.
 
 ## Fixed samples per fruit
 
