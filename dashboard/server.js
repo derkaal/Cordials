@@ -12,6 +12,7 @@ const HOST = process.env.CORDIALS_HOST || '127.0.0.1';
 const PRODUCT_CODES = {
   yuzu: 'YUZU', strawberry_vanilla: 'STRVAN', peach_tea_thyme: 'PECTHY',
   lychee: 'LYCH', pandan: 'PAND', mango: 'MANG', pumpkin_matcha: 'PUMPMAT',
+  pistachio: 'PIST', roasted_hazelnut: 'HAZEL', black_sesame: 'BLKSES',
 };
 
 function repoPath(relativePath) {
@@ -258,11 +259,13 @@ function getShopping(sourceMap) {
     return { itemKey, productLabel: 'PB-001 / Batch 001', group: 'Optional / benchmark', item: line.split('.')[0], priority: 'OPTIONAL', selection: line, quantity: '', reason: 'Optional — not a Batch 001 blocker', sourceId, url: sourceMap.get(sourceId)?.url || null, sourceStatus: '', state: latestState.get(itemKey)?.state || 'Not needed', recordPath: pumpkinPath };
   });
   const fruitPath = '04_round_1_development/puree_matcha_batch_001_shopping.md', fruit = read(fruitPath);
+  const autumnPath = '04_round_1_development/autumn_nutty_research_shopping.md', autumn = read(autumnPath);
   return [
     ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Batch 001', 'PB-001', 'Buy', 'Need now', 'Required for PB-001 / Batch 001'),
     ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Batch 001', 'PB-001', 'Confirm from existing stock', 'Need now', 'Confirm before PB-001 / Batch 001'),
     ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Batch 001', 'PB-001', 'Ordered — receive and verify', 'Soon', 'Receive and verify for future work'),
     ...makeItems(fruit, fruitPath, 'PB-002 / PB-003 Batch 001', 'PB-002-003', 'Buy', 'Need now', 'Required for Lychee/Mango Batch 001'),
+    ...makeItems(autumn, autumnPath, 'PB-004 / PB-005 / PB-006 Research', 'PB-004-006', 'Buy', 'Research inputs', 'Required for autumn source-led comparison'),
     ...optional,
   ];
 }
@@ -276,7 +279,10 @@ function getEquipment(sourceMap) {
 }
 
 function getQueue(products) {
-  const cards = products.map((product) => ({ id: `QUEUE-${product.code}`, productId: product.productId || product.key, product: product.name, column: product.productId ? 'Ready for Test' : 'Research', task: product.productId ? 'Run Batch 001 and comparative cling pilot' : product.nextAction, blocker: product.productId ? 'Required ingredients and physical measurements pending' : 'Direct source validation / candidate selection pending', nextAction: product.nextAction }));
+  const cards = products.map((product) => {
+    const ready = product.status === 'Ready to test';
+    return { id: `QUEUE-${product.code}`, productId: product.productId || product.key, product: product.name, column: ready ? 'Ready for Test' : 'Research', task: ready ? 'Run Batch 001 and comparative cling pilot' : product.nextAction, blocker: ready ? 'Required ingredients and physical measurements pending' : 'Complete professional formulation and input route not yet selected', nextAction: product.nextAction };
+  });
   const pb = read('04_round_1_development/pumpkin_matcha/PB-001.md');
   for (const row of markdownTables(section(pb, 'Pre-Batch-001 research gate'))[0]?.rows || []) {
     if (/OPEN|PENDING/i.test(row.Status)) cards.push({ id: row['Task ID'], productId: 'PB-001', product: 'Pumpkin Matcha Sauce', column: /OPEN/.test(row.Status) ? 'Research' : 'Blocked', task: row['Research task'], blocker: row.Status, nextAction: row['Completion condition'] });

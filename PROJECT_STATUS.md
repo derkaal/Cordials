@@ -1,13 +1,13 @@
 # Project Status
 
-Last updated: 2026-08-31
+Last updated: 2026-09-03
 
 ## Control summary
 
-- **CURRENT PHASE:** Research migration and consolidation; PB-001/PB-002/PB-003 product discovery active
-- **Repository content:** IMP-2026-001 partially validated; pumpkin sauce plus dual-format lychee and mango development active
+- **CURRENT PHASE:** Research migration and consolidation; PB-001 through PB-006 product discovery active
+- **Repository content:** IMP-2026-001 partially validated; pumpkin sauce, dual-format lychee/mango, and autumn nut/seed development active
 - **Active development round:** Round 1
-- **Active product cases:** PB-001 Pumpkin Matcha Sauce; PB-002 Lychee Purée Preparation and Cordial; PB-003 Mango Purée Preparation and Cordial
+- **Active product cases:** PB-001 Pumpkin Matcha Sauce; PB-002 Lychee Purée Preparation and Cordial; PB-003 Mango Purée Preparation and Cordial; PB-004 Pistachio; PB-005 Roasted Hazelnut; PB-006 Black Sesame
 - **Latest consequential change:** A private, phone-accessible ChatGPT Site mirrors the dashboard from the public GitHub `main` branch; the local dashboard remains the writable interface
 - **Active validation queue:** `02_sources/VALIDATION_QUEUE.md`
 
@@ -18,8 +18,13 @@ Last updated: 2026-08-31
 | PB-001 — Pumpkin Matcha Sauce | Materials/readiness stage before first pilot | KoRo 100% pumpkin purée ordered; FONTE control selected; PR-0014 chosen as V02 lineage | B-20260830-PUMPMAT-V02-01, GC-20260830-PB001-01, and AT-20260830-001 PLANNED; V01 superseded unexecuted | Receive/record KoRo; buy control and remaining gaps; calibrate refractometer; execute cling pilot |
 | PB-002 — Lychee Purée Preparation and Cordial | Dual-format: purée-preparation Batch 001 readiness; cordial source gate | Purée preparation: PR-0019 Boiron with canned-input substitution. Cordial: PR-0022 Barney Toy filtered canned-lychee formula. | Purée-preparation batch/pilot/application PLANNED; cordial source recipe visible; cordial batch NOT OPENED | Record can data; proceed with purée preparation; determine whether the 560 g-can cordial source can be executed exactly |
 | PB-003 — Mango Purée Preparation and Cordial | Dual-format: purée-preparation Batch 001 readiness; specialist cordial gate | Purée preparation: PR-0020 Boiron. Cordial: PR-0021 Michal Dojčák enzyme-clarified formula. | Purée-preparation batch/pilot/application PLANNED; cordial source recipe visible; cordial batch NOT OPENED | Proceed with purée preparation; decide on specialist enzyme route and resolve juice input, procurement, and liquid sealing |
+| PB-004 — Pistachio Paste Preparation and Syrup | Research/source-selection gate | Viani 95 g 100% paste; MONIN control; PR-0023 exact 1883 Pistachio & Chaï application; METRO 1 kg kernel lead | NO BATCH OPENED | Select a complete professional paste-preparation or house-syrup formula; do not buy bulk kernels yet |
+| PB-005 — Roasted Hazelnut Paste Preparation and Syrup | Research/source-selection gate | KoRo 500 g 100% roasted paste; MONIN control; PR-0024 exact 1883 cocktail application; METRO whole-nut lead | NO BATCH OPENED | Find complete professional paste-based beverage and house-syrup formulations; keep four-pack METRO lead deferred |
+| PB-006 — Black Sesame Paste Preparation | Research/source-conversion gate | PR-0025 exact Vitamix seed-to-paste/latte; PR-0026 Health Bar matcha glass-wall precedent; German 250 g 100% paste lead | NO BATCH OPENED | Resolve whole-gram source conversion, blender capability, purchased-paste adaptation and first control |
 
 PB-001 remains sauce-led. PB-002 and PB-003 treat a cooked, glass-cling purée preparation and a cordial as parallel functional classes; neither format supersedes the other.
+
+PB-004/PB-005 keep nut-paste and syrup routes separate. PB-006 begins as a black-sesame paste preparation only; no clear cordial track is authorised. Chestnut is excluded by user decision.
 
 ## Workstreams
 
@@ -39,6 +44,7 @@ PB-001 remains sauce-led. PB-002 and PB-003 treat a cooked, glass-cling purée p
 | PB-001 product development | Batch/pilot planned | Practical weight-based V02 adaptation with no modifier; comparative control method | Complete readiness list and run GC-20260830-PB001-01 |
 | PB-002/PB-003 product development | Dual-format | Purée preparation: Boiron confit/compote ratios with NH pectin and MONIN controls. Cordial: filtered PR-0022 lychee and enzyme-clarified PR-0021 mango. | Run purée-preparation pilots; resolve cordial input/procurement gates before opening separate batches |
 | Sweetener review | Initial decision complete | No exact same-taste/clearly-healthier replacement identified; pure D-tagatose is the leading later research candidate | Keep all Batch 001 formulas unchanged; seek a professional/commercial tagatose formulation before any post-gate adaptation |
+| Autumn nut/seed development | Three research cases opened | German paste inputs, MONIN controls, exact application precedents and METRO bulk leads recorded | Select complete preparation formulations; do not open batches or buy bulk nuts before their gates pass |
 
 ## Round 1 status
 
@@ -50,6 +56,9 @@ PB-001 remains sauce-led. PB-002 and PB-003 treat a cooked, glass-cling purée p
 | Lychee | PR-0019 exact confit/compote source; PR-0022 exact filtered-cordial source; PR-0016 matcha precedent | Dual-format PB-002 active | Purée-preparation B-20260831-LYCH-V02-01 planned; cordial batch not opened | Purée-preparation AT-20260831-004 planned; cordial applications not opened | Can-size/liquid interpretation plus glass visibility require measurement |
 | Pandan | PR-0009 B pass; A conditional | Not started | None | None | Capture linked simple-syrup definition; alcoholic limitation |
 | Mango | PR-0020 exact confit/compote source; PR-0021 exact process-defined cordial source; PR-0017/0018 application/service precedents | Dual-format PB-003 active | Purée-preparation B-20260831-MANG-V02-01 planned; cordial batch not opened | Purée-preparation AT-20260831-005 planned; cordial applications not opened | Cordial requires juice/purée decision, specialist inputs, and liquid-sealing method |
+| Pistachio | PR-0023 exact commercial chai/coffee application; German 100% paste and syrup controls identified | PB-004 research active | None | None | Complete house paste/syrup formulation source missing; bulk kernels deferred |
+| Roasted Hazelnut | PR-0024 exact commercial cocktail application; German 100% paste and syrup controls identified | PB-005 research active | None | None | Complete house paste/syrup formulation source missing; whole-nut process not justified yet |
+| Black Sesame | PR-0025 exact seed-to-paste/latte; PR-0026 exact commercial matcha/glass-wall application | PB-006 research active | None | None | Whole-gram conversion, equipment equivalence, purchased-paste adaptation and control unresolved |
 
 ## Open research questions
 
@@ -68,6 +77,10 @@ PB-001 remains sauce-led. PB-002 and PB-003 treat a cooked, glass-cling purée p
 - For each fruit, when does the cordial outperform the purée preparation in tea, matcha, carbonation, zero-proof service, and cocktails?
 - Does the filtered/clarified cordial retain enough recognisable fruit character to justify its added process and yield loss?
 - What constitutes meaningful cross-category versatility and utilisation?
+- For pistachio and roasted hazelnut, which complete professional formulation can support a real-nut paste preparation without reverse-engineering a commercial syrup?
+- Does purchased 100% nut paste provide better first-pilot reproducibility than in-house roasting and grinding, and at what measured volume would the latter become worthwhile?
+- Can the available blender reproduce the smoothness required by the exact Vitamix black-sesame source?
+- What like-for-like commercial or sourced control best anchors the first PB-006 comparison?
 
 ## Experiments awaiting execution
 
@@ -112,6 +125,21 @@ Full list: `04_round_1_development/pumpkin_matcha/shopping_list_batch_001.md`.
 | OPTIONAL LATER | Exact-brand lychee purée | 1 × Boiron frozen 100% lychee purée 1 kg, BOS FOOD article 59186, only for a later exact-brand PR-0019 execution. |
 
 Full list: `04_round_1_development/puree_matcha_batch_001_shopping.md`.
+
+## PB-004 / PB-005 / PB-006 — research-stage items and bulk-route decision
+
+| Status | Product | Exact selection/action |
+|---|---|---|
+| BUY FOR SOURCE-LED DEVELOPMENT | Pistachio paste | 1 × Viani 100% Pistazienmark, 95 g; physical label and price control |
+| BUY FOR CONTROL | Pistachio syrup | 1 × MONIN Pistachio, 0.7 L |
+| BUY FOR SOURCE-LED DEVELOPMENT | Roasted-hazelnut paste | 1 × KoRo Haselnussmus, 500 g, 100% roasted hazelnut |
+| BUY FOR CONTROL | Roasted-hazelnut syrup | 1 × MONIN Roasted Hazelnut; choose available pack and record it |
+| BUY FOR SOURCE-LED DEVELOPMENT | Black-sesame paste | 1 × machdeineis.de 100% black-sesame paste, 250 g; price remains to be captured |
+| DEFER | Whole pistachios | METRO Chef peeled kernels, 1 kg, article AAA0000920671; revisit after paste-led sensory/volume gate |
+| DEFER | Whole hazelnuts | METRO Chef Römer hazelnuts, 1 kg, article AAA0000909709; do not buy current four-pack online minimum for Batch 001 |
+| RESOLVE BEFORE BUYING | Whole black sesame | Retain as a meaningful PR-0025-supported comparison; verify exact product, blender capability and whole-gram formula first |
+
+Full list and rationale: `04_round_1_development/autumn_nutty_research_shopping.md`.
 
 ## PB-002 / PB-003 — cordial-track gates before buying
 
@@ -160,6 +188,7 @@ None. No production formulation has completed the required testing and validatio
 | 2026-08-31 | Limit new active formulations to exact sourced recipes or disclosed adaptations. | Enforces the agreed professional/commercial source-only rule; original test methods remain allowed. | `README.md`; `00_project_control/DATA_DICTIONARY.md` |
 | 2026-08-31 | Remove invalid unexecuted lychee/mango plans and retire their IDs. | They were not experiments and were never built under the agreed rule. | `CHANGELOG.md` |
 | 2026-09-03 | Retain parallel purée-preparation and cordial tracks for lychee and mango. | The glass-cling purée preparation serves matcha presentation; the filtered/clarified cordial preserves broader tea, carbonation, zero-proof, and cocktail versatility. Neither format supersedes the other. | `01_research/lychee_mango_dual_format_strategy.md`; PR-0021; PR-0022 |
+| 2026-09-03 | Open pistachio, roasted hazelnut and black sesame; exclude chestnut. | Expands autumn development while preserving distinct paste and syrup functions. Ready-made 100% pastes minimise first-pilot variables; METRO whole nuts remain later comparisons. | `01_research/autumn_nutty_candidate_screen.md`; PB-004; PB-005; PB-006 |
 
 ## Next actions
 
@@ -174,6 +203,8 @@ None. No production formulation has completed the required testing and validatio
 9. Select sourced or explicitly authorised cordial application builds and purchasable controls for tea, matcha, zero-proof soda, and cocktails; compare without preset numerical thresholds.
 10. After each format passes its own flavour and service gates, decide whether a separately registered freeze–thaw quality pilot is worth opening. Do not assign a shelf life.
 11. Continue the existing source-validation queue; retain PR-0012 only as a scaling-ambiguous secondary mango benchmark.
+12. For PB-004 and PB-005, select complete professional paste-preparation and syrup lineages before opening batches; use the small/single-jar paste inputs first and defer METRO bulk nuts.
+13. For PB-006, resolve PR-0025's practical gram conversions and blender-equivalence gate, then decide between exact seed-to-paste execution and a disclosed purchased-paste adaptation.
 
 ## Blockers and risks
 

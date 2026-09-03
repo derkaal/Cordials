@@ -2,6 +2,14 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-09-03 — Autumn nut and seed workstreams opened
+
+- Excluded chestnut and opened PB-004 Pistachio, PB-005 Roasted Hazelnut and PB-006 Black Sesame at the research/source-selection stage.
+- Kept nut/seed pastes distinct from fruit purées and commercial syrups; no house formulation or batch was invented.
+- Recorded exact professional/commercial applications for pistachio chai, a roasted-hazelnut cocktail, and two black-sesame matcha/latte builds.
+- Added German small-pack paste inputs, MONIN syrup controls, and METRO bulk kernel leads.
+- Chose ready-made 100% pastes as the first low-variable inputs; whole pistachios and hazelnuts remain later process/cost comparisons, while whole black sesame remains a meaningful source-supported comparison.
+
 ## 2026-09-03 — Phone-accessible hosted dashboard
 
 - Added a private ChatGPT Site build for the existing dashboard, retaining its established visual system and responsive layout.

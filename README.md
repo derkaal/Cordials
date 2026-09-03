@@ -18,11 +18,11 @@ The repository remains the source of truth. Dashboard feedback, notes, and shopp
 
 ## Current status
 
-The repository is in the research migration and consolidation phase. PB-001 remains a pumpkin matcha-sauce case; PB-002 Lychee and PB-003 Mango each retain parallel glass-cling purée-preparation and filtered/clarified cordial tracks. Existing research from the wider project is **awaiting migration and validation**. Planned experimental recipes are not approved production recipes, and no empirical results are asserted before execution.
+The repository is in the research migration and consolidation phase. PB-001 remains a pumpkin matcha-sauce case; PB-002 Lychee and PB-003 Mango each retain parallel glass-cling purée-preparation and filtered/clarified cordial tracks. PB-004 Pistachio, PB-005 Roasted Hazelnut and PB-006 Black Sesame are active autumn research cases with no batch yet opened. Existing research from the wider project is **awaiting migration and validation**. Planned experimental recipes are not approved production recipes, and no empirical results are asserted before execution.
 
 The local dashboard remains the writable working interface. The private [phone-accessible Cordials Control Room](https://cordials-control-room.adonath.chatgpt.site) provides a read-only mirror that follows the generated dashboard snapshot on the public GitHub `main` branch; this keeps repository records authoritative and avoids a second writable data store.
 
-Round 1 candidates remain Yuzu, Strawberry–Vanilla, Peach–Tea–Thyme, Lychee, Pandan, and Mango. The active Lychee and Mango Matcha directions now deliberately test high-fruit purée preparations rather than assuming clarified cordials are superior. Strawberry development must account for seasonality and availability.
+Round 1 candidates remain Yuzu, Strawberry–Vanilla, Peach–Tea–Thyme, Lychee, Pandan, and Mango. The autumn extension adds Pistachio, Roasted Hazelnut and Black Sesame. Nut/seed pastes are not described as fruit purées and remain distinct from syrup tracks. The active Lychee and Mango Matcha directions deliberately test high-fruit purée preparations rather than assuming clarified cordials are superior. Strawberry development must account for seasonality and availability.
 
 PB-001 Pumpkin is treated as a sauce case because cold-glass decoration, wall retention, and purée-led flavour are central functions. PB-002 Lychee and PB-003 Mango keep a glass-cling purée-preparation option while separately developing pourable cordials for broader tea, matcha, zero-proof, carbonated, and cocktail service. No format has a validated shelf life or production approval.
 
