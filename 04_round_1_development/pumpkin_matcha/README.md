@@ -1,11 +1,14 @@
 # Pumpkin Matcha Sauce — PB-001
 
 - **Product ID:** PB-001
+- **Priority:** HIGH — CURRENT SEASONAL PROGRAMME
+- **Priority rank:** 1
 - **Current stage:** Batch 001 and comparative pilot planned; materials/measurements pending
 - **Preparation classification:** TBD — sauce is the current functional descriptor; cordial is not assumed
 - **Batch status:** `B-20260830-PUMPMAT-V02-01` planned — practical weight-based source adaptation without texture modifier; V01 superseded before execution
 - **Primary record:** `PB-001.md`
 - **Research synthesis:** `../../01_research/pumpkin_matcha_professional_research.md`
+- **Research record:** `01_research/pumpkin_matcha_professional_research.md`
 - **Glass-cling protocol:** `glass_cling_test_protocol.md`
 - **Exact pilot:** `GC-20260830-PB001-01.md`
 - **Application build:** `../../06_application_testing/tests/AT-20260830-001.md`

@@ -16,9 +16,9 @@ The application has no third-party runtime dependencies. Node.js 20 or newer is 
 
 ## Phone-accessible hosted mirror
 
-Open the private [Cordials Control Room](https://cordials-control-room.adonath.chatgpt.site) while signed in to the same ChatGPT account. It is a read-only mirror. Its recipe, batch, shopping, equipment, source, and project data come from `dashboard/data-snapshot.json` on the public GitHub `main` branch. Repository pushes automatically refresh that snapshot through `.github/workflows/refresh-dashboard-snapshot.yml`; the hosted page reads the latest snapshot and canonical Markdown/CSV records directly from GitHub.
+Open the private [Cordials Control Room](https://cordials-control-room.adonath.chatgpt.site) while signed in to the same ChatGPT account. The phone view can browse every surfaced brief, research decision, recipe, batch, shopping item and source record. It does not currently write changes. Its data come from `dashboard/data-snapshot.json` on the public GitHub `main` branch. Repository pushes automatically refresh that snapshot through `.github/workflows/refresh-dashboard-snapshot.yml`; the hosted page reads the latest snapshot and canonical Markdown/CSV records directly from GitHub.
 
-Keep feedback, notes, shopping-state changes, and formulation edits in the local dashboard or repository. The hosted mirror deliberately does not create a second writable data store.
+Use the local café-computer dashboard for feedback, notes and shopping-state changes. Formulation edits remain repository work. The hosted view is labelled as viewing mode so this distinction is visible rather than implied.
 
 If you prefer npm in PowerShell, use `npm.cmd --prefix dashboard start`. Some Windows installations block the `npm.ps1` wrapper under their PowerShell execution policy; calling `npm.cmd` avoids that wrapper and does not require weakening the policy.
 

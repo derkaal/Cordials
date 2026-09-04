@@ -2,11 +2,14 @@
 
 - **Product ID:** PB-004
 - **Short code:** PIST
+- **Priority:** HIGH — CURRENT SEASONAL PROGRAMME
+- **Priority rank:** 2
 - **Formats:** Pistachio paste preparation + syrup
 - **Applications:** Matcha; tea with milk; coffee; zero-proof drinks; cocktails
 - **Primary use:** Premium autumn matcha and café-drink development
 - **Current stage:** Researching; German inputs and commercial syrup control identified; no batch opened
 - **Primary record:** `PB-004.md`
+- **Research record:** `01_research/autumn_nutty_candidate_screen.md`
 
 ## Current position
 

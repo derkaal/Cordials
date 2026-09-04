@@ -2,6 +2,8 @@
 
 - **Product ID:** PB-002
 - **Short code:** LYCH
+- **Priority:** SECONDARY — AFTER CURRENT SEASONAL PROGRAMME
+- **Priority rank:** 20
 - **Formats:** Glass-cling purée preparation + filtered cordial
 - **Applications:** Matcha; tea; zero-proof drinks; cocktails
 - **Primary use:** Parallel matcha purée and multi-category cordial development

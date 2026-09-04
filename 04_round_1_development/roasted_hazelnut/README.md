@@ -2,11 +2,14 @@
 
 - **Product ID:** PB-005
 - **Short code:** HAZEL
+- **Priority:** HIGH — CURRENT SEASONAL PROGRAMME
+- **Priority rank:** 3
 - **Formats:** Roasted-hazelnut paste preparation + syrup
 - **Applications:** Matcha; tea with milk; coffee; zero-proof drinks; cocktails
 - **Primary use:** Roasted autumn café and cocktail development
 - **Current stage:** Researching; German inputs and commercial syrup control identified; no batch opened
 - **Primary record:** `PB-005.md`
+- **Research record:** `01_research/autumn_nutty_candidate_screen.md`
 
 ## Current position
 

@@ -122,6 +122,14 @@ function normalizeProductStatus(raw, productId) {
   return raw || 'UNKNOWN';
 }
 
+function stageIndexFor(status, productId) {
+  if (status === 'Approved') return 6;
+  if (status === 'Testing') return 4;
+  if (status === 'Ready to test') return 3;
+  if (status === 'Researching') return 1;
+  return productId ? 2 : 0;
+}
+
 function readJsonl(filename) {
   const filePath = path.join(DATA_ROOT, filename);
   if (!fs.existsSync(filePath)) return [];
@@ -212,6 +220,10 @@ function getProducts(recipes, batches, tests) {
     const productBatches = batches.filter((batch) => batch.productId === productId || batch.product.toLowerCase().includes(name.toLowerCase()));
     const productTests = tests.filter((test) => test.productId === productId || test.product.toLowerCase().includes(name.toLowerCase()));
     const rawStatus = field(markdown, 'Current stage') || field(markdown, 'Status') || 'UNKNOWN';
+    const status = normalizeProductStatus(rawStatus, productId);
+    const priority = field(markdown, 'Priority') || 'STANDARD';
+    const priorityRank = Number(field(markdown, 'Priority rank')) || 100;
+    const researchRecordPath = field(markdown, 'Research record')?.replaceAll('`', '') || null;
     const formats = field(markdown, 'Formats') || (productId ? 'Preparation' : 'Cordial');
     const applications = field(markdown, 'Applications')?.split(';').map((value) => value.trim()).filter(Boolean) || (productId ? ['Matcha'] : []);
     const primaryUse = field(markdown, 'Primary use') || (productId ? `Iced ${name.replace(/ Matcha Sauce$/i, '').toLowerCase()} matcha` : 'Multi-category development candidate; not yet tested');
@@ -230,16 +242,16 @@ function getProducts(recipes, batches, tests) {
     const activeBatch = productBatches.find((batch) => !/SUPERSEDED|WITHDRAWN/i.test(batch.status)) || productBatches[0];
     return {
       key: productId || entry.name, id: productId || `ROUND 1 / ${code}`, productId: productId || null, code, name,
-      type: formats, status: normalizeProductStatus(rawStatus, productId), rawStatus,
+      type: formats, status, rawStatus, priority, priorityRank, researchRecordPath,
       provenance: activeBatch?.provenance || 'UNKNOWN — no formulation selected', mainFlavor: name.split(/[–—-]/)[0].trim(),
       applications, currentVersion: activeBatch ? `${activeBatch.id} · ${activeBatch.version}` : 'Not selected',
       approval: 'EXPERIMENTAL — NOT YET APPROVED', overview, developmentQuestion, nextAction,
       primaryUse,
       recipeIds: [...new Set([...ids(markdown + '\n' + productBrief, /PR-\d{4}/g), ...productRecipes.map((recipe) => recipe.id)])],
       sourceIds: ids(markdown + '\n' + productBrief, /SRC-\d{4}-\d{3}/g), batchIds: productBatches.map((batch) => batch.id),
-      testIds: productTests.map((test) => test.id), recordPath, briefPath, stageIndex: productId ? 3 : 1,
+      testIds: productTests.map((test) => test.id), recordPath, briefPath, stageIndex: stageIndexFor(status, productId),
     };
-  }).sort((a, b) => (a.productId ? -1 : 0) - (b.productId ? -1 : 0) || a.name.localeCompare(b.name));
+  }).sort((a, b) => a.priorityRank - b.priorityRank || (a.productId ? -1 : 0) - (b.productId ? -1 : 0) || a.name.localeCompare(b.name));
 }
 
 function getShopping(sourceMap) {
@@ -265,7 +277,7 @@ function getShopping(sourceMap) {
     ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Batch 001', 'PB-001', 'Confirm from existing stock', 'Need now', 'Confirm before PB-001 / Batch 001'),
     ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Batch 001', 'PB-001', 'Ordered — receive and verify', 'Soon', 'Receive and verify for future work'),
     ...makeItems(fruit, fruitPath, 'PB-002 / PB-003 Batch 001', 'PB-002-003', 'Buy', 'Need now', 'Required for Lychee/Mango Batch 001'),
-    ...makeItems(autumn, autumnPath, 'PB-004 / PB-005 / PB-006 Research', 'PB-004-006', 'Buy', 'Research inputs', 'Required for autumn source-led comparison'),
+    ...makeItems(autumn, autumnPath, 'PB-004 / PB-005 / PB-006 Research', 'PB-004-006', 'Buy', 'High-priority research', 'Required for autumn source-led comparison'),
     ...optional,
   ];
 }
@@ -281,7 +293,7 @@ function getEquipment(sourceMap) {
 function getQueue(products) {
   const cards = products.map((product) => {
     const ready = product.status === 'Ready to test';
-    return { id: `QUEUE-${product.code}`, productId: product.productId || product.key, product: product.name, column: ready ? 'Ready for Test' : 'Research', task: ready ? 'Run Batch 001 and comparative cling pilot' : product.nextAction, blocker: ready ? 'Required ingredients and physical measurements pending' : 'Complete professional formulation and input route not yet selected', nextAction: product.nextAction };
+    return { id: `QUEUE-${product.code}`, productId: product.productId || product.key, product: product.name, priority: product.priority, priorityRank: product.priorityRank, column: ready ? 'Ready for Test' : 'Research', task: ready ? 'Run Batch 001 and comparative cling pilot' : product.nextAction, blocker: ready ? 'Required ingredients and physical measurements pending' : 'Complete professional formulation and input route not yet selected', nextAction: product.nextAction };
   });
   const pb = read('04_round_1_development/pumpkin_matcha/PB-001.md');
   for (const row of markdownTables(section(pb, 'Pre-Batch-001 research gate'))[0]?.rows || []) {
@@ -298,8 +310,13 @@ function buildData() {
   const shopping = getShopping(sourceMap), equipment = getEquipment(sourceMap);
   return {
     generatedAt: new Date().toISOString(),
-    summary: { products: products.length, activeDevelopment: products.filter((p) => p.status !== 'Archived').length, professionalRecipes: recipes.length, exactRecipes: recipes.filter((r) => r.provenance === 'EXACT SOURCED RECIPE').length, batches: batches.length, readyToTest: batches.filter((b) => /PLANNED/.test(b.status)).length, applicationTests: tests.length, equipment: equipment.length, approved: products.filter((p) => p.status === 'Approved').length, shoppingNeed: shopping.filter((item) => item.group === 'Need now' && !['Bought','Available','Not needed'].includes(item.state)).length, researchNeeded: products.filter((p) => p.status === 'Researching').length, feedback: feedback.length },
+    summary: { products: products.length, activeDevelopment: products.filter((p) => p.status !== 'Archived').length, highPriority: products.filter((p) => /^HIGH/i.test(p.priority)).length, professionalRecipes: recipes.length, exactRecipes: recipes.filter((r) => r.provenance === 'EXACT SOURCED RECIPE').length, batches: batches.length, readyToTest: batches.filter((b) => /PLANNED/.test(b.status)).length, applicationTests: tests.length, equipment: equipment.length, approved: products.filter((p) => p.status === 'Approved').length, shoppingNeed: shopping.filter((item) => ['Need now','High-priority research'].includes(item.group) && !['Bought','Available','Not needed'].includes(item.state)).length, researchNeeded: products.filter((p) => p.status === 'Researching').length, feedback: feedback.length },
     products, recipes, batches, tests, sources, feedback, notes, shopping, equipment, queue: getQueue(products),
+    projectRecords: [
+      { id: 'PRIORITY-PUMPKIN', title: 'Pumpkin professional research', description: 'Professional references, commercial control and texture evidence for PB-001.', recordPath: '01_research/pumpkin_matcha_professional_research.md', productIds: ['PB-001'] },
+      { id: 'PRIORITY-AUTUMN-NUTTY', title: 'Autumn nut and seed candidate screen', description: 'Paste, whole-nut/seed and METRO route decisions for PB-004, PB-005 and PB-006.', recordPath: '01_research/autumn_nutty_candidate_screen.md', productIds: ['PB-004','PB-005','PB-006'] },
+      { id: 'PROJECT-STATUS', title: 'Current project status', description: 'Priorities, buying needs, open measurements and next actions across the programme.', recordPath: 'PROJECT_STATUS.md', productIds: ['PB-001','PB-004','PB-005','PB-006'] },
+    ],
     pipeline: ['Brief', 'Research', 'Candidate', 'Batch', 'Drink Test', 'Evaluation', 'Approved'],
   };
 }

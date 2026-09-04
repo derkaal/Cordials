@@ -2,6 +2,14 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-09-04 — Seasonal priorities and dashboard navigation clarified
+
+- Made PB-001 Pumpkin, PB-004 Pistachio, PB-005 Roasted Hazelnut and PB-006 Black Sesame the explicit high-priority seasonal programme; PB-002 Lychee and PB-003 Mango remain active but secondary.
+- Added a priority-first Control Room surface and priority labels throughout the recipe and project views.
+- Surfaced the pumpkin research synthesis and autumn nut/seed candidate screen directly from the Control Room, Research Library and relevant product pages.
+- Clarified that the phone dashboard is a complete browsing view while edits remain on the local café-computer dashboard; no writable phone data store was implied.
+- Made the autumn research shopping group visible; it had been parsed but omitted by the previous fixed shopping-section list.
+
 ## 2026-09-03 — Autumn nut and seed workstreams opened
 
 - Excluded chestnut and opened PB-004 Pistachio, PB-005 Roasted Hazelnut and PB-006 Black Sesame at the research/source-selection stage.

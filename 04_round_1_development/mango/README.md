@@ -2,6 +2,8 @@
 
 - **Product ID:** PB-003
 - **Short code:** MANG
+- **Priority:** SECONDARY — AFTER CURRENT SEASONAL PROGRAMME
+- **Priority rank:** 21
 - **Formats:** Glass-cling purée preparation + clarified cordial
 - **Applications:** Matcha; tea; zero-proof drinks; cocktails
 - **Primary use:** Parallel matcha purée and multi-category cordial development

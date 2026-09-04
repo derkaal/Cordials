@@ -2,11 +2,14 @@
 
 - **Product ID:** PB-006
 - **Short code:** BLKSES
+- **Priority:** HIGH — CURRENT SEASONAL PROGRAMME
+- **Priority rank:** 4
 - **Formats:** Black-sesame paste preparation
 - **Applications:** Matcha; tea with milk; coffee; zero-proof milk drinks
 - **Primary use:** Visually distinctive roasted matcha speciality
 - **Current stage:** Researching; exact seed-to-paste and matcha precedents recorded; no batch opened
 - **Primary record:** `PB-006.md`
+- **Research record:** `01_research/autumn_nutty_candidate_screen.md`
 
 ## Current position
 
