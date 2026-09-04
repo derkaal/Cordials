@@ -18,7 +18,7 @@ The repository remains the source of truth. Dashboard feedback, notes, and shopp
 
 ## Current status
 
-The current high-priority seasonal programme is PB-001 Pumpkin, PB-004 Pistachio, PB-005 Roasted Hazelnut and PB-006 Black Sesame. PB-002 Lychee and PB-003 Mango remain active but secondary until the seasonal programme has advanced. The nut/seed cases are still at the research gate and therefore do not yet display invented project batches. Existing research from the wider project is **awaiting migration and validation**. Planned experimental recipes are not approved production recipes, and no empirical results are asserted before execution.
+The current high-priority seasonal programme is PB-001 Pumpkin, PB-004 Pistachio, PB-005 Roasted Hazelnut and PB-006 Black Sesame. PB-001 now separates a Boiron-derived glass-cling pumpkin purée preparation from an exact Vitamix pumpkin-spice syrup; the KoRo 100% pumpkin input is user-reported received but its physical measurements remain open. PB-002 Lychee and PB-003 Mango remain active but secondary until the seasonal programme has advanced. The nut/seed cases are still at the research gate and therefore do not yet display invented project batches. Existing research from the wider project is **awaiting migration and validation**. Planned experimental recipes are not approved production recipes, and no empirical results are asserted before execution.
 
 The local dashboard remains the writable working interface. The private [phone-accessible Cordials Control Room](https://cordials-control-room.adonath.chatgpt.site) provides a read-only mirror that follows the generated dashboard snapshot on the public GitHub `main` branch; this keeps repository records authoritative and avoids a second writable data store.
 

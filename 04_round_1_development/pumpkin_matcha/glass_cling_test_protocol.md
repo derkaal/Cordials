@@ -35,7 +35,7 @@ Test at minimum:
 2. the unmodified chosen pumpkin purée/input;
 3. each candidate preparation.
 
-For the first pilot these are fixed as FONTE Gourmet Pumpkin Spice Sauce (`SRC-2026-029` to `SRC-2026-031`), KoRo Kürbispüree (`SRC-2026-026`/`027`), and `B-20260830-PUMPMAT-V02-01`. See `GC-20260830-PB001-01.md`.
+For the first pilot these are fixed as FONTE Gourmet Pumpkin Spice Sauce (`SRC-2026-029` to `SRC-2026-031`), unmodified KoRo Kürbispüree (`SRC-2026-026`/`027`), and the Boiron-derived `B-20260904-PUMPPURE-V01-01`. The separate Vitamix pumpkin-spice syrup is excluded because its function is pourable sweetness, not cling. See `GC-20260830-PB001-01.md`.
 
 Optional thin negative control: maple syrup or 1:1 sugar syrup, identified exactly. Controls are comparators, not automatic pass/fail standards.
 

@@ -1,69 +1,81 @@
-# PB-001 — Batch 001 Shopping and Readiness List
+# PB-001 — Dual-Format Batch 001 Shopping and Readiness List
 
-Status: **KORO PUMPKIN PURÉE ORDERED; OTHER PURCHASE/RECEIPT AND MEASUREMENTS PENDING**
-Applies to: `B-20260830-PUMPMAT-V02-01`, `GC-20260830-PB001-01`, `AT-20260830-001`
-Price/availability snapshot: 2026-08-30
+Status: **KORO PURÉE ARRIVED; PHYSICAL CAN RECORD AND REMAINING ITEMS PENDING**
 
-## Buy
+Applies to: `B-20260904-PUMPPURE-V01-01`, `B-20260904-PUMPSYR-V01-01`, and `GC-20260830-PB001-01`
 
-| Priority | Item | Exact selection | Quantity | Source/price status | Why needed |
-|---|---|---|---:|---|---|
-| ORDERED — RECEIVE/VERIFY | Pumpkin purée | KoRo Kürbispüree, 425 g, 100% pumpkin, product `KUERBIS_006` | 1 can | User-confirmed ordered 2026-08-31; earlier procurement lead SRC-2026-026 | Actual pumpkin ingredient for Huong's seasonal-special pilot and unmodified comparison |
-| REQUIRED | Commercial control | FONTE Gourmet Pumpkin Spice Sauce, nominal 350 g/ml squeeze bottle | 1 bottle | SRC-2026-030: EUR 19.95, German retailer, 7–14 working days at research time | Functional/squeeze/cling benchmark |
-| REQUIRED | Sweetened condensed milk | Nestlé Milchmädchen, 400 g | 1 can | SRC-2026-032: REWE listing; local stock/price require postcode | Principal PR-0014 body/sweetness ingredient |
-| REQUIRED | Pumpkin spice | Ostmann Pumpkin Spice Latte Gewürzmischung, 16 g, if locally available | 1 packet | SRC-2026-033: seasonal REWE listing; verify exact label | Reproduce source's pre-mixed-spice format without a new house blend |
-| REQUIRED | Whole milk | One fixed brand, 3.5% fat | 1 litre | Local purchase; record brand/lot/price | Exact application build and control |
-| REQUIRED | House squeeze bottle | Food-grade bottle sized about 350–500 ml with fine uncut/cuttable nozzle | 1 | Supplier TBD | V02 service test; measure actual opening; size must accept the measured batch yield or be filled only with the documented service-test portion |
-| REQUIRED IF ABSENT | Precision scale | Digital scale with 0.1 g readability or better and suitable capacity | 1 | Supplier TBD | All V02 ingredients are weighed; required to resolve 1.0 g spice and 0.5 g salt |
-| REQUIRED IF ABSENT | Blunt dosing syringe | 5 or 10 ml food-safe syringe | 1 | Supplier TBD | Controlled 3.0 g cling deposits |
+Updated: 2026-09-04
 
-## Confirm from existing stock
+## Already here — verify before use
 
-| Item | Minimum needed | Check/record before test |
-|---|---:|---|
-| Café matcha | At least 10 g from one lot | Brand, grade/product, origin, lot, open date |
-| Granulated white sugar | At least 50 g | Brand/product and dry condition |
-| Fine salt | At least 5 g | Brand/product and whether scale resolves planned amount |
-| Ice | At least 1 kg from one source/machine | Cube style and representative mass |
-| Potable water | At least 1 litre | Source and any filtration |
-| Ordinary clear matcha glasses | At least 2 identical preferred | Capacity, dimensions, mass, wall shape |
-| Precision scale | Readability 0.1 g or better | Model and check with known mass; must resolve 1.0 g spice and 0.5 g salt |
-| Thermometer | One suitable probe/IR unit | Model, method, check status |
-| Ruler, timer, fixed phone/camera support | One each | Set up before chilling samples |
-| Cleaning/sanitation supplies | Sufficient | Exact café procedure used |
-
-## Ordered — receive and verify
-
-| Item | Order status | Required PB-001 action |
+| Item | Status | Exact action |
 |---|---|---|
-| KoRo Kürbispüree, 425 g | ORDERED | On receipt photograph the physical label/lot/BBD, confirm 100% pumpkin, record delivery condition, and measure appearance/smoothness/Brix before use |
-| Proster Brix refractometer, 0–80% | ORDERED; not yet treated as available | Inspect manual, check prism, calibrate as instructed, record model/serial if present and measurement temperature; required before Batch 001 measurement set is complete |
-| CASO VC10 vacuum sealer | ORDERED; not required for Batch 001 | Function check after receipt; do not use vacuum packaging to infer extended shelf life |
-| Bonsenkitchen rolls, 2 × 28 × 600 cm | ORDERED; not required for Batch 001 | Verify physical packaging/food-contact/sous-vide claims before use; not part of V02 |
+| KoRo Kürbispüree 425 g, product `KUERBIS_006` | USER-REPORTED ARRIVED 2026-09-04 | Photograph front/back, ingredient declaration, nutrition, origin, lot, BBD, net mass, and any opened-storage instruction. Record purchase price if available. Do not assume the online label overrides the physical can. |
+| Proster 0–80% Brix refractometer | Ordered previously; present status not reconfirmed | If received, inspect and calibrate exactly as its manual directs; record calibration and sample temperature. |
+| Russell Hobbs 25630-56 | AVAILABLE; not needed for these saucepan recipes | Do not introduce sous-vide processing into either source formulation. |
 
-## Available equipment
+## Buy or confirm from stock — required for the purée preparation
 
-- Russell Hobbs 25630-56 Sous Vide Slow Cooker / 3-in-1 multicooker, user-confirmed available; 6.5 l nominal capacity and temperature probe. It is not required for the approximately 362 g V02 saucepan batch but may support later controlled-temperature or larger-scale work.
-- Standard café kitchen equipment, user-confirmed available.
+| Priority | Item | Exact selection/amount needed | Why needed |
+|---|---|---|---|
+| REQUIRED | NH pectin | Sosa Fruit Pectin NH preferred; at least 2 g usable, one retail pack | Integral to the exact Boiron pumpkin formula; no substitute under this batch ID |
+| REQUIRED | Granulated white sugar | At least 64 g from one recorded product | Two equal 32 g portions in PUREE-V01 |
+| REQUIRED | FONTE Gourmet Pumpkin Spice Sauce | One nominal 350 g/ml squeeze bottle | Commercial cling/squeeze/service control; photograph the physical ingredient declaration |
+| REQUIRED | Food-grade squeeze bottle | One bottle that can accept the measured purée-preparation test portion; fine nozzle | Purée-preparation service test; measure capacity and nozzle opening |
+| REQUIRED IF ABSENT | 0.1 g digital scale | Readability 0.1 g or better; capacity suitable for saucepan ingredients | Required to resolve the 2 g pectin dose reliably |
+| REQUIRED IF ABSENT | Thermometer | Must read at least 103°C | Source endpoint is 103°C |
+| REQUIRED IF ABSENT | Blunt food-safe dosing syringe | 5 or 10 ml | Controlled 3.0 g cling deposits |
 
-## Optional, not a Batch 001 blocker
+## Buy or confirm from stock — required for the syrup
 
-- Libby's 100% Pure Pumpkin 425 g for a future input comparison. The checked German retailer listed EUR 5.99 but displayed it as sold out (`SRC-2026-028`).
-- Xanthan/gellan/other texture modifiers. Do **not** buy or add them for V02 solely because they appeared in research. If pilot evidence justifies texture work, first identify a professional/commercial formulation and create a separate sourced adaptation.
-- pH meter. Useful for later development control, but absence must be recorded as `NOT MEASURED`; no shelf-life conclusion is allowed either way.
+| Priority | Item | Exact selection/amount needed | Why needed |
+|---|---|---|---|
+| REQUIRED | Granulated white sugar | 110 g from the same recorded sugar is acceptable | Exact Vitamix source quantity |
+| REQUIRED | Vanilla extract | At least 1/2 tsp; record exact product | Exact Vitamix source ingredient |
+| REQUIRED | Ground cinnamon | At least 1 tsp; record exact product | Exact Vitamix source ingredient |
+| REQUIRED | Ground allspice / Piment | At least 1/2 tsp; record exact product | Exact Vitamix source ingredient; do not replace with a different blend |
+| REQUIRED | Ground ginger | At least 1/2 tsp; record exact product | Exact Vitamix source ingredient |
+| REQUIRED IF ABSENT | Standard measuring spoons | 1 tsp and 1/2 tsp | Source quantities are deliberately retained; no guessed gram conversions |
+| REQUIRED | Clean bottle or measured container | Capacity at least 500 ml | Source-stated syrup yield is approximately 480 ml; project yield must be measured |
 
-## Measure/record before the first valid run
+**Total granulated sugar required for both batches:** 174 g. Confirm at least 200 g on hand to allow clean weighing without changing either formula.
 
-1. Physical labels, ingredient declarations, allergens, lots, best-before dates, net contents, and prices for KoRo, FONTE, Milchmädchen, spice, milk, and matcha.
-2. KoRo purée appearance, aroma, smoothness, and Brix at the instrument's specified temperature. The operational recipe weighs 60 g directly; no density conversion is required.
-3. FONTE physical label, whether pumpkin is actually named, supplied bottle/nozzle opening, and Brix if the instrument can read it reliably.
-4. Service-glass capacity, mass, internal height/diameter, wall taper, inside dryness, and pre-test temperature.
-5. House bottle material/capacity/nozzle opening and five-dose repeatability.
-6. Scale and thermometer model/check status; refractometer calibration and temperature.
-7. Actual batch yield, Brix, temperatures, times, and all deviations.
+## One-can feasibility check
 
-## Sweetener boundary
+PUREE-V01 requires 286 g KoRo purée. SYRUP-V01 requires 120 ml. A 425 g can may cover both, but the project will not assume the mass of 120 ml or ignore transfer loss.
 
-- Buy no sugar alternative for operational Batch 001. V02 must first establish real-pumpkin flavour, texture, and service function with its recorded PR-0014 lineage.
-- `../../01_research/sugar_alternatives_for_puree_matcha_sauces.md` identifies pure D-tagatose as the leading later comparison, not an approved substitution.
-- Do not use allulose in the current German café project. Do not replace sucrose with honey, agave, maple, date syrup, coconut sugar, xylitol, erythritol, stevia, or a commercial blend without a new formulation/batch record.
+1. Mix the opened can uniformly and weigh its actual usable contents.
+2. Reserve a representative sample for the unmodified KoRo comparison and Brix reading.
+3. Weigh 286 g for PUREE-V01.
+4. Measure the remaining purée. If it does not provide a full 120 ml for SYRUP-V01, stop and obtain a second can; do not reduce or rebalance either recipe during execution.
+
+## Other equipment and stock to confirm
+
+| Item | Check/record before test |
+|---|---|
+| Ordinary clear matcha glasses | At least two identical; record capacity, dimensions, mass, wall shape, and actual chill condition |
+| Café matcha | Brand, grade/product, origin, lot, and open date; no new application recipe is yet authorised |
+| Potable water | Source and filtration; at least 500 ml for syrup plus test needs |
+| Stainless-steel saucepan, whisk, dry premix cup, spatula, shallow cooling vessel, film | Clean/sanitised and suitable for 103°C purée batch |
+| 300 ml+ graduated jug and 120 ml-capable graduated measure | Required to retain Vitamix source volumes |
+| Ruler, timer, fixed phone/camera support | Set up for `GC-20260830-PB001-01` |
+| Cleaning/sanitation supplies | Record exact café procedure used |
+
+## Measure and record before a valid run
+
+1. Physical KoRo label, lot, BBD, opened-storage wording, condition, price, and actual usable mass.
+2. Well-mixed KoRo appearance, aroma, smoothness, separation, and Brix at the instrument's specified temperature.
+3. Scale/thermometer identity and check status; refractometer calibration and temperature.
+4. FONTE physical label, whether pumpkin is named, package/nozzle, Brix if readable, and product temperature.
+5. Service-glass dimensions/temperature and house squeeze-bottle capacity/nozzle.
+6. PUREE-V01 actual ingredient masses, 50°C addition time, 103°C endpoint time, yield, Brix, texture, and disposition.
+7. SYRUP-V01 actual mass of the 120 ml KoRo portion, light-simmer time/temperature, yield, Brix, pourability, settling, and disposition.
+
+## No longer required for the current Batch 001 route
+
+- Nestlé Milchmädchen and Ostmann Pumpkin Spice Latte mix were attached to superseded combined-sauce V02. Do not buy them for the two current component batches unless needed for a separate future sourced formulation.
+- No sous-vide or vacuum-bag processing is part of either selected professional recipe.
+- No sugar alternative is authorised before the sourced sucrose versions pass flavour, texture, and service tests.
+- No pH meter is a Batch 001 blocker; if absent, record `NOT MEASURED` and make no shelf-life claim.
+
+No storage duration or shelf-life claim is established for either project batch.

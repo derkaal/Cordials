@@ -262,7 +262,9 @@ function getShopping(sourceMap) {
     return (table?.rows || []).map((row, index) => {
       const item = row.Item || 'UNKNOWN', sourceText = row['Source/price status'] || row['Current source status'] || row['Order status'] || '', source = sourceFor(sourceText);
       const itemKey = `${keyPrefix}:${title}:${index}:${item}`;
-      return { itemKey, productLabel, group, item, priority: row.Priority || group, selection: row['Exact selection'] || row['Minimum needed'] || '', quantity: row.Quantity || '', reason: row['Why needed'] || row['Used for'] || row['Required PB-001 action'] || row['Check/record before test'] || reasonFallback, sourceId: source?.id || null, url: source?.url || null, sourceStatus: sourceText, state: latestState.get(itemKey)?.state || (group === 'Soon' && /ORDERED/i.test(sourceText) ? 'Ordered' : 'Need'), recordPath };
+      const statusText = [row.Status, row.Priority, sourceText].filter(Boolean).join(' ');
+      const inferredState = /NOT REQUIRED/i.test(statusText) ? 'Not needed' : /ARRIVED|AVAILABLE/i.test(statusText) ? 'Available' : /ORDERED/i.test(statusText) ? 'Ordered' : 'Need';
+      return { itemKey, productLabel, group, item, priority: row.Priority || row.Status || group, selection: row['Exact selection'] || row['Exact selection/amount needed'] || row['Exact action'] || row['Minimum needed'] || '', quantity: row.Quantity || '', reason: row['Why needed'] || row['Used for'] || row['Required PB-001 action'] || row['Check/record before test'] || reasonFallback, sourceId: source?.id || null, url: source?.url || null, sourceStatus: sourceText, state: latestState.get(itemKey)?.state || inferredState, recordPath };
     });
   };
   const pumpkinPath = '04_round_1_development/pumpkin_matcha/shopping_list_batch_001.md', pumpkin = read(pumpkinPath);
@@ -273,9 +275,9 @@ function getShopping(sourceMap) {
   const fruitPath = '04_round_1_development/puree_matcha_batch_001_shopping.md', fruit = read(fruitPath);
   const autumnPath = '04_round_1_development/autumn_nutty_research_shopping.md', autumn = read(autumnPath);
   return [
-    ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Batch 001', 'PB-001', 'Buy', 'Need now', 'Required for PB-001 / Batch 001'),
-    ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Batch 001', 'PB-001', 'Confirm from existing stock', 'Need now', 'Confirm before PB-001 / Batch 001'),
-    ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Batch 001', 'PB-001', 'Ordered — receive and verify', 'Soon', 'Receive and verify for future work'),
+    ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Dual-Format Batch 001', 'PB-001', 'Already here — verify before use', 'Soon', 'Available but must be verified before PB-001'),
+    ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Purée Batch 001', 'PB-001-PUREE', 'Buy or confirm from stock — required for the purée preparation', 'Need now', 'Required for PB-001 purée preparation'),
+    ...makeItems(pumpkin, pumpkinPath, 'PB-001 / Syrup Batch 001', 'PB-001-SYRUP', 'Buy or confirm from stock — required for the syrup', 'Need now', 'Required for PB-001 syrup'),
     ...makeItems(fruit, fruitPath, 'PB-002 / PB-003 Batch 001', 'PB-002-003', 'Buy', 'Need now', 'Required for Lychee/Mango Batch 001'),
     ...makeItems(autumn, autumnPath, 'PB-004 / PB-005 / PB-006 Research', 'PB-004-006', 'Buy', 'High-priority research', 'Required for autumn source-led comparison'),
     ...optional,
@@ -293,11 +295,16 @@ function getEquipment(sourceMap) {
 function getQueue(products) {
   const cards = products.map((product) => {
     const ready = product.status === 'Ready to test';
-    return { id: `QUEUE-${product.code}`, productId: product.productId || product.key, product: product.name, priority: product.priority, priorityRank: product.priorityRank, column: ready ? 'Ready for Test' : 'Research', task: ready ? 'Run Batch 001 and comparative cling pilot' : product.nextAction, blocker: ready ? 'Required ingredients and physical measurements pending' : 'Complete professional formulation and input route not yet selected', nextAction: product.nextAction };
+    const task = ready
+      ? product.productId === 'PB-001'
+        ? 'Prepare PUREE-V01 and SYRUP-V01 separately; run the comparative cling pilot on the purée only'
+        : 'Run Batch 001 and comparative cling pilot'
+      : product.nextAction;
+    return { id: `QUEUE-${product.code}`, productId: product.productId || product.key, product: product.name, priority: product.priority, priorityRank: product.priorityRank, column: ready ? 'Ready for Test' : 'Research', task, blocker: ready ? 'Required ingredients and physical measurements pending' : 'Complete professional formulation and input route not yet selected', nextAction: product.nextAction };
   });
   const pb = read('04_round_1_development/pumpkin_matcha/PB-001.md');
   for (const row of markdownTables(section(pb, 'Pre-Batch-001 research gate'))[0]?.rows || []) {
-    if (/OPEN|PENDING/i.test(row.Status)) cards.push({ id: row['Task ID'], productId: 'PB-001', product: 'Pumpkin Matcha Sauce', column: /OPEN/.test(row.Status) ? 'Research' : 'Blocked', task: row['Research task'], blocker: row.Status, nextAction: row['Completion condition'] });
+    if (/^(OPEN|PENDING|DEFAULT RECEIVED|SELECTED)\b/i.test(row.Status)) cards.push({ id: row['Task ID'], productId: 'PB-001', product: 'Pumpkin Purée + Syrup', priority: 'HIGH — CURRENT SEASONAL PROGRAMME', priorityRank: 1, column: /^OPEN\b/i.test(row.Status) ? 'Research' : 'Blocked', task: row['Research task'], blocker: row.Status, nextAction: row['Completion condition'] });
   }
   return cards;
 }

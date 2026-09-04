@@ -2,6 +2,15 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-09-04 — Pumpkin split into source-traced purée and syrup functions
+
+- Recorded the user-reported arrival of the KoRo 425 g pumpkin purée while keeping its physical label, lot, opened-storage wording, usable mass, and Brix as pending measurements.
+- Added PR-0027 from Les Vergers Boiron's pumpkin-specific confit/compote table and opened a practical 286 g KoRo / 64 g sugar / 2 g NH-pectin glass-cling purée-preparation batch with every substitution and rounding disclosed.
+- Added PR-0028 from the Vitamix Commercial beverage recipe book and opened its complete unscaled real-pumpkin spice syrup as a separate pourable sweetener batch.
+- Superseded the unexecuted condensed-milk sauce V02 and original house matcha test; no original application formulation remains authorised.
+- Revised the cling pilot to compare unmodified KoRo, PUREE-V01, and FONTE. The syrup is evaluated separately because it is not meant to cling.
+- Replaced the PB-001 shopping/readiness list with exact dual-format purchases and measurements; no shelf-life duration was assigned.
+
 ## 2026-09-04 — Seasonal priorities and dashboard navigation clarified
 
 - Made PB-001 Pumpkin, PB-004 Pistachio, PB-005 Roasted Hazelnut and PB-006 Black Sesame the explicit high-priority seasonal programme; PB-002 Lychee and PB-003 Mango remain active but secondary.
