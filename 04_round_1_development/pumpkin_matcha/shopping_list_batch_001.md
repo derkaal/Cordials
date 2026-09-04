@@ -2,15 +2,16 @@
 
 Status: **KORO PURÉE ARRIVED; PHYSICAL CAN RECORD AND REMAINING ITEMS PENDING**
 
-Applies to: `B-20260904-PUMPPURE-V01-01`, `B-20260904-PUMPSYR-V01-01`, and `GC-20260830-PB001-01`
+Applies to: `B-20260904-PUMPPURE-V01-01`, `B-20260905-PUMPSYR-V02-01`, and `GC-20260830-PB001-01`
 
-Updated: 2026-09-04
+Updated: 2026-09-05
 
 ## Already here — verify before use
 
 | Item | Status | Exact action |
 |---|---|---|
 | KoRo Kürbispüree 425 g, product `KUERBIS_006` | USER-REPORTED ARRIVED 2026-09-04 | Photograph front/back, ingredient declaration, nutrition, origin, lot, BBD, net mass, and any opened-storage instruction. Record purchase price if available. Do not assume the online label overrides the physical can. |
+| Ostmann Pumpkin Spice Latte mix, nominal 16 g | ORDERED/ON-HAND STATUS TO CONFIRM | Bring the packet to the café. Photograph front/back; record ingredients, allergens, nutrition, lot, BBD, net mass, and purchase price. |
 | Proster 0–80% Brix refractometer | Ordered previously; present status not reconfirmed | If received, inspect and calibrate exactly as its manual directs; record calibration and sample temperature. |
 | Russell Hobbs 25630-56 | AVAILABLE; not needed for these saucepan recipes | Do not introduce sous-vide processing into either source formulation. |
 
@@ -30,11 +31,9 @@ Updated: 2026-09-04
 
 | Priority | Item | Exact selection/amount needed | Why needed |
 |---|---|---|---|
-| REQUIRED | Granulated white sugar | 110 g from the same recorded sugar is acceptable | Exact Vitamix source quantity |
-| REQUIRED | Vanilla extract | At least 1/2 tsp; record exact product | Exact Vitamix source ingredient |
-| REQUIRED | Ground cinnamon | At least 1 tsp; record exact product | Exact Vitamix source ingredient |
-| REQUIRED | Ground allspice / Piment | At least 1/2 tsp; record exact product | Exact Vitamix source ingredient; do not replace with a different blend |
-| REQUIRED | Ground ginger | At least 1/2 tsp; record exact product | Exact Vitamix source ingredient |
+| REQUIRED | Granulated white sugar | 110 g from the same recorded sugar is acceptable | PR-0028 source quantity retained in SYRUP-V02 |
+| REQUIRED | Ostmann Pumpkin Spice Latte mix | 2 level tsp from the exact recorded packet | User-selected measurable replacement for PR-0028's combined 2 tsp dry spices; weigh and record the dose |
+| REQUIRED | Vanilla extract | At least 1/2 tsp; record exact product | Retained PR-0028 ingredient; the checked Ostmann declaration names no vanilla |
 | REQUIRED IF ABSENT | Standard measuring spoons | 1 tsp and 1/2 tsp | Source quantities are deliberately retained; no guessed gram conversions |
 | REQUIRED | Clean bottle or measured container | Capacity at least 500 ml | Source-stated syrup yield is approximately 480 ml; project yield must be measured |
 
@@ -42,12 +41,12 @@ Updated: 2026-09-04
 
 ## One-can feasibility check
 
-PUREE-V01 requires 286 g KoRo purée. SYRUP-V01 requires 120 ml. A 425 g can may cover both, but the project will not assume the mass of 120 ml or ignore transfer loss.
+PUREE-V01 requires 286 g KoRo purée. SYRUP-V02 requires 120 ml. A 425 g can may cover both, but the project will not assume the mass of 120 ml or ignore transfer loss.
 
 1. Mix the opened can uniformly and weigh its actual usable contents.
 2. Reserve a representative sample for the unmodified KoRo comparison and Brix reading.
 3. Weigh 286 g for PUREE-V01.
-4. Measure the remaining purée. If it does not provide a full 120 ml for SYRUP-V01, stop and obtain a second can; do not reduce or rebalance either recipe during execution.
+4. Measure the remaining purée. If it does not provide a full 120 ml for SYRUP-V02, stop and obtain a second can; do not reduce or rebalance either recipe during execution.
 
 ## Other equipment and stock to confirm
 
@@ -69,11 +68,12 @@ PUREE-V01 requires 286 g KoRo purée. SYRUP-V01 requires 120 ml. A 425 g can may
 4. FONTE physical label, whether pumpkin is named, package/nozzle, Brix if readable, and product temperature.
 5. Service-glass dimensions/temperature and house squeeze-bottle capacity/nozzle.
 6. PUREE-V01 actual ingredient masses, 50°C addition time, 103°C endpoint time, yield, Brix, texture, and disposition.
-7. SYRUP-V01 actual mass of the 120 ml KoRo portion, light-simmer time/temperature, yield, Brix, pourability, settling, and disposition.
+7. SYRUP-V02 physical Ostmann packet; actual mass of its two level teaspoons and the 120 ml KoRo portion; light-simmer time/temperature, yield, Brix, spice balance, cayenne heat, pourability, settling, and disposition.
 
 ## No longer required for the current Batch 001 route
 
-- Nestlé Milchmädchen and Ostmann Pumpkin Spice Latte mix were attached to superseded combined-sauce V02. Do not buy them for the two current component batches unless needed for a separate future sourced formulation.
+- Nestlé Milchmädchen remains attached only to the superseded combined-sauce route. It is not required for the current component batches.
+- Separate ground cinnamon, allspice/Piment, and ginger are not required for SYRUP-V02; its disclosed adaptation uses the ordered Ostmann blend. Do not silently substitute another blend.
 - No sous-vide or vacuum-bag processing is part of either selected professional recipe.
 - No sugar alternative is authorised before the sourced sucrose versions pass flavour, texture, and service tests.
 - No pH meter is a Batch 001 blocker; if absent, record `NOT MEASURED` and make no shelf-life claim.

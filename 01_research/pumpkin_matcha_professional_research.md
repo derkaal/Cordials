@@ -70,7 +70,7 @@ This comparison selects research directions, not exact formulas.
 | Real-pumpkin base with separately tuned hydrocolloid structure | SRC-2026-021 and SRC-2026-023 | Pumpkin intensity can be designed independently | Potential route to test rest structure versus squeeze flow | Requires a professional/commercial formula source plus precise weighing and dispersion procedure | Gummy mouthfeel, poor dispersion, matrix-specific behaviour | RESEARCH A SOURCE LINEAGE AFTER BENCHMARK PILOT |
 | Commercial pumpkin-pie sauce used unchanged | SRC-2026-021 | Product flavour claim, but no named pumpkin ingredient | Purpose-built sauce architecture; actual cling unknown | Strong service convenience | May fail clear-pumpkin requirement and house-product objective | CONTROL ONLY; homemade is allowed to lose |
 | Pumpkin confit/compote as glass-cling purée preparation | PR-0027 | Highest pumpkin proportion of the selected routes; spice can remain separate | Professional pectin structure and pipeable cold finish; glass cling unmeasured | Whole-gram KoRo adaptation is practical with a 0.1 g scale | May set too firmly, squeeze poorly, or mask fresh pumpkin texture | SELECTED FOR PUREE-V01 COMPARATIVE PILOT |
-| Separate pumpkin-spice syrup | PR-0028 | Actual pumpkin plus independently doseable spice/sweetness | Pourable by design; not intended to cling | Complete café-style source recipe with simple measures | Two-component service burden; matcha balance and settling unknown | SELECTED FOR SYRUP-V01 MEASUREMENT |
+| Separate pumpkin-spice syrup | PR-0028; SRC-2026-033 | Actual pumpkin plus independently doseable spice/sweetness | Pourable by design; not intended to cling | Complete café-style source recipe; operational batch uses ordered Ostmann blend | Blend is compositionally different; two-component burden, matcha balance, cayenne heat, and settling unknown | SELECTED AS DISCLOSED SYRUP-V02 ADAPTATION |
 
 ## Initial selection rationale
 
@@ -94,7 +94,7 @@ FONTE's manufacturer page (`SRC-2026-029`) positions the 350 g squeeze bottle fo
 
 Available narrative descriptions mention pumpkin, but the ingredient declaration captured by another European retailer (`SRC-2026-031`) names glucose syrup, condensed milk, sunflower oil, sugar, milk powder, molasses, emulsifier, natural flavours, sodium benzoate, and potassium sorbate—without separately named pumpkin. FONTE is therefore a **texture/squeeze/service control**, not evidence of real-pumpkin superiority. The purchased physical label must be photographed and may supersede online copy.
 
-## Batch 001 selection — refined 2026-09-04
+## Batch 001 selection — refined 2026-09-05
 
 The previous condensed-milk sauce V01/V02 plans are superseded unexecuted. They remain in the record but are not the current route.
 
@@ -104,9 +104,9 @@ The previous condensed-milk sauce V01/V02 plans are superseded unexecuted. They 
 
 Pectin NH is integral to the source formulation. It is not classified as an independent texture modification. KoRo substitution and the glass-wall use are adaptations, and their performance is unproven.
 
-### SYRUP-V01 — pumpkin-spice sweetener
+### SYRUP-V02 — pumpkin-spice sweetener / Ostmann adaptation
 
-`B-20260904-PUMPSYR-V01-01` executes PR-0028 unscaled: 300 ml water, 120 ml pumpkin purée, 110 g sugar, 1/2 tsp vanilla, 1 tsp cinnamon, 1/2 tsp allspice, and 1/2 tsp ginger. These quantities are already practical to measure. The 120 ml KoRo portion is also weighed and recorded, but its source-stated volume is not replaced.
+`B-20260905-PUMPSYR-V02-01` retains PR-0028's 300 ml water, 120 ml pumpkin purée, 110 g sugar, 1/2 tsp vanilla, and cooking method. It replaces the source's combined 2 tsp of cinnamon/allspice/ginger with 2 level tsp of the ordered Ostmann blend and records their actual mass. This is an adaptation because the commercial blend contains cane sugar, 30% pumpkin powder, turmeric, ginger, cinnamon, cayenne, and cloves rather than the source spice set. No sugar adjustment is invented before the first measured comparison. The source-faithful SYRUP-V01 plan is superseded unexecuted.
 
 The syrup's purpose is pourable sweetness/spice, not glass cling. No matcha dose, versatility, or shelf life is claimed.
 

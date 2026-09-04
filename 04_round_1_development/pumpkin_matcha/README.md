@@ -8,7 +8,7 @@
 - **Primary use:** Seasonal iced pumpkin matcha with visible inner-glass pumpkin
 - **Current stage:** Two source-traced Batch 001 components planned; KoRo purée arrived; remaining materials/measurements pending
 - **Preparation classification:** Two separate functional classes; neither is called a cordial
-- **Batch status:** `B-20260904-PUMPPURE-V01-01` and `B-20260904-PUMPSYR-V01-01` planned; earlier combined-sauce V01/V02 plans superseded unexecuted
+- **Batch status:** `B-20260904-PUMPPURE-V01-01` and Ostmann-adapted `B-20260905-PUMPSYR-V02-01` planned; exact Vitamix SYRUP-V01 and earlier combined-sauce plans superseded unexecuted
 - **Primary record:** `PB-001.md`
 - **Research synthesis:** `../../01_research/pumpkin_matcha_professional_research.md`
 - **Research record:** `01_research/pumpkin_matcha_professional_research.md`
@@ -23,8 +23,8 @@
 |---|---|
 | Product Brief | `PB-001.md` — ACTIVE |
 | Professional Research | `../../01_research/pumpkin_matcha_professional_research.md` — IN PROGRESS |
-| Candidate Formulations | PUREE-V01 — KoRo adaptation of PR-0027 Boiron pumpkin confit; SYRUP-V01 — unscaled PR-0028 Vitamix syrup |
-| Experimental Batches | `B-20260904-PUMPPURE-V01-01` and `B-20260904-PUMPSYR-V01-01` — PLANNED; earlier combined sauce plans superseded unexecuted |
+| Candidate Formulations | PUREE-V01 — KoRo adaptation of PR-0027 Boiron pumpkin confit; SYRUP-V02 — PR-0028 Vitamix syrup adapted to the ordered Ostmann commercial blend |
+| Experimental Batches | `B-20260904-PUMPPURE-V01-01` and `B-20260905-PUMPSYR-V02-01` — PLANNED; exact Vitamix SYRUP-V01 and earlier combined-sauce plans superseded unexecuted |
 | Application Testing | New source-only matcha application test NOT YET OPENED; `AT-20260830-001` superseded unexecuted |
 | Operational/Economic Evaluation | Not started; cost targets remain TBD |
 | Approved Production Version | None |
@@ -42,21 +42,19 @@ This is a high-pumpkin, pectin-structured purée preparation based on Les Verger
 
 Heat purée with the first sugar portion. At 50°C whisk in the dry sugar–pectin premix, cook to 103°C, cover and cool, then mix cold with a spatula until smooth. Do not add spice to this first batch: pumpkin flavour and glass-cling performance are being isolated.
 
-## Option 2 — Pumpkin-spice syrup / sweetener
+## Option 2 — Pumpkin-spice syrup / sweetener — Ostmann adaptation
 
-This is the complete, unscaled Vitamix Commercial Pumpkin Spice Syrup (`PR-0028`), an `EXACT SOURCED RECIPE` execution using KoRo for the source's generic pumpkin-purée ingredient.
+This is an `ADAPTATION OF SOURCED RECIPE` based on the complete Vitamix Commercial Pumpkin Spice Syrup (`PR-0028`). Its separate dry spices are replaced volumetrically with the ordered Ostmann Pumpkin Spice Latte blend (`SRC-2026-033`). Because the blend contains cane sugar, pumpkin powder, turmeric, cayenne, and cloves and does not name allspice, it is not presented as equivalent to the source spice profile.
 
-| Ingredient | Source amount |
+| Ingredient | Batch 001 amount |
 |---|---:|
 | Water | 300 ml |
 | KoRo pumpkin purée | 120 ml |
 | Granulated sugar | 110 g |
 | Vanilla extract | 1/2 tsp |
-| Ground cinnamon | 1 tsp |
-| Ground allspice | 1/2 tsp |
-| Ground ginger | 1/2 tsp |
+| Ostmann Pumpkin Spice Latte mix | 2 level tsp; weigh and record actual mass |
 
-Whisk everything in a stainless-steel saucepan; bring to a light simmer and cook, stirring frequently, until it begins to thicken, approximately 5 minutes. The source states approximately 480 ml yield. Its matcha dose is not yet authorised.
+Whisk everything in a stainless-steel saucepan; bring to a light simmer and cook, stirring frequently, until it begins to thicken, approximately 5 minutes. The PR-0028 source states approximately 480 ml yield, which must be measured for this adaptation. Its matcha dose is not yet authorised.
 
 ## Why both
 

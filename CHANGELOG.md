@@ -2,6 +2,13 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-09-05 — Ostmann blend selected for the café syrup pilot
+
+- Preserved PR-0028 and its unexecuted exact SYRUP-V01 plan rather than rewriting their provenance.
+- Opened `B-20260905-PUMPSYR-V02-01` as a disclosed adaptation: PR-0028's combined 2 tsp cinnamon/allspice/ginger is replaced by 2 level tsp of the ordered Ostmann Pumpkin Spice Latte blend; 1/2 tsp vanilla and 110 g sugar remain unchanged.
+- Recorded the checked commercial blend composition and manufacturer one-teaspoon-per-drink precedent in SRC-2026-033; physical packet and actual two-teaspoon mass remain café measurements.
+- Removed separate cinnamon, allspice, and ginger from the active PB-001 shopping list and refreshed the dashboard for café access.
+
 ## 2026-09-04 — Pumpkin split into source-traced purée and syrup functions
 
 - Recorded the user-reported arrival of the KoRo 425 g pumpkin purée while keeping its physical label, lot, opened-storage wording, usable mass, and Brix as pending measurements.
