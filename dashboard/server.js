@@ -159,6 +159,7 @@ function getSources() {
 }
 
 function getProfessionalRecipes(sourceMap) {
+  const geographyMap = new Map(parseCsv(read('03_professional_recipes/geographic_coverage.csv')).map((record) => [record.recipe_id, record]));
   return parseCsv(read('03_professional_recipes/recipe_index.csv')).map((record) => {
     const markdown = read(record.record_path);
     const formulationSection = section(markdown, 'Source-stated formulation') || section(markdown, 'Source formulation') || section(markdown, 'Current web formulation');
@@ -166,8 +167,10 @@ function getProfessionalRecipes(sourceMap) {
     const ingredientTable = markdownTables(formulationSection)[0];
     const ingredientBullets = list(formulationSection);
     const source = sourceMap.get(record.primary_source_id);
+    const geography = geographyMap.get(record.recipe_id) || {};
     return {
       id: record.recipe_id, title: record.title, professional: record.professional || 'UNKNOWN', venue: record.venue || 'UNKNOWN',
+      region: geography.professional_base_region || 'UNKNOWN', country: geography.professional_base_country || 'UNKNOWN', geographicEvidenceStatus: geography.geographic_evidence_status || 'UNKNOWN',
       provenance: record.provenance_classification || 'UNKNOWN', sourceId: record.primary_source_id, sourceUrl: source?.url || null,
       component: record.cordial_or_component || 'Other', status: record.status || 'UNKNOWN',
       completeness: record.status.includes('QUARANTINED') ? 'Incomplete / quarantined' : record.status.includes('CONTRADICTION') || record.status.includes('CONFLICT') ? 'Complete with caveat' : 'Recorded',
@@ -317,11 +320,12 @@ function buildData() {
   const shopping = getShopping(sourceMap), equipment = getEquipment(sourceMap);
   return {
     generatedAt: new Date().toISOString(),
-    summary: { products: products.length, activeDevelopment: products.filter((p) => p.status !== 'Archived').length, highPriority: products.filter((p) => /^HIGH/i.test(p.priority)).length, professionalRecipes: recipes.length, exactRecipes: recipes.filter((r) => r.provenance === 'EXACT SOURCED RECIPE').length, batches: batches.length, readyToTest: batches.filter((b) => /PLANNED/.test(b.status)).length, applicationTests: tests.length, equipment: equipment.length, approved: products.filter((p) => p.status === 'Approved').length, shoppingNeed: shopping.filter((item) => ['Need now','High-priority research'].includes(item.group) && !['Bought','Available','Not needed'].includes(item.state)).length, researchNeeded: products.filter((p) => p.status === 'Researching').length, feedback: feedback.length },
+    summary: { products: products.length, activeDevelopment: products.filter((p) => p.status !== 'Archived').length, highPriority: products.filter((p) => /^HIGH/i.test(p.priority)).length, professionalRecipes: recipes.length, exactRecipes: recipes.filter((r) => r.provenance === 'EXACT SOURCED RECIPE').length, asianRecipes: recipes.filter((r) => r.region === 'ASIA' && r.provenance === 'EXACT SOURCED RECIPE').length, europeanRecipes: recipes.filter((r) => r.region === 'EUROPE' && r.provenance === 'EXACT SOURCED RECIPE').length, batches: batches.length, readyToTest: batches.filter((b) => /PLANNED/.test(b.status)).length, applicationTests: tests.length, equipment: equipment.length, approved: products.filter((p) => p.status === 'Approved').length, shoppingNeed: shopping.filter((item) => ['Need now','High-priority research'].includes(item.group) && !['Bought','Available','Not needed'].includes(item.state)).length, researchNeeded: products.filter((p) => p.status === 'Researching').length, feedback: feedback.length },
     products, recipes, batches, tests, sources, feedback, notes, shopping, equipment, queue: getQueue(products),
     projectRecords: [
       { id: 'PRIORITY-PUMPKIN', title: 'Pumpkin professional research', description: 'Professional references, commercial control and texture evidence for PB-001.', recordPath: '01_research/pumpkin_matcha_professional_research.md', productIds: ['PB-001'] },
       { id: 'PRIORITY-AUTUMN-NUTTY', title: 'Autumn nut and seed candidate screen', description: 'Paste, whole-nut/seed and METRO route decisions for PB-004, PB-005 and PB-006.', recordPath: '01_research/autumn_nutty_candidate_screen.md', productIds: ['PB-004','PB-005','PB-006'] },
+      { id: 'GEOGRAPHIC-COVERAGE', title: 'Asian and European recipe coverage', description: 'Validated operator geography, exact regional references and product-level research gaps.', recordPath: '01_research/geographic_recipe_coverage.md', productIds: ['PB-001','PB-004','PB-005','PB-006'] },
       { id: 'PROJECT-STATUS', title: 'Current project status', description: 'Priorities, buying needs, open measurements and next actions across the programme.', recordPath: 'PROJECT_STATUS.md', productIds: ['PB-001','PB-004','PB-005','PB-006'] },
     ],
     pipeline: ['Brief', 'Research', 'Candidate', 'Batch', 'Drink Test', 'Evaluation', 'Approved'],

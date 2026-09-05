@@ -1,7 +1,7 @@
 # PB-001 — Pumpkin Matcha Professional Research
 
-Status: **KORO INPUT ARRIVED; DUAL-FORMAT PURÉE/SYRUP BATCHES PLANNED; APPLICATION GATE OPEN**
-Last updated: 2026-09-04
+Status: **KORO INPUT ARRIVED; DUAL-FORMAT PURÉE/SYRUP BATCHES PLANNED; ASIAN PUMPKIN–MATCHA PRECEDENT VALIDATED**
+Last updated: 2026-09-05
 Parent product: `PB-001`
 
 ## Research question
@@ -19,8 +19,9 @@ Flavour design and wall-cling structure are treated as separate questions. A rec
 | PR-0015 Jameson Pumpkin Syrup | Drinks-brand cocktail | Water + demerara + pumpkin + whole spices; 5 min simmer; 10 ml drink dose | YES | Refrigerate; duration UNKNOWN | Exact secondary application and likely syrup comparator | Yield, shelf life, cling, matcha fit, pH/Brix |
 | PR-0027 Les Vergers Boiron Pumpkin Confit / Compote | Professional fruit-purée manufacturer / pastry chart | 1,000 g pumpkin purée + 225 g sugar + 7 g NH pectin; 50°C addition; cook to 103°C; cool and smooth for piping | YES | UNKNOWN | Strongest pumpkin-specific high-purée structure source | KoRo substitution, glass cling, squeeze service, matcha fit, yield, pH/Brix |
 | PR-0028 Vitamix Commercial Pumpkin Spice Syrup | Commercial beverage-equipment recipe book | Water + pumpkin purée + sugar + vanilla/cinnamon/allspice/ginger; light simmer about 5 min | YES | UNKNOWN | Strongest complete café-style syrup/sweetener source | Matcha dose, settling, storage, pH/Brix |
+| PR-0032 Yunomi Matcha Pumpkin Spice Latte | Japan-based commercial tea operator | Real pumpkin purée + milk + sugar + pumpkin spice + matcha; hot two-cup build | YES, with source looseness retained | NOT APPLICABLE | Direct Asian commercial evidence for real pumpkin with matcha | Hot/integrated format; spoon/cup units; no glass cling, squeeze bottle or separate syrup evidence |
 
-All five records are `EXACT SOURCED RECIPE`. PR-0027 and PR-0028 now support separate planned PB-001 component batches. None is evidence that a source formulation clings to a cold glass or is automatically compatible with matcha.
+All six records are `EXACT SOURCED RECIPE`. PR-0027 and PR-0028 support the separate planned PB-001 component batches. PR-0032 resolves the direct pumpkin–matcha precedent question, but it is a hot integrated drink and does not validate cold glass cling, squeeze service or the two-component café architecture.
 
 ## Commercial café-sauce benchmarks
 
@@ -71,6 +72,7 @@ This comparison selects research directions, not exact formulas.
 | Commercial pumpkin-pie sauce used unchanged | SRC-2026-021 | Product flavour claim, but no named pumpkin ingredient | Purpose-built sauce architecture; actual cling unknown | Strong service convenience | May fail clear-pumpkin requirement and house-product objective | CONTROL ONLY; homemade is allowed to lose |
 | Pumpkin confit/compote as glass-cling purée preparation | PR-0027 | Highest pumpkin proportion of the selected routes; spice can remain separate | Professional pectin structure and pipeable cold finish; glass cling unmeasured | Whole-gram KoRo adaptation is practical with a 0.1 g scale | May set too firmly, squeeze poorly, or mask fresh pumpkin texture | SELECTED FOR PUREE-V01 COMPARATIVE PILOT |
 | Separate pumpkin-spice syrup | PR-0028; SRC-2026-033 | Actual pumpkin plus independently doseable spice/sweetness | Pourable by design; not intended to cling | Complete café-style source recipe; operational batch uses ordered Ostmann blend | Blend is compositionally different; two-component burden, matcha balance, cayenne heat, and settling unknown | SELECTED AS DISCLOSED SYRUP-V02 ADAPTATION |
+| Hot integrated pumpkin–matcha latte | PR-0032 | Direct real-pumpkin/matcha precedent from a Japan-based tea operator | Not a wall-cling format | Complete published two-cup build with source units retained | Hot format, large cup/spoon measures and no separate service components | RETAIN AS ASIAN FLAVOUR/APPLICATION BENCHMARK; DO NOT TREAT AS PB-001 BUILD |
 
 ## Initial selection rationale
 
@@ -113,7 +115,7 @@ The syrup's purpose is pourable sweetness/spice, not glass cling. No matcha dose
 ## Open targeted research/tasks before Batch 001
 
 1. Compare obtainable canned/frozen pumpkin purées and pumpkin concentrate/powder on label composition, measured Brix where possible, colour, particle size, and supply consistency (`RT-PB-001-005`).
-2. Select a complete commercial/professional pumpkin–matcha application that can support a disclosed source-only test of the two components (`RT-PB-001-006`).
+2. Use PR-0032 as the validated Asian real-pumpkin/matcha precedent while selecting or adapting a cold café build only through a separate, fully disclosed record (`RT-PB-001-006` complete for precedent; cold service build remains open).
 3. Confirm venue equipment, allergen/vegan policy, glass, bottle/nozzle, target build time, and cost context (`RT-PB-001-008`).
 4. Procure a relevant commercial control and run the glass-cling pilot to establish a discriminating numerical target (`RT-PB-001-009`).
 5. Define the exact iced-matcha build before any application test.
@@ -121,4 +123,4 @@ The syrup's purpose is pourable sweetness/spice, not glass cling. No matcha dose
 
 ## Research conclusion
 
-The arrived KoRo product can be used immediately as the recorded pumpkin input and as an unmodified comparison sample, but it is not yet a validated café sauce. Professional evidence now supports a pumpkin-specific pectin purée preparation and a separate real-pumpkin café syrup. PB-001 should test those two functions independently, compare the purée preparation against KoRo and FONTE, and keep the syrup out of the cling decision. Neither is a cordial, and neither has a project shelf life.
+The arrived KoRo product can be used immediately as the recorded pumpkin input and as an unmodified comparison sample, but it is not yet a validated café sauce. European professional evidence supports a pumpkin-specific pectin purée preparation, while a US commercial equipment source supports the separate real-pumpkin café syrup. PR-0032 adds direct Asian commercial evidence that real pumpkin and matcha can share a drink, without proving PB-001's cold service architecture. PB-001 should test the two functions independently, compare the purée preparation against KoRo and FONTE, and keep the syrup out of the cling decision. Neither is a cordial, and neither has a project shelf life.

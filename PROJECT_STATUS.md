@@ -10,17 +10,17 @@ Last updated: 2026-09-05
 - **Current high-priority programme:** PB-001 Pumpkin; PB-004 Pistachio; PB-005 Roasted Hazelnut; PB-006 Black Sesame
 - **Secondary active products:** PB-002 Lychee and PB-003 Mango
 - **Active product cases:** PB-001 Pumpkin Glass-Cling Purée Preparation and Spice Syrup; PB-002 Lychee Purée Preparation and Cordial; PB-003 Mango Purée Preparation and Cordial; PB-004 Pistachio; PB-005 Roasted Hazelnut; PB-006 Black Sesame
-- **Latest consequential change:** The ordered Ostmann blend now replaces three separate dry-spice purchases in a disclosed SYRUP-V02 adaptation; the source-faithful Vitamix SYRUP-V01 is superseded unexecuted
+- **Latest consequential change:** Asian/European operator geography is now a controlled evidence field; four exact Japan-based commercial recipes were added for pumpkin–matcha and black sesame, while regional product gaps remain explicit
 - **Active validation queue:** `02_sources/VALIDATION_QUEUE.md`
 
 ## Active product cases
 
 | Product | Current stage | Latest evidence | Batch/application status | Next gate |
 |---|---|---|---|---|
-| PB-001 — Pumpkin Purée Preparation and Spice Syrup | Materials/readiness stage before two component pilots | KoRo 100% pumpkin purée arrived; PR-0027 Boiron structure and PR-0028 Vitamix syrup method selected; ordered Ostmann blend validated as adaptation input; FONTE control retained | PUREE-V01 and Ostmann-adapted SYRUP-V02 PLANNED; source-faithful SYRUP-V01, combined sauce V01/V02, and AT-20260830-001 superseded unexecuted | Bring and record KoRo/Ostmann labels; obtain/confirm pectin, FONTE, vanilla, scale/thermometer and measures; execute components separately |
+| PB-001 — Pumpkin Purée Preparation and Spice Syrup | Materials/readiness stage before two component pilots | KoRo arrived; European PR-0027 Boiron structure and US PR-0028 Vitamix syrup selected; Asian PR-0032 Yunomi validates real pumpkin with matcha but not cold cling/service | PUREE-V01 and Ostmann-adapted SYRUP-V02 PLANNED; source-faithful SYRUP-V01, combined sauce V01/V02, and AT-20260830-001 superseded unexecuted | Bring and record KoRo/Ostmann labels; obtain/confirm pectin, FONTE, vanilla, scale/thermometer and measures; execute components separately |
 | PB-004 — Pistachio Paste Preparation and Syrup | Research/source-selection gate | Viani 95 g 100% paste; MONIN control; PR-0023 exact 1883 Pistachio & Chaï application; METRO 1 kg kernel lead | NO BATCH OPENED | Select a complete professional paste-preparation or house-syrup formula; do not buy bulk kernels yet |
 | PB-005 — Roasted Hazelnut Paste Preparation and Syrup | Research/source-selection gate | KoRo 500 g 100% roasted paste; MONIN control; PR-0024 exact 1883 cocktail application; METRO whole-nut lead | NO BATCH OPENED | Find complete professional paste-based beverage and house-syrup formulations; keep four-pack METRO lead deferred |
-| PB-006 — Black Sesame Paste Preparation | Research/source-conversion gate | PR-0025 exact Vitamix seed-to-paste/latte; PR-0026 Health Bar matcha glass-wall precedent; German 250 g 100% paste lead | NO BATCH OPENED | Resolve whole-gram source conversion, blender capability, purchased-paste adaptation and first control |
+| PB-006 — Black Sesame Paste Preparation | Research/source-selection gate | European PR-0026 Health Bar wall application; Asian PR-0029 Japanese Taste paste matcha, PR-0030 Yunomi powder matcha and PR-0031 Kuki manufacturer base; PR-0025 Vitamix seed paste retained | NO BATCH OPENED | Select the relevant source-defined route; then resolve only the measurements/adaptations needed for that route and its control |
 | PB-002 — Lychee Purée Preparation and Cordial | Dual-format: purée-preparation Batch 001 readiness; cordial source gate | Purée preparation: PR-0019 Boiron with canned-input substitution. Cordial: PR-0022 Barney Toy filtered canned-lychee formula. | Purée-preparation batch/pilot/application PLANNED; cordial source recipe visible; cordial batch NOT OPENED | Record can data; proceed with purée preparation; determine whether the 560 g-can cordial source can be executed exactly |
 | PB-003 — Mango Purée Preparation and Cordial | Dual-format: purée-preparation Batch 001 readiness; specialist cordial gate | Purée preparation: PR-0020 Boiron. Cordial: PR-0021 Michal Dojčák enzyme-clarified formula. | Purée-preparation batch/pilot/application PLANNED; cordial source recipe visible; cordial batch NOT OPENED | Proceed with purée preparation; decide on specialist enzyme route and resolve juice input, procurement, and liquid sealing |
 
@@ -33,7 +33,7 @@ PB-004/PB-005 keep nut-paste and syrup routes separate. PB-006 begins as a black
 | Workstream | Status | Current focus | Next action |
 |---|---|---|---|
 | Cordial taxonomy and techniques | Awaiting migration | Existing wider-project research | Ingest through import manifest and validate sources |
-| Professional recipe database | Partially validated | PR-0027 pumpkin confit and PR-0028 pumpkin-spice syrup added alongside the existing fruit and cordial sources | Resolve application gates and continue the wider validation queue |
+| Professional recipe database | Partially validated | Operator geography audited; exact European references retained and exact Japan-based PR-0029–PR-0032 added | Use Asian and European filters in the dashboard; keep product-level geographic gaps explicit while continuing validation |
 | Round 1 reference formulations | Partially validated | Threshold A/B results recorded; all Threshold C claims fail/remain open | Select source versions explicitly before Batch 001 planning |
 | Matcha compatibility | Awaiting migration | Existing wider-project research | Validate professional precedents and analysis |
 | Food science / preservation / shelf life | Initial vacuum/freezing boundary validated | BfR/BZfE/CASO guidance recorded; no product shelf life established | Validate wider claims and open freeze–thaw work only after product-performance gates |
@@ -61,7 +61,7 @@ PB-004/PB-005 keep nut-paste and syrup routes separate. PB-006 begins as a black
 | Mango | PR-0020 exact confit/compote source; PR-0021 exact process-defined cordial source; PR-0017/0018 application/service precedents | Dual-format PB-003 active | Purée-preparation B-20260831-MANG-V02-01 planned; cordial batch not opened | Purée-preparation AT-20260831-005 planned; cordial applications not opened | Cordial requires juice/purée decision, specialist inputs, and liquid-sealing method |
 | Pistachio | PR-0023 exact commercial chai/coffee application; German 100% paste and syrup controls identified | PB-004 research active | None | None | Complete house paste/syrup formulation source missing; bulk kernels deferred |
 | Roasted Hazelnut | PR-0024 exact commercial cocktail application; German 100% paste and syrup controls identified | PB-005 research active | None | None | Complete house paste/syrup formulation source missing; whole-nut process not justified yet |
-| Black Sesame | PR-0025 exact seed-to-paste/latte; PR-0026 exact commercial matcha/glass-wall application | PB-006 research active | None | None | Whole-gram conversion, equipment equivalence, purchased-paste adaptation and control unresolved |
+| Black Sesame | PR-0025 Vitamix seed paste; European PR-0026 wall application; Asian PR-0029 paste matcha, PR-0030 powder matcha and PR-0031 manufacturer base | PB-006 research active | None | None | Route selection, whole-gram conversion where required, equipment equivalence, purchased-paste adaptation and control unresolved |
 
 ## Open research questions
 
@@ -85,6 +85,7 @@ PB-004/PB-005 keep nut-paste and syrup routes separate. PB-006 begins as a black
 - Does purchased 100% nut paste provide better first-pilot reproducibility than in-house roasting and grinding, and at what measured volume would the latter become worthwhile?
 - Can the available blender reproduce the smoothness required by the exact Vitamix black-sesame source?
 - What like-for-like commercial or sourced control best anchors the first PB-006 comparison?
+- Which complete Asia-based professional/commercial formulations are relevant enough to close the PB-004 pistachio and PB-005 roasted-hazelnut geographic gaps without forcing a recipe merely to satisfy a quota?
 
 ## Experiments awaiting execution
 

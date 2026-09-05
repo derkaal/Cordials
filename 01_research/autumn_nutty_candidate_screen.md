@@ -1,6 +1,6 @@
 # Autumn Nutty Candidate Screen — Pistachio, Roasted Hazelnut, Black Sesame
 
-Date: 2026-09-03
+Date: 2026-09-05
 
 ## Decision
 
@@ -38,7 +38,7 @@ Pistachio and hazelnut inputs are **nut pastes/mus**, not fruit purées. Black s
 |---|---|---|---|---|
 | Pistachio | MONIN Pistachio 0.7 L (`SRC-2026-073`) | 1883 Pistachio & Chaï (`PR-0023`) | Pistachio syrup has a quantified milk/coffee/chai application. | No complete professional house paste-preparation or house syrup formula has been selected. |
 | Roasted hazelnut | MONIN Roasted Hazelnut (`SRC-2026-077`) | 1883 Hazelnut Old Fashioned (`PR-0024`) | Roasted-hazelnut syrup has a quantified cocktail application. | A paste-based café drink and a reproducible house syrup formulation still need sources. |
-| Black sesame | No like-for-like commercial syrup control selected | Vitamix Black Sesame Paste and Latte (`PR-0025`); Health Bar Black Sesame Matcha Latte (`PR-0026`) | Exact seed-to-paste and matcha/milk precedents exist; Health Bar explicitly uses the glass wall. | Whole-gram operational adaptation, cold service performance and a useful commercial control remain open. |
+| Black sesame | Kuki 10 g powder + 150 ml milk manufacturer base (`PR-0031`) is a purchasable-format benchmark, not a like-for-like 100% paste | Vitamix paste/latte (`PR-0025`); German Health Bar glass-wall matcha (`PR-0026`); Japanese Taste paste-based matcha (`PR-0029`); Yunomi powder-based matcha (`PR-0030`); Kuki manufacturer base (`PR-0031`) | European and Asian commercial precedents now cover wall application, paste, powder and manufacturer-premix routes. | Whole-gram paste adaptation, cold service performance and a like-for-like 100% paste control remain open. |
 
 ## Research gates before any batch
 
@@ -49,3 +49,6 @@ Pistachio and hazelnut inputs are **nut pastes/mus**, not fruit purées. Black s
 5. Record physical labels, lots, purchase prices, allergen statements and oil separation before testing.
 6. Do not open shelf-life optimisation until flavour, texture, dispersion and service utility have passed.
 
+## Geographic research control
+
+The evidence pool now explicitly distinguishes the base of the responsible operator from flavour associations. PB-006 has validated European (`PR-0026`, Germany) and Asian (`PR-0029`–`PR-0031`, Japan) professional/commercial references. PB-004 and PB-005 currently have European application sources but no qualifying Asia-based product-specific formulation. Those gaps remain open in `geographic_recipe_coverage.md`; they are not permission to invent recipes or weaken source completeness.

@@ -22,6 +22,14 @@ Current formulation-authoring rule from 2026-08-31: active recipe, batch, and ap
 
 Use `UNKNOWN` when information should exist but is unavailable. Use `NOT MEASURED` when an experimental measurement was not taken. Use `NOT APPLICABLE` only when the field genuinely does not apply. Never use a blank to imply zero.
 
+### Professional-recipe geography
+
+- `professional_base_region`: `ASIA`, `EUROPE`, `NORTH AMERICA`, `LATIN AMERICA AND CARIBBEAN`, `AFRICA`, `OCEANIA`, `GLOBAL / NOT REGION-SPECIFIC`, or `UNKNOWN`.
+- `professional_base_country`: country of the responsible professional, venue, operator or manufacturer when directly supported; otherwise `UNKNOWN`.
+- Classify the publisher/operator, not the hosting domain, delivery market, page language, ingredient origin or presumed cultural inspiration.
+- Before a professional recipe is selected for a product, search relevant Asian and European professional/commercial sources. Record an unresolved regional gap rather than manufacturing a formula or relaxing completeness/provenance controls.
+- Geographic breadth is a research-control field. It does not override professional authority, exactness, reproducibility, application relevance or the source/adaptation boundary.
+
 ### Import source/provenance status
 
 - `UNREVIEWED`

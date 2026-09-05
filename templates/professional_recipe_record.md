@@ -6,6 +6,8 @@
 - **Title:** UNKNOWN
 - **Professional:** UNKNOWN
 - **Venue/organisation:** UNKNOWN
+- **Professional base region:** UNKNOWN
+- **Professional base country:** UNKNOWN
 - **Provenance classification:** UNKNOWN
 - **Record status:** DRAFT — AWAITING VERIFICATION
 
@@ -54,4 +56,3 @@ Label each note as source-stated fact, calculated value, experimental measuremen
 - **Candidate assessment(s):** UNKNOWN
 - **Batch(es):** UNKNOWN
 - **Application test(s):** UNKNOWN
-

@@ -17,6 +17,9 @@
 - **Author credentials/role:** UNKNOWN
 - **Primary or secondary source:** UNKNOWN
 - **Professional/scientific context:** UNKNOWN
+- **Professional/operator base region:** UNKNOWN
+- **Professional/operator base country:** UNKNOWN
+- **Geographic evidence:** UNKNOWN
 - **Relevance to project:** UNKNOWN
 - **Limitations/conflicts:** UNKNOWN
 
@@ -36,4 +39,3 @@
 
 - **Quotation/usage notes:** UNKNOWN
 - **Local copy status/location:** UNKNOWN
-
