@@ -2,6 +2,13 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-09-05 — First pumpkin café run and preparation-specific feedback
+
+- Recorded the first café execution separately for PUREE-V03 and SYRUP-V02 rather than treating PB-001 as one combined result.
+- Preserved the purée feedback exactly at the available resolution: “the purée was great”; no missing Brix, yield or cling measurement was inferred.
+- Recorded the syrup's +40 g sugar correction from 110 g to 150 g total as an executed deviation, not a silent change to the sourced plan; any repeat at 150 g requires a new adapted version.
+- Added distinct purée and syrup feedback targets to the dashboard so future mobile observations attach to the correct preparation.
+
 ## 2026-09-05 — Sub-10 g quantities moved to measuring spoons
 
 - Adopted the café rule that active working quantities below 10 g use standard level 5 ml measuring spoons and practical spoon fractions; source gram amounts remain preserved.

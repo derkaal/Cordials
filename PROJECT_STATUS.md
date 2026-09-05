@@ -89,15 +89,15 @@ PB-004/PB-005 keep nut-paste and syrup routes separate. PB-006 begins as a black
 - What like-for-like commercial or sourced control best anchors the first PB-006 comparison?
 - Which complete Asia-based professional/commercial formulations are relevant enough to close the PB-004 pistachio and PB-005 roasted-hazelnut geographic gaps without forcing a recipe merely to satisfy a quota?
 
-## Experiments awaiting execution
+## Experiments and execution status
 
 - **B-20260830-PUMPMAT-V01-01:** superseded before execution because calculated quantities were impractical to measure.
 - **B-20260830-PUMPMAT-V02-01:** superseded before execution when PB-001 split into two functions.
 - **B-20260904-PUMPPURE-V01-01:** superseded before execution because the 286 g / 32 g / 32 g working scale was not café-practical.
 - **B-20260905-PUMPPURE-V02-01:** superseded before execution when the sub-10 g spoon rule was adopted.
-- **B-20260905-PUMPPURE-V03-01:** PR-0027 café-practical KoRo adaptation — 280 g purée / 60 g sugar split 30/30 / 1 level 1/2 tsp NH pectin; exact source calculations and the SRC-2026-092 conversion basis are disclosed; source 50°C addition and 103°C finish retained.
+- **B-20260905-PUMPPURE-V03-01:** executed in the café on 2026-09-05; café-team qualitative feedback was “the purée was great.” The PR-0027 café-practical KoRo adaptation remains 280 g purée / 60 g sugar split 30/30 / 1 level 1/2 tsp NH pectin; yield, Brix and comparative cling observations remain unrecorded.
 - **B-20260904-PUMPSYR-V01-01:** superseded before execution when the ordered Ostmann blend was selected instead of three separate ground spices.
-- **B-20260905-PUMPSYR-V02-01:** PR-0028 adaptation — 300 ml water / 120 ml KoRo purée / 110 g sugar / 2 level tsp Ostmann mix / 1/2 tsp vanilla; weigh the spoon dose; light simmer about 5 minutes.
+- **B-20260905-PUMPSYR-V02-01:** executed in the café on 2026-09-05. The planned/source-retained 110 g sugar was judged insufficiently sweet, so 40 g was added during tasting for 150 g total. This is recorded as an executed deviation; V02 and PR-0028 remain unchanged, and any 150 g repeat requires a separately classified V03 adaptation.
 - **GC-20260830-PB001-01:** FONTE vs unmodified KoRo vs PUREE-V03 comparative cling/squeeze pilot; no arbitrary numerical threshold. SYRUP-V02 is excluded from cling scoring.
 - **AT-20260830-001:** superseded before execution because it was an original house formulation. Replacement source-only application not yet opened.
 - **B-20260831-LYCH-V02-01:** superseded before execution because its calculator-led scaling did not meet the café-practical rule.
