@@ -61,10 +61,10 @@ The chosen target must name the product, format, instrument, sample temperature,
 
 | Product / format | Input control | Commercial control | House sample | Reading label | Target status |
 |---|---|---|---|---|---|
-| PB-001 glass-cling pumpkin purée preparation | Unmodified KoRo purée | FONTE Pumpkin Spice Sauce | B-20260905-PUMPPURE-V02-01 | Apparent Brix | Pending first comparative measurement |
+| PB-001 glass-cling pumpkin purée preparation | Unmodified KoRo purée | FONTE Pumpkin Spice Sauce | B-20260905-PUMPPURE-V03-01 | Apparent Brix | Pending first comparative measurement |
 | PB-001 pumpkin-spice syrup | KoRo purée | No like-for-like syrup selected | B-20260905-PUMPSYR-V02-01 | Measured/apparent Brix according to boundary quality | First successful batch can become process baseline; no commercial target yet |
-| PB-002 lychee purée preparation | Blended drained canned lychee | MONIN Le Fruit Lychee | B-20260905-LYCH-V03-01 | Apparent Brix | Pending first comparative measurement |
-| PB-003 mango purée preparation | Selected mango purée | MONIN Le Fruit Mango | B-20260905-MANG-V03-01 | Apparent Brix | Pending first comparative measurement |
+| PB-002 lychee purée preparation | Blended drained canned lychee | MONIN Le Fruit Lychee | B-20260905-LYCH-V04-01 | Apparent Brix | Pending first comparative measurement |
+| PB-003 mango purée preparation | Selected mango purée | MONIN Le Fruit Mango | B-20260905-MANG-V04-01 | Apparent Brix | Pending first comparative measurement |
 | PB-004 pistachio formats | Selected 100% paste | MONIN Pistachio only for the syrup track | No batch opened | Apparent refractometer reading for paste/emulsion; Brix for clear syrup if readable | Pending source selection and first batch |
 | PB-005 roasted-hazelnut formats | Selected 100% paste | MONIN Roasted Hazelnut only for the syrup track | No batch opened | Apparent refractometer reading for paste/emulsion; Brix for clear syrup if readable | Pending source selection and first batch |
 | PB-006 black-sesame preparation | Selected 100% paste or source-defined powder | Kuki powder base only if that route is selected | No batch opened | Apparent refractometer reading | Pending source-route selection and first batch |

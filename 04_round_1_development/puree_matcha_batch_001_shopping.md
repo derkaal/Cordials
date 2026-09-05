@@ -9,13 +9,13 @@ The first glass-cling purée-preparation batches remain unchanged: lychee uses t
 | Priority | Item | Exact selection | Quantity | Current source status | Used for |
 |---|---|---|---:|---|---|
 | REQUIRED | NH pectin | Sosa Fruit Pectin NH, 500 g, EAN 8414933568001 | 1 | SRC-2026-068: Baktotaal listed EUR 37.89 plus shipping and in stock at access time; physical label/allergen statement controls. BOS FOOD remains an alternative in SRC-2026-067. | Both source-formulated batches |
-| REQUIRED | Mango purée | Les Vergers Boiron frozen 100% mango purée, 1 kg, article 16738 | 1 | SRC-2026-040: German availability recorded; reconfirm stock/price | PB-003 B-20260905-MANG-V03-01 |
+| REQUIRED | Mango purée | Les Vergers Boiron frozen 100% mango purée, 1 kg, article 16738 | 1 | SRC-2026-040: German availability recorded; reconfirm stock/price | PB-003 B-20260905-MANG-V04-01 |
 | REQUIRED | Lychee commercial control | MONIN Le Fruit Lychee, 1 L | 1 | SRC-2026-042: German purchase route; reconfirm stock/price | PB-002 cling and drink controls |
 | REQUIRED | Mango commercial control | MONIN Le Fruit Mango, 500 ml | 1 | SRC-2026-044: German purchase route; reconfirm gross price/stock | PB-003 cling and drink controls |
 | REQUIRED | Whole milk | One fixed brand/product, 3.5% fat | 2 L | Local purchase; same lot where practical | Source-adapted application tests and controls |
 | REQUIRED | Granulated white sugar | One exact product | At least 110 g | Local purchase/stock; record label | 50 g lychee; 60 g mango |
 | REQUIRED | House squeeze bottles | Food-grade 350–500 ml fine-nozzle bottles | 2 | Supplier TBD; measure openings | Service tests |
-| REQUIRED IF ABSENT | Precision scale | 0.1 g readability or better | 1 | Verify before batching | Reliable control of each 2 g pectin dose and all direct weights |
+| OPTIONAL CHECK | Precision scale | 0.1 g readability or better | 1 | Verify if available | Record the actual mass of each level 1/2 tsp pectin dose; not required for dispensing |
 | REQUIRED IF ABSENT | Thermometer | Food-safe probe reading at least to 105°C | 1 | Verify before batching | 50°C and 103°C source endpoints |
 | REQUIRED IF ABSENT | Small saucepan and whisk | Suitable for approximately 275–350 g fruit preparation | 1 each | Standard café equipment assumed | Source method |
 | REQUIRED IF ABSENT | Blunt dosing syringe | Food-safe 5 or 10 ml | 1 | Supplier TBD | Controlled cling deposits |
@@ -51,7 +51,7 @@ The ordered Boiron mango purée is not silently treated as the mango juice speci
 
 1. Weigh drained fruit and retained liquid separately after a recorded drain time/method.
 2. Blend only the drained fruit; record blender, speed, time, smoothness, colour, and aroma.
-3. Measure drained-fruit purée Brix and retained-liquid Brix separately. Do not add the liquid to B-20260905-LYCH-V03-01.
+3. Measure drained-fruit purée Brix and retained-liquid Brix separately. Do not add the liquid to B-20260905-LYCH-V04-01.
 4. Confirm at least 220 g smooth purée is available. If not, stop; do not improvise smaller pectin quantities during service.
 
 ## Confirm from stock

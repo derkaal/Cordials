@@ -2,6 +2,13 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-09-05 — Sub-10 g quantities moved to measuring spoons
+
+- Adopted the café rule that active working quantities below 10 g use standard level 5 ml measuring spoons and practical spoon fractions; source gram amounts remain preserved.
+- Added SRC-2026-092, whose three-measurement average reports NH pectin at 3.6 g per teaspoon, while explicitly retaining product/packing uncertainty.
+- Superseded the unexecuted gram-dosed purée plans and opened PUREE-V03 pumpkin plus V04 lychee/mango with 1 level 1/2 tsp NH pectin.
+- Made the precision scale an optional check tool rather than a batch blocker; the thermometer and standard measuring spoons remain required.
+
 ## 2026-09-05 — Active purée batches made café-practical
 
 - Superseded the unexecuted 286 g pumpkin/mango and 222 g lychee working plans rather than silently rewriting them.

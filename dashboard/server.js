@@ -300,7 +300,7 @@ function getQueue(products) {
     const ready = product.status === 'Ready to test';
     const task = ready
       ? product.productId === 'PB-001'
-        ? 'Prepare café-practical PUREE-V02 and Ostmann-adapted SYRUP-V02 separately; run the comparative cling pilot on the purée only'
+        ? 'Prepare café-practical PUREE-V03 and Ostmann-adapted SYRUP-V02 separately; use level measuring spoons below 10 g'
         : 'Run Batch 001 and comparative cling pilot'
       : product.nextAction;
     return { id: `QUEUE-${product.code}`, productId: product.productId || product.key, product: product.name, priority: product.priority, priorityRank: product.priorityRank, column: ready ? 'Ready for Test' : 'Research', task, blocker: ready ? 'Required ingredients and physical measurements pending' : 'Complete professional formulation and input route not yet selected', nextAction: product.nextAction };

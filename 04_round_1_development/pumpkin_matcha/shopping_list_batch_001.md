@@ -2,7 +2,7 @@
 
 Status: **KORO PURÉE ARRIVED; PHYSICAL CAN RECORD AND REMAINING ITEMS PENDING**
 
-Applies to: `B-20260905-PUMPPURE-V02-01`, `B-20260905-PUMPSYR-V02-01`, and `GC-20260830-PB001-01`
+Applies to: `B-20260905-PUMPPURE-V03-01`, `B-20260905-PUMPSYR-V02-01`, and `GC-20260830-PB001-01`
 
 Updated: 2026-09-05
 
@@ -19,11 +19,11 @@ Updated: 2026-09-05
 
 | Priority | Item | Exact selection/amount needed | Why needed |
 |---|---|---|---|
-| REQUIRED | NH pectin | Sosa Fruit Pectin NH preferred; at least 2 g usable, one retail pack | Integral to the exact Boiron pumpkin formula; no substitute under this batch ID |
-| REQUIRED | Granulated white sugar | At least 60 g from one recorded product | Two equal 30 g portions in PUREE-V02 |
+| REQUIRED | NH pectin | Sosa Fruit Pectin NH preferred; one retail pack | PUREE-V03 uses 1 level 1/2 tsp; pectin is integral to the Boiron formula |
+| REQUIRED | Granulated white sugar | At least 60 g from one recorded product | Two equal 30 g portions in PUREE-V03 |
 | REQUIRED | FONTE Gourmet Pumpkin Spice Sauce | One nominal 350 g/ml squeeze bottle | Commercial cling/squeeze/service control; photograph the physical ingredient declaration |
 | REQUIRED | Food-grade squeeze bottle | One bottle that can accept the measured purée-preparation test portion; fine nozzle | Purée-preparation service test; measure capacity and nozzle opening |
-| REQUIRED IF ABSENT | 0.1 g digital scale | Readability 0.1 g or better; capacity suitable for saucepan ingredients | Required to resolve the 2 g pectin dose reliably |
+| OPTIONAL CHECK | Precision scale | 0.1 g readability or better | May record the actual mass of the level 1/2 tsp pectin dose; not required for dispensing it |
 | REQUIRED IF ABSENT | Thermometer | Must read at least 103°C | Source endpoint is 103°C |
 | REQUIRED IF ABSENT | Blunt food-safe dosing syringe | 5 or 10 ml | Controlled 3.0 g cling deposits |
 
@@ -41,11 +41,11 @@ Updated: 2026-09-05
 
 ## One-can feasibility check
 
-PUREE-V02 requires 280 g KoRo purée. SYRUP-V02 requires 120 ml. A 425 g can may cover both, but the project will not assume the mass of 120 ml or ignore transfer loss.
+PUREE-V03 requires 280 g KoRo purée. SYRUP-V02 requires 120 ml. A 425 g can may cover both, but the project will not assume the mass of 120 ml or ignore transfer loss.
 
 1. Mix the opened can uniformly and weigh its actual usable contents.
 2. Reserve a representative sample for the unmodified KoRo comparison and Brix reading.
-3. Weigh 280 g for PUREE-V02.
+3. Weigh 280 g for PUREE-V03.
 4. Measure the remaining purée. If it does not provide a full 120 ml for SYRUP-V02, stop and obtain a second can; do not reduce or rebalance either recipe during execution.
 
 ## Other equipment and stock to confirm
@@ -67,7 +67,7 @@ PUREE-V02 requires 280 g KoRo purée. SYRUP-V02 requires 120 ml. A 425 g can may
 3. Scale/thermometer identity and check status; refractometer calibration and temperature.
 4. FONTE physical label, whether pumpkin is named, package/nozzle, Brix if readable, and product temperature.
 5. Service-glass dimensions/temperature and house squeeze-bottle capacity/nozzle.
-6. PUREE-V02 actual ingredient masses, 50°C addition time, 103°C endpoint time, yield, Brix, texture, and disposition.
+6. PUREE-V03 actual ingredient amounts, optional check mass for its level 1/2 tsp pectin, 50°C addition time, 103°C endpoint time, yield, Brix, texture, and disposition.
 7. SYRUP-V02 physical Ostmann packet; actual mass of its two level teaspoons and the 120 ml KoRo portion; light-simmer time/temperature, yield, Brix, spice balance, cayenne heat, pourability, settling, and disposition.
 
 ## No longer required for the current Batch 001 route
