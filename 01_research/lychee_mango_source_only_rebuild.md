@@ -25,10 +25,10 @@ Use practical whole-gram adaptations derived from the Boiron source ratios. A 2 
 
 | Fruit | Purée | Sugar | NH pectin | Planned ingredient mass |
 |---|---:|---:|---:|---:|
-| Lychee | 222 g | 50 g | 2 g | 274 g |
-| Mango | 286 g | 64 g | 2 g | 352 g |
+| Lychee | 220 g | 50 g, split 25 g + 25 g | 2 g | 272 g |
+| Mango | 280 g | 60 g, split 30 g + 30 g | 2 g | 342 g |
 
-For lychee, exact scaling from the source at 2 g pectin gives 222.222 g purée and 50 g sugar; the working purée amount is rounded by -0.222 g. For mango, exact scaling gives 285.714 g purée and 64.286 g sugar; both are rounded to whole grams by less than 0.3 g. These are disclosed practical rounding decisions, so the batches remain `ADAPTATION OF SOURCED RECIPE` and do not claim an unchanged source ratio. A verified 0.1 g scale is still required for reliable control of a 2 g pectin dose.
+The active batches prioritise café handling over calculator-perfect scaling. For lychee, the exact PR-0019 amounts at 220 g purée are 49.5 g sugar and 1.98 g pectin; V03 rounds them to 50 g and 2 g. For mango, the exact PR-0020 amounts at 280 g purée are 63 g sugar and 1.96 g pectin; V03 uses 60 g and 2 g. Every change is disclosed, so both remain `ADAPTATION OF SOURCED RECIPE` and do not claim an unchanged source ratio. A verified 0.1 g scale is still required for reliable control of the 2 g pectin dose. The unexecuted 222 g lychee and 286 g mango plans are preserved as superseded.
 
 For lychee, the first available-input plan replaces Boiron purée with a purée made from drained canned lychees while preserving the Boiron ratio and method. That ingredient substitution makes the batch an `ADAPTATION OF SOURCED RECIPE`. It may not run until the can label, syrup type, drained yield, and fruit Brix are recorded. A future exact-brand Boiron-input batch remains possible through `SRC-2026-062`.
 

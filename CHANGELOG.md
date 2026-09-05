@@ -2,6 +2,13 @@
 
 Consequential structural, methodological, and editorial changes are recorded here. Routine note edits need not be listed.
 
+## 2026-09-05 — Active purée batches made café-practical
+
+- Superseded the unexecuted 286 g pumpkin/mango and 222 g lychee working plans rather than silently rewriting them.
+- Opened café-practical adaptations: pumpkin and mango each use 280 g purée, 60 g sugar split 30/30, and 2 g NH pectin; lychee uses 220 g purée, 50 g sugar split 25/25, and 2 g NH pectin.
+- Preserved PR-0027, PR-0020 and PR-0019 exactly as published and disclosed every ratio change in the replacement batch records.
+- Relinked the comparative pilots, application tests, shopping lists, Brix register and dashboard to the replacement batches.
+
 ## 2026-09-05 — Ostmann blend selected for the café syrup pilot
 
 - Preserved PR-0028 and its unexecuted exact SYRUP-V01 plan rather than rewriting their provenance.

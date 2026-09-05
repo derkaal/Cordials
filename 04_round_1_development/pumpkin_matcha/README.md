@@ -8,7 +8,7 @@
 - **Primary use:** Seasonal iced pumpkin matcha with visible inner-glass pumpkin
 - **Current stage:** Two source-traced Batch 001 components planned; KoRo purée arrived; remaining materials/measurements pending
 - **Preparation classification:** Two separate functional classes; neither is called a cordial
-- **Batch status:** `B-20260904-PUMPPURE-V01-01` and Ostmann-adapted `B-20260905-PUMPSYR-V02-01` planned; exact Vitamix SYRUP-V01 and earlier combined-sauce plans superseded unexecuted
+- **Batch status:** Café-practical `B-20260905-PUMPPURE-V02-01` and Ostmann-adapted `B-20260905-PUMPSYR-V02-01` planned; PUREE-V01, exact Vitamix SYRUP-V01, and earlier combined-sauce plans superseded unexecuted
 - **Primary record:** `PB-001.md`
 - **Research synthesis:** `../../01_research/pumpkin_matcha_professional_research.md`
 - **Research record:** `01_research/pumpkin_matcha_professional_research.md`
@@ -23,8 +23,8 @@
 |---|---|
 | Product Brief | `PB-001.md` — ACTIVE |
 | Professional Research | `../../01_research/pumpkin_matcha_professional_research.md` — IN PROGRESS |
-| Candidate Formulations | PUREE-V01 — KoRo adaptation of PR-0027 Boiron pumpkin confit; SYRUP-V02 — PR-0028 Vitamix syrup adapted to the ordered Ostmann commercial blend |
-| Experimental Batches | `B-20260904-PUMPPURE-V01-01` and `B-20260905-PUMPSYR-V02-01` — PLANNED; exact Vitamix SYRUP-V01 and earlier combined-sauce plans superseded unexecuted |
+| Candidate Formulations | PUREE-V02 — café-practical KoRo adaptation of PR-0027 Boiron pumpkin confit; SYRUP-V02 — PR-0028 Vitamix syrup adapted to the ordered Ostmann commercial blend |
+| Experimental Batches | `B-20260905-PUMPPURE-V02-01` and `B-20260905-PUMPSYR-V02-01` — PLANNED; PUREE-V01, exact Vitamix SYRUP-V01, and earlier combined-sauce plans superseded unexecuted |
 | Application Testing | New source-only matcha application test NOT YET OPENED; `AT-20260830-001` superseded unexecuted |
 | Operational/Economic Evaluation | Not started; cost targets remain TBD |
 | Approved Production Version | None |
@@ -35,12 +35,14 @@ This is a high-pumpkin, pectin-structured purée preparation based on Les Verger
 
 | Ingredient | Batch 001 amount |
 |---|---:|
-| KoRo 100% pumpkin purée | 286 g |
-| Granulated sugar, first portion | 32 g |
-| Granulated sugar, pectin-premix portion | 32 g |
+| KoRo 100% pumpkin purée | 280 g |
+| Granulated sugar, first portion | 30 g |
+| Granulated sugar, pectin-premix portion | 30 g |
 | NH pectin | 2 g |
 
 Heat purée with the first sugar portion. At 50°C whisk in the dry sugar–pectin premix, cook to 103°C, cover and cool, then mix cold with a spatula until smooth. Do not add spice to this first batch: pumpkin flavour and glass-cling performance are being isolated.
+
+At a 280 g purée scale the exact PR-0027 amounts would be 63 g sugar and 1.96 g NH pectin. The operational 60 g sugar and 2 g pectin are deliberately rounded for café use, so PUREE-V02 remains a disclosed adaptation rather than a source-exact formula.
 
 ## Option 2 — Pumpkin-spice syrup / sweetener — Ostmann adaptation
 

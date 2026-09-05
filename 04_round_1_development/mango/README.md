@@ -9,7 +9,7 @@
 - **Primary use:** Parallel matcha purée and multi-category cordial development
 - **Current stage:** Purée-preparation Batch 001 planned; exact sourced cordial recipe recorded; cordial batch not opened
 - **Primary record:** `PB-003.md`
-- **Operational batch:** `B-20260831-MANG-V02-01`
+- **Operational batch:** `B-20260905-MANG-V03-01`
 - **Cling pilot:** `GC-20260831-PB003-02.md`
 - **Application test:** `AT-20260831-005`
 - **Shopping list:** `../puree_matcha_batch_001_shopping.md`
@@ -20,12 +20,12 @@ This is a cooked, pectin-set purée preparation—not plain fruit purée and not
 
 | Ingredient | Batch 001 amount |
 |---|---:|
-| Les Vergers Boiron 100% mango purée | 286 g |
-| Granulated white sugar, first portion | 32 g |
-| Granulated white sugar, pectin-premix portion | 32 g |
+| Les Vergers Boiron 100% mango purée | 280 g |
+| Granulated white sugar, first portion | 30 g |
+| Granulated white sugar, pectin-premix portion | 30 g |
 | NH pectin | 2 g |
 
-Heat the purée and first sugar portion; at 50°C gradually whisk in the sugar–pectin premix. Cook to 103°C, transfer, cool and whisk smooth. See the [full controlled Batch 001 method and provenance](../../05_lab_notebook/batches/B-20260831-MANG-V02-01.md).
+Heat the purée and first sugar portion; at 50°C gradually whisk in the sugar–pectin premix. Cook to 103°C, transfer, cool and whisk smooth. At 280 g purée, the exact PR-0020 scale would be 63 g sugar and 1.96 g pectin; the 60 g / 2 g working amounts are disclosed café-practical adaptations. See the [full controlled Batch 001 method and provenance](../../05_lab_notebook/batches/B-20260905-MANG-V03-01.md).
 
 ## Option 2 — Clarified mango cordial
 
