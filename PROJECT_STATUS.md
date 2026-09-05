@@ -10,7 +10,7 @@ Last updated: 2026-09-05
 - **Current high-priority programme:** PB-001 Pumpkin; PB-004 Pistachio; PB-005 Roasted Hazelnut; PB-006 Black Sesame
 - **Secondary active products:** PB-002 Lychee and PB-003 Mango
 - **Active product cases:** PB-001 Pumpkin Glass-Cling Purée Preparation and Spice Syrup; PB-002 Lychee Purée Preparation and Cordial; PB-003 Mango Purée Preparation and Cordial; PB-004 Pistachio; PB-005 Roasted Hazelnut; PB-006 Black Sesame
-- **Latest consequential change:** Asian/European operator geography is now a controlled evidence field; four exact Japan-based commercial recipes were added for pumpkin–matcha and black sesame, while regional product gaps remain explicit
+- **Latest consequential change:** Brix is now a controlled, achievable comparative benchmark: measure the relevant input, commercial control and source-traced final preparation first; set no numerical target until performance passes
 - **Active validation queue:** `02_sources/VALIDATION_QUEUE.md`
 
 ## Active product cases
@@ -34,6 +34,7 @@ PB-004/PB-005 keep nut-paste and syrup routes separate. PB-006 begins as a black
 |---|---|---|---|
 | Cordial taxonomy and techniques | Awaiting migration | Existing wider-project research | Ingest through import manifest and validate sources |
 | Professional recipe database | Partially validated | Operator geography audited; exact European references retained and exact Japan-based PR-0029–PR-0032 added | Use Asian and European filters in the dashboard; keep product-level geographic gaps explicit while continuing validation |
+| Brix/process consistency | Protocol ready; instrument receipt pending | Cross-product method distinguishes Brix, apparent Brix and opaque-matrix refractometer readings; commercial-control comparisons defined | Receive/inspect/calibrate EQ-002, record raw repeat readings and temperatures, then establish targets only from successful measured products |
 | Round 1 reference formulations | Partially validated | Threshold A/B results recorded; all Threshold C claims fail/remain open | Select source versions explicitly before Batch 001 planning |
 | Matcha compatibility | Awaiting migration | Existing wider-project research | Validate professional precedents and analysis |
 | Food science / preservation / shelf life | Initial vacuum/freezing boundary validated | BfR/BZfE/CASO guidance recorded; no product shelf life established | Validate wider claims and open freeze–thaw work only after product-performance gates |
@@ -75,6 +76,7 @@ PB-004/PB-005 keep nut-paste and syrup routes separate. PB-006 begins as a black
 - Which verified professional precedent supports pumpkin with matcha or tea rather than coffee/cocktails alone?
 - Which verified professional formulations provide the most relevant reference points for each candidate?
 - Which preservation and shelf-life claims are directly supported by credible evidence?
+- Are apparent-Brix readings repeatable and readable in each purée or nut/seed matrix, and what commercial-control/house-batch values are observed before any final target is set?
 - What measurements and controls are required for responsible shelf-life evaluation?
 - How should ingredient seasonality and sourcing be represented in candidate scoring?
 - Which objective comparison will fairly test mango cordial against mango purée?
@@ -172,6 +174,7 @@ Full list and rationale: `04_round_1_development/autumn_nutty_research_shopping.
 - Canned lychee brand/origin, complete ingredient and nutrition declarations, net and stated drained mass, actual drained fruit mass, retained syrup mass/type, fruit and syrup Brix separately, and texture after blending. The syrup is excluded from B-20260831-LYCH-V02-01.
 - PB-002/PB-003 50°C addition time, 103°C endpoint time, transfer and final yield, cooling conditions, cold-whisk result, Brix/sample temperature, and actual disposition.
 - For the cordial tracks: lychee source-can compatibility; mango juice-versus-purée decision; specialist product labels; clarified yield; sugar added to the source-defined Brix endpoint; final Brix/pH where measurable; filtration loss; dispersion and fruit recognition by application.
+- For every final preparation: raw repeat refractometer readings, sample temperature, boundary quality, matrix-appropriate reporting term, commercial-control value where like-for-like, and house-minus-control difference under `00_project_control/BRIX_BENCHMARK_PROTOCOL.md`.
 - The ice mass that fills the selected glass under PR-0017's source-stated condition; use the same measured amount across paired application builds.
 - All Round 1 empirical measurements remain pending.
 
@@ -179,6 +182,7 @@ Full list and rationale: `04_round_1_development/autumn_nutty_research_shopping.
 
 - PB-001 dairy remains permitted, but neither selected component batch contains dairy. Standard café equipment is sufficient; Russell Hobbs 25630-56 is not part of either source method. Exact glass/nozzle and scale/thermometer checks remain pre-test measurements.
 - PB-001 numeric cling threshold is intentionally `TBD` until controls show the useful measurement range.
+- Product-specific Brix targets are intentionally `NOT YET SET`. Brix comparison begins immediately when EQ-002 is calibrated, but a final target window can only be derived from measured controls and house batches that pass flavour, texture and service function.
 - PB-001 shelf-life target and any safety claim remain `TBD`; no source-stated period transfers to an original or adapted formula.
 - PB-002/PB-003 application adaptations use dairy because it is permitted; the purée preparations themselves contain no dairy. No handling period has been validated.
 - The canned-lychee batch cannot run until its label, drained yield, and Brix are recorded and at least 222 g smooth drained-fruit purée is confirmed.
@@ -203,10 +207,11 @@ None. No production formulation has completed the required testing and validatio
 | 2026-09-03 | Open pistachio, roasted hazelnut and black sesame; exclude chestnut. | Expands autumn development while preserving distinct paste and syrup functions. Ready-made 100% pastes minimise first-pilot variables; METRO whole nuts remain later comparisons. | `01_research/autumn_nutty_candidate_screen.md`; PB-004; PB-005; PB-006 |
 | 2026-09-04 | Split PB-001 into a glass-cling pumpkin purée preparation and a separate pumpkin-spice syrup. | Boiron publishes a pumpkin-specific pipeable confit ratio; Vitamix publishes a complete real-pumpkin café syrup. Separate functions preserve pumpkin visibility and adjustable sweetness while allowing the added service burden to be tested. | PR-0027; PR-0028; B-20260904-PUMPPURE-V01-01; B-20260904-PUMPSYR-V01-01 |
 | 2026-09-05 | Use the ordered Ostmann blend in the first syrup pilot. | Replacing PR-0028's combined 2 tsp dry spices with 2 level tsp of a recorded commercial blend is easy to measure, but compositionally different and therefore a disclosed adaptation rather than an exact execution. | SRC-2026-033; B-20260905-PUMPSYR-V02-01 |
+| 2026-09-05 | Use Brix as a measured product-consistency benchmark without inventing a target. | The ordered refractometer can compare inputs, commercial controls and final preparations. Opaque/pulped matrices require apparent-Brix wording, and numerical target windows must come from successful measured samples. | `00_project_control/BRIX_BENCHMARK_PROTOCOL.md`; SRC-2026-091 |
 
 ## Next actions
 
-1. Photograph and record the arrived KoRo can; mix it uniformly and measure usable mass, Brix, appearance, aroma, and texture before allocating it.
+1. Receive/inspect/calibrate the Proster refractometer, then photograph and record the arrived KoRo can; mix it uniformly and measure usable mass, apparent Brix, sample temperature, boundary quality, appearance, aroma, and texture before allocating it.
 2. Bring/confirm the Ostmann packet; buy/confirm Sosa Fruit Pectin NH, FONTE control, 200 g granulated sugar, vanilla extract, standard 1/2 and 1 tsp measures, the two required containers, 0.1 g scale, 103°C-capable thermometer, and dosing syringe. Separate cinnamon, allspice, and ginger are not required for SYRUP-V02.
 3. Prepare PUREE-V01 exactly as written, then run KoRo vs PUREE-V01 vs FONTE through GC-20260830-PB001-01. Separately execute SYRUP-V02 only if a full 120 ml KoRo portion remains; use 2 level tsp Ostmann plus 1/2 tsp vanilla and record the spoon dose mass without improvising.
 4. Select a complete professional/commercial pumpkin-matcha application before opening a replacement for the superseded original house test.
@@ -215,7 +220,7 @@ None. No production formulation has completed the required testing and validatio
 7. Record the canned-lychee label, actual drained fruit/liquid masses, syrup composition, and separate fruit/syrup Brix for the secondary fruit programme.
 8. Buy the remaining lychee/mango inputs and controls, and calibrate the shared equipment.
 9. Confirm at least 222 g smooth drained-lychee purée, then prepare B-20260831-LYCH-V02-01 and B-20260831-MANG-V02-01 exactly as written without substitutions.
-10. Run each three-way purée-preparation cling pilot against its commercial control using comparative language only.
+10. Run each three-way purée-preparation cling pilot against its commercial control using comparative language only; record apparent Brix for input, control and final preparation without turning closeness into a success score.
 11. Continue the sourced fruit application and cordial gates; no original formulation may be substituted.
 12. After each format passes its own flavour and service gates, decide whether a separately registered freeze–thaw quality pilot is worth opening. Do not assign a shelf life.
 13. Continue the existing source-validation queue; retain PR-0012 only as a scaling-ambiguous secondary mango benchmark.

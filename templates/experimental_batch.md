@@ -38,6 +38,10 @@
 - **Measured pH:** NOT MEASURED
 - **pH meter/calibration/sample temperature:** NOT APPLICABLE
 - **Measured Brix:** NOT MEASURED
+- **Brix reporting term:** UNKNOWN — select `measured Brix`, `apparent Brix`, or `apparent refractometer reading` from the matrix rule
+- **Commercial-control reading / sample temperature:** NOT MEASURED
+- **House-minus-control difference:** NOT CALCULATED
+- **Product-specific target status:** NOT YET SET
 - **Refractometer/calibration/sample temperature:** NOT APPLICABLE
 - **Hands-on preparation time (min):** NOT MEASURED
 - **Total elapsed preparation time (min):** NOT MEASURED

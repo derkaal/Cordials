@@ -18,6 +18,7 @@ Applies only to the glass-cling purée-preparation tracks within PB-002 Lychee a
 - Deposit 3.0 ±0.1 g as one vertical 60 mm line on the inner wall. Start the timer when deposition ends.
 - Photograph immediately, at 30 seconds, and at 300 seconds from a fixed position.
 - Record wall descent, line continuity, pooling, weeping, colour/contrast, and whether the line remains visually legible. Do not invent a numerical pass threshold.
+- Measure and record apparent Brix, sample temperature and boundary quality for the input, commercial control and source-adapted candidate under `00_project_control/BRIX_BENCHMARK_PROTOCOL.md`. Record the numerical differences, but do not score higher, lower or closer Brix as better without sensory and service evidence.
 - At 300 seconds add 100 ±5 g ice over 10 seconds, then 150 g milk over 10 seconds. Photograph immediately and after 60 seconds. Record scraping, wash-off, and retained pattern.
 - Run five 10.0 g squeeze attempts for the commercial control and five for the source-adapted purée preparation; record actual masses, line control, tailing, clogging, and operator force. Test plain purée only if it passes through the bottle without modification.
 

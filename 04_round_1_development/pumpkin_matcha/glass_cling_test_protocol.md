@@ -39,7 +39,7 @@ For the first pilot these are fixed as FONTE Gourmet Pumpkin Spice Sauce (`SRC-2
 
 Optional thin negative control: maple syrup or 1:1 sugar syrup, identified exactly. Controls are comparators, not automatic pass/fail standards.
 
-For every sample record batch/lot, age, storage condition, temperature, pH and Brix if measured, and any remixing or shear applied before the test.
+For every sample record batch/lot, age, storage condition, temperature, pH and apparent Brix if readable, and any remixing or shear applied before the test. Follow `00_project_control/BRIX_BENCHMARK_PROTOCOL.md`; Brix is a parallel consistency measurement, not a cling score.
 
 ## Glass and sample conditioning
 
@@ -92,10 +92,10 @@ Bottle performance is a separate decision variable from static cling. A sample c
 
 ## Result table
 
-| Trial ID | Sample/batch | Glass °C | Sample °C | Dose g | Descent 30 s mm | Descent 300 s mm | Bottom reached/time | Build legibility 0–5 | Weeping mm | Bottle mean/range g | Valid? | Notes |
-|---|---|---:|---:|---:|---:|---:|---|---:|---:|---|---|---|
-| UNKNOWN | UNKNOWN | NOT MEASURED | NOT MEASURED | NOT MEASURED | NOT MEASURED | NOT MEASURED | UNKNOWN | NOT MEASURED | NOT MEASURED | NOT MEASURED | UNKNOWN | UNKNOWN |
+| Trial ID | Sample/batch | Glass °C | Sample °C | Apparent Brix / boundary | Dose g | Descent 30 s mm | Descent 300 s mm | Bottom reached/time | Build legibility 0–5 | Weeping mm | Bottle mean/range g | Valid? | Notes |
+|---|---|---:|---:|---|---:|---:|---:|---|---:|---:|---|---|---|
+| UNKNOWN | UNKNOWN | NOT MEASURED | NOT MEASURED | NOT MEASURED | NOT MEASURED | NOT MEASURED | NOT MEASURED | UNKNOWN | NOT MEASURED | NOT MEASURED | NOT MEASURED | UNKNOWN | UNKNOWN |
 
 ## Pilot decision rule
 
-Do not set the PB-001 pass threshold before the commercial sauce, pumpkin input, and at least one feasibility sample have been measured. For the first pilot, compare each house sample with the commercial control on each recorded metric using `BETTER THAN CONTROL`, `NO MATERIAL DIFFERENCE OBSERVED`, `WORSE THAN CONTROL`, or `INCOMPARABLE`; do not create a weighted composite score. After the pilot, define any numerical limit from the service need and observed discriminating range and record it as a dated protocol revision. A visually appealing still photograph alone is not a pass.
+Do not set the PB-001 pass threshold or apparent-Brix target before the commercial sauce, pumpkin input, and at least one feasibility sample have been measured. For the first pilot, compare each house sample with the commercial control on each recorded metric using `BETTER THAN CONTROL`, `NO MATERIAL DIFFERENCE OBSERVED`, `WORSE THAN CONTROL`, or `INCOMPARABLE`; record Brix readings and their arithmetic differences separately and do not treat closeness as success by itself. Do not create a weighted composite score. After the pilot, define any numerical limit from the service need and observed discriminating range and record it as a dated protocol revision. A visually appealing still photograph alone is not a pass.

@@ -326,6 +326,7 @@ function buildData() {
       { id: 'PRIORITY-PUMPKIN', title: 'Pumpkin professional research', description: 'Professional references, commercial control and texture evidence for PB-001.', recordPath: '01_research/pumpkin_matcha_professional_research.md', productIds: ['PB-001'] },
       { id: 'PRIORITY-AUTUMN-NUTTY', title: 'Autumn nut and seed candidate screen', description: 'Paste, whole-nut/seed and METRO route decisions for PB-004, PB-005 and PB-006.', recordPath: '01_research/autumn_nutty_candidate_screen.md', productIds: ['PB-004','PB-005','PB-006'] },
       { id: 'GEOGRAPHIC-COVERAGE', title: 'Asian and European recipe coverage', description: 'Validated operator geography, exact regional references and product-level research gaps.', recordPath: '01_research/geographic_recipe_coverage.md', productIds: ['PB-001','PB-004','PB-005','PB-006'] },
+      { id: 'BRIX-BENCHMARK', title: 'Brix benchmark protocol', description: 'Comparable refractometer measurements, matrix labels and the evidence gate for later product targets.', recordPath: '00_project_control/BRIX_BENCHMARK_PROTOCOL.md', productIds: ['PB-001','PB-002','PB-003','PB-004','PB-005','PB-006'] },
       { id: 'PROJECT-STATUS', title: 'Current project status', description: 'Priorities, buying needs, open measurements and next actions across the programme.', recordPath: 'PROJECT_STATUS.md', productIds: ['PB-001','PB-004','PB-005','PB-006'] },
     ],
     pipeline: ['Brief', 'Research', 'Candidate', 'Batch', 'Drink Test', 'Evaluation', 'Approved'],

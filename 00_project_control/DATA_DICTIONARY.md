@@ -58,4 +58,6 @@ Every substantive imported item must have a disposition of `ACCEPTED`, `REJECTED
 - Time: minutes unless otherwise labelled.
 - Yield: record measured mass and/or volume, never a nominal container size.
 - pH and Brix: identify instrument, calibration, temperature, and whether the result is measured or source-stated.
+- Use `apparent Brix` for fruit/pumpkin purées and `apparent refractometer reading` for opaque nut/seed/dairy emulsions unless the method validates a stronger interpretation. Brix is a dissolved-solids/process measurement, not a direct proof of sugar, sweetness, water activity, safety or shelf life.
+- Product targets remain `NOT YET SET` until the closest commercial control and a source-traced house batch are measured and the batch passes flavour, texture and service function. See `BRIX_BENCHMARK_PROTOCOL.md`.
 - Currency: state ISO currency code and price date.
