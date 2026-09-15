@@ -6,9 +6,9 @@
 - **Formats:** Glass-cling pumpkin purée preparation + pourable pumpkin-spice syrup
 - **Applications:** Matcha; tea; coffee; zero-proof drinks; cocktails; desserts
 - **Primary use:** Seasonal iced pumpkin matcha with visible inner-glass pumpkin
-- **Current stage:** KoRo purée route executed positively; a source-traced fresh Red Kuri comparison is now planned; spice syrup first run needs a separately opened 150 g-sugar revision
+- **Current stage:** KoRo purée route executed positively; the 200°C Red Kuri roast failed by burning and a source-traced steamed Red Kuri replacement is planned
 - **Preparation classification:** Two separate functional classes; neither is called a cordial
-- **Batch status:** KoRo `B-20260905-PUMPPURE-V03-01` executed positively; fresh Red Kuri `B-20260915-PUMPPURE-V04-01` planned; Ostmann-adapted `B-20260905-PUMPSYR-V02-01` executed with a recorded sugar deviation
+- **Batch status:** KoRo V03 positive; roasted Red Kuri V04 failed; steamed Red Kuri V05 planned; Ostmann syrup V02 executed with a recorded sugar deviation
 - **Primary record:** `PB-001.md`
 - **Research synthesis:** `../../01_research/pumpkin_matcha_professional_research.md`
 - **Research record:** `01_research/pumpkin_matcha_professional_research.md`
@@ -44,9 +44,9 @@ Heat purée with the first sugar portion. At 50°C whisk in the dry sugar–pect
 
 At a 280 g purée scale the exact PR-0027 amounts would be 63 g sugar and 1.96 g NH pectin. The operational 60 g sugar and level 1/2 tsp pectin are deliberately practical adaptations. SRC-2026-092 estimates that spoon at about 1.8 g, but the Sosa product's actual mass is not assumed exact.
 
-### Fresh Red Kuri comparison — PUREE-V04
+### Fresh Red Kuri comparison — PUREE-V05
 
-`B-20260915-PUMPPURE-V04-01` keeps the same 280 g / 30 g / 30 g / 1/2 tsp cling formula and changes only the pumpkin route. Following the professional Arla preparation evidence in PR-0033, wash and deseed the Red Kuri, roast large skin-on pieces at 200°C for 40–50 minutes until completely tender, blend without additions and pass through a fine sieve. Measure the finished yield and apparent Brix, then weigh 280 g of that finished plain purée into the cling formula. KoRo PUREE-V03 remains the control; it is not overwritten.
+The PR-0033 200°C roast in V04 burned most of the pumpkin after 40 minutes and is not to be repeated unchanged. `B-20260915-PUMPPURE-V05-01` instead adapts PR-0034: peel and evenly cube the Red Kuri, steam 10 minutes, then test and add 5-minute increments only until cooked through. Blend without additions; do not sieve by default. Measure yield and apparent Brix, then weigh 280 g into the unchanged cling formula. KoRo V03 remains the control.
 
 ## Option 2 — Pumpkin-spice syrup / sweetener — Ostmann adaptation
 
