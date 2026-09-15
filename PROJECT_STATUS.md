@@ -44,7 +44,7 @@ PB-004/PB-005 keep nut-paste and syrup routes separate. PB-006 begins as a black
 | Publishing landscape | Awaiting migration | Existing wider-project research | Validate and cite competitive research |
 | Book structure | Not started | Outline placeholder | Draft after core research import |
 | Manuscript | Not started | Chapter placeholders | Begin only when evidence base is ready |
-| PB-001 product development | Two component batches/pilot planned | PUREE-V03: café-practical 280 g / 30 g / 30 g / 1 level 1/2 tsp KoRo adaptation of Boiron's pumpkin confit; SYRUP-V02: Vitamix syrup adapted to two level tsp ordered Ostmann blend plus 1/2 tsp vanilla; KoRo and FONTE controls | Record KoRo and Ostmann labels, complete the revised readiness list, execute the components separately, then run GC-20260830-PB001-01 |
+| PB-001 product development | Café run completed; fresh-squash comparison planned | PUREE-V03 was positive with KoRo; PUREE-V04 keeps its formula but prepares the user's Red Kuri by the source-traced Arla roast/blend/sieve route; SYRUP-V02 was raised to 150 g sugar during execution | Weigh and roast the Red Kuri, record prepared/final yield and Brix, then compare V04 directly with V03 without changing the syrup |
 | PB-002/PB-003 product development | Dual-format | Purée preparation: café-practical disclosed adaptations of Boiron confit/compote formulas with NH pectin and MONIN controls. Cordial: filtered PR-0022 lychee and enzyme-clarified PR-0021 mango. | Run purée-preparation pilots; resolve cordial input/procurement gates before opening separate batches |
 | Sweetener review | Initial decision complete | No exact same-taste/clearly-healthier replacement identified; pure D-tagatose is the leading later research candidate | Run the current sourced-sucrose baselines first; seek a professional/commercial tagatose formulation before any post-gate adaptation |
 | Autumn nut/seed development | Three research cases opened | German paste inputs, MONIN controls, exact application precedents and METRO bulk leads recorded | Select complete preparation formulations; do not open batches or buy bulk nuts before their gates pass |
@@ -96,6 +96,7 @@ PB-004/PB-005 keep nut-paste and syrup routes separate. PB-006 begins as a black
 - **B-20260904-PUMPPURE-V01-01:** superseded before execution because the 286 g / 32 g / 32 g working scale was not café-practical.
 - **B-20260905-PUMPPURE-V02-01:** superseded before execution when the sub-10 g spoon rule was adopted.
 - **B-20260905-PUMPPURE-V03-01:** executed in the café on 2026-09-05; café-team qualitative feedback was “the purée was great.” The PR-0027 café-practical KoRo adaptation remains 280 g purée / 60 g sugar split 30/30 / 1 level 1/2 tsp NH pectin; yield, Brix and comparative cling observations remain unrecorded.
+- **B-20260915-PUMPPURE-V04-01:** planned fresh Red Kuri comparison. Roast the washed, deseeded squash skin-on at 200°C for 40–50 minutes until completely tender, blend without additions, sieve, record whole/prepared/finished masses and apparent Brix, then use exactly 280 g finished purée in the unchanged V03 cling formula. Compare directly against V03; do not change the syrup in the same test.
 - **B-20260904-PUMPSYR-V01-01:** superseded before execution when the ordered Ostmann blend was selected instead of three separate ground spices.
 - **B-20260905-PUMPSYR-V02-01:** executed in the café on 2026-09-05. The planned/source-retained 110 g sugar was judged insufficiently sweet, so 40 g was added during tasting for 150 g total. This is recorded as an executed deviation; V02 and PR-0028 remain unchanged, and any 150 g repeat requires a separately classified V03 adaptation.
 - **GC-20260830-PB001-01:** FONTE vs unmodified KoRo vs PUREE-V03 comparative cling/squeeze pilot; no arbitrary numerical threshold. SYRUP-V02 is excluded from cling scoring.
@@ -114,6 +115,7 @@ PB-004/PB-005 keep nut-paste and syrup routes separate. PB-006 begins as a black
 | Status | Item | Exact selection/action |
 |---|---|---|
 | ARRIVED — RECORD BEFORE USE | Pumpkin purée | 1 × KoRo Kürbispüree 425 g, user-reported arrived 2026-09-04; photograph physical label/lot/BBD/opened-storage wording, record actual usable mass and price, then measure well-mixed Brix/appearance |
+| ON HAND — MEASURE BEFORE USE | Fresh Red Kuri squash | Record whole mass; after deseeding/trimming record edible mass; after roasting/blending/sieving record finished plain-purée mass and apparent Brix/sample temperature. PUREE-V04 needs 280 g finished purée; no raw-squash yield is assumed. |
 | BUY | Commercial control | 1 × FONTE Gourmet Pumpkin Spice Sauce 350 g/ml squeeze bottle |
 | BUY | NH pectin | 1 × Sosa Fruit Pectin NH; PUREE-V03 requires 1 level 1/2 tsp and no substitute is authorised |
 | BUY/CONFIRM | Granulated sugar | At least 200 g one recorded product; exact combined batch requirement is 170 g |
