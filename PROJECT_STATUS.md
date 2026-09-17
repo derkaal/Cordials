@@ -48,6 +48,7 @@ PB-004/PB-005 keep nut-paste and syrup routes separate. PB-006 begins as a black
 | PB-002/PB-003 product development | Dual-format | Purée preparation: café-practical disclosed adaptations of Boiron confit/compote formulas with NH pectin and MONIN controls. Cordial: filtered PR-0022 lychee and enzyme-clarified PR-0021 mango. | Run purée-preparation pilots; resolve cordial input/procurement gates before opening separate batches |
 | Sweetener review | Initial decision complete | No exact same-taste/clearly-healthier replacement identified; pure D-tagatose is the leading later research candidate | Run the current sourced-sucrose baselines first; seek a professional/commercial tagatose formulation before any post-gate adaptation |
 | Autumn nut/seed development | Three research cases opened | German paste inputs, MONIN controls, exact application precedents and METRO bulk leads recorded | Select complete preparation formulations; do not open batches or buy bulk nuts before their gates pass |
+| Winter orchard development | PB-007 Batch 001 ready | Spiced apple–pear cordial adapts PR-0035 with PR-0036's equal fruit pairing; MONIN Apple Pie is the obtainable German seasonal control | Buy/record juices, whole allspice, citric acid and control; execute V01 and measure Brix before selecting sourced matcha and coffee builds |
 
 ## Round 1 status
 
@@ -63,6 +64,7 @@ PB-004/PB-005 keep nut-paste and syrup routes separate. PB-006 begins as a black
 | Pistachio | PR-0023 exact commercial chai/coffee application; German 100% paste and syrup controls identified | PB-004 research active | None | None | Complete house paste/syrup formulation source missing; bulk kernels deferred |
 | Roasted Hazelnut | PR-0024 exact commercial cocktail application; German 100% paste and syrup controls identified | PB-005 research active | None | None | Complete house paste/syrup formulation source missing; whole-nut process not justified yet |
 | Black Sesame | PR-0025 Vitamix seed paste; European PR-0026 wall application; Asian PR-0029 paste matcha, PR-0030 powder matcha and PR-0031 manufacturer base | PB-006 research active | None | None | Route selection, whole-gram conversion where required, equipment equivalence, purchased-paste adaptation and control unresolved |
+| Spiced Apple–Pear | PR-0035 exact spiced pear cordial plus PR-0036 exact equal-volume apple–pear beverage | PB-007 Batch 001 ready | B-20260917-APPEAR-V01-01 planned | Matcha and coffee builds not opened | Will the cordial retain pear identity and avoid milk splitting beside matcha and espresso? |
 
 ## Open research questions
 
@@ -170,6 +172,19 @@ Full list and rationale: `04_round_1_development/autumn_nutty_research_shopping.
 |---|---|---|
 | Lychee cordial / PR-0022 | One 560 g can lychees; 150 g caster sugar; 10 g food-grade citric acid; 1 g sea salt; cold filtration setup | First record the on-hand can's total size, drained fruit, retained liquid, syrup type, and Brix. Do not assume the source's treatment of the canning liquid. |
 | Mango cordial / PR-0021 | 400 g mango juice; 8 g Töufood Pectinäse; 8 g Töufood Invertäse; sugar to 50 Brix; equal volume of 1:9 diluted Citrus Blend; filtration and sealed-bag setup | Do not buy specialist products until the enzyme route is approved and exact variants, packs, German delivery, and liquid-compatible sealing are verified. Ordered Boiron purée is not silently equivalent to source-stated mango juice. |
+
+## PB-007 — exact items to buy or record
+
+| Status | Item | Exact selection/action |
+|---|---|---|
+| BUY/RECORD | Apple juice | At least 250 ml cloudy 100% apple juice or non-alcoholic apple cider; record ingredients, nutrition, lot/BBD and Brix |
+| BUY/RECORD | Pear juice | At least 250 ml 100% pear juice preferred; record whether it is juice or nectar, ingredients, nutrition, lot/BBD and Brix |
+| BUY/CONFIRM | Granulated sugar | At least one level 250 ml measure of the recorded house product; weigh that source-defined volume before use |
+| BUY | Whole allspice | Whole berries; Batch 001 requires 1 tbsp lightly cracked; ground allspice is not the authorised substitute |
+| BUY/CONFIRM | Cinnamon | 1 stick from a recorded product |
+| BUY/CONFIRM | Food-grade citric acid | 1 level tsp |
+| BUY | Commercial control | 1 × MONIN Apple Pie syrup 0.7 L from the German manufacturer/retailer route; it is an apple-cinnamon service control, not an exact pear match |
+| CONFIRM | Tools | 250 ml measure, 1 tbsp, 1 tsp, saucepan, fine strainer, thermometer, refractometer and clean bottle of at least 750 ml |
 
 ## Pending measurements
 
