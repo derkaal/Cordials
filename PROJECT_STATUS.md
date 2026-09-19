@@ -9,7 +9,7 @@ Last updated: 2026-09-05
 - **Active development round:** Round 1
 - **Current high-priority programme:** PB-001 Pumpkin; PB-004 Pistachio; PB-005 Roasted Hazelnut; PB-006 Black Sesame
 - **Secondary active products:** PB-002 Lychee and PB-003 Mango
-- **Active product cases:** PB-001 Pumpkin Glass-Cling Purée Preparation and Spice Syrup; PB-002 Lychee Purée Preparation and Cordial; PB-003 Mango Purée Preparation and Cordial; PB-004 Pistachio; PB-005 Roasted Hazelnut; PB-006 Black Sesame
+- **Active product cases:** PB-001 Pumpkin; PB-002 Lychee; PB-003 Mango; PB-004 Pistachio; PB-005 Roasted Hazelnut; PB-006 Black Sesame; PB-007 Spiced Apple–Pear Cordial
 - **Latest consequential change:** Active working quantities below 10 g now use standard level measuring-spoon units; pumpkin, mango and lychee pectin is 1 level 1/2 tsp with the source gram calculations preserved
 - **Active validation queue:** `02_sources/VALIDATION_QUEUE.md`
 
@@ -19,7 +19,7 @@ Last updated: 2026-09-05
 |---|---|---|---|---|
 | PB-001 — Pumpkin Purée Preparation and Spice Syrup | Materials/readiness stage before two component pilots | KoRo arrived; European PR-0027 Boiron structure and US PR-0028 Vitamix syrup selected; Asian PR-0032 Yunomi validates real pumpkin with matcha but not cold cling/service | Teaspoon-measured PUREE-V03 and Ostmann-adapted SYRUP-V02 PLANNED; earlier purée, syrup and combined-sauce plans superseded unexecuted | Bring and record KoRo/Ostmann labels; obtain/confirm pectin, FONTE, vanilla, thermometer and standard measuring spoons; execute components separately |
 | PB-004 — Pistachio Paste Preparation and Syrup | Research/source-selection gate | Viani 95 g 100% paste; MONIN control; PR-0023 exact 1883 Pistachio & Chaï application; METRO 1 kg kernel lead | NO BATCH OPENED | Select a complete professional paste-preparation or house-syrup formula; do not buy bulk kernels yet |
-| PB-005 — Roasted Hazelnut Paste Preparation and Syrup | Research/source-selection gate | KoRo 500 g 100% roasted paste; MONIN control; PR-0024 exact 1883 cocktail application; METRO whole-nut lead | NO BATCH OPENED | Find complete professional paste-based beverage and house-syrup formulations; keep four-pack METRO lead deferred |
+| PB-005 — Roasted Hazelnut Paste Preparation and Commercial Syrup | Paste source-selection gate; commercial syrup selected | KoRo 500 g 100% roasted paste; MONIN Roasted Hazelnut selected for syrup service; METRO whole-nut lead deferred | NO HOUSE-SYRUP BATCH | Find a complete professional paste-based beverage formulation; keep syrup commercial and bulk nuts deferred |
 | PB-006 — Black Sesame Paste Preparation | Research/source-selection gate | European PR-0026 Health Bar wall application; Asian PR-0029 Japanese Taste paste matcha, PR-0030 Yunomi powder matcha and PR-0031 Kuki manufacturer base; PR-0025 Vitamix seed paste retained | NO BATCH OPENED | Select the relevant source-defined route; then resolve only the measurements/adaptations needed for that route and its control |
 | PB-002 — Lychee Purée Preparation and Cordial | Dual-format: purée-preparation Batch 001 readiness; cordial source gate | Purée preparation: PR-0019 Boiron with canned-input substitution. Cordial: PR-0022 Barney Toy filtered canned-lychee formula. | Purée-preparation batch/pilot/application PLANNED; cordial source recipe visible; cordial batch NOT OPENED | Record can data; proceed with purée preparation; determine whether the 560 g-can cordial source can be executed exactly |
 | PB-003 — Mango Purée Preparation and Cordial | Dual-format: purée-preparation Batch 001 readiness; specialist cordial gate | Purée preparation: PR-0020 Boiron. Cordial: PR-0021 Michal Dojčák enzyme-clarified formula. | Purée-preparation batch/pilot/application PLANNED; cordial source recipe visible; cordial batch NOT OPENED | Proceed with purée preparation; decide on specialist enzyme route and resolve juice input, procurement, and liquid sealing |
@@ -62,7 +62,7 @@ PB-004/PB-005 keep nut-paste and syrup routes separate. PB-006 begins as a black
 | Pandan | PR-0009 B pass; A conditional | Not started | None | None | Capture linked simple-syrup definition; alcoholic limitation |
 | Mango | PR-0020 exact confit/compote source; PR-0021 exact process-defined cordial source; PR-0017/0018 application/service precedents | Dual-format PB-003 active | Teaspoon-measured purée-preparation B-20260905-MANG-V04-01 planned; V02/V03 superseded; cordial batch not opened | Purée-preparation AT-20260831-005 planned; cordial applications not opened | Cordial requires juice/purée decision, specialist inputs, and liquid-sealing method |
 | Pistachio | PR-0023 exact commercial chai/coffee application; German 100% paste and syrup controls identified | PB-004 research active | None | None | Complete house paste/syrup formulation source missing; bulk kernels deferred |
-| Roasted Hazelnut | PR-0024 exact commercial cocktail application; German 100% paste and syrup controls identified | PB-005 research active | None | None | Complete house paste/syrup formulation source missing; whole-nut process not justified yet |
+| Roasted Hazelnut | PR-0024 exact commercial cocktail application; German 100% paste and commercial syrup identified | PB-005 paste research active; commercial syrup selected | No house-syrup batch | None | Complete paste-based beverage source still missing; MONIN syrup remains commercial; whole-nut process deferred |
 | Black Sesame | PR-0025 Vitamix seed paste; European PR-0026 wall application; Asian PR-0029 paste matcha, PR-0030 powder matcha and PR-0031 manufacturer base | PB-006 research active | None | None | Route selection, whole-gram conversion where required, equipment equivalence, purchased-paste adaptation and control unresolved |
 | Spiced Apple–Pear | PR-0035 exact spiced pear cordial plus PR-0036 exact equal-volume apple–pear beverage | PB-007 Batch 001 ready | B-20260917-APPEAR-V01-01 planned | Matcha and coffee builds not opened | Will the cordial retain pear identity and avoid milk splitting beside matcha and espresso? |
 
@@ -158,7 +158,7 @@ Full list: `04_round_1_development/puree_matcha_batch_001_shopping.md`.
 | BUY FOR SOURCE-LED DEVELOPMENT | Pistachio paste | 1 × Viani 100% Pistazienmark, 95 g; physical label and price control |
 | BUY FOR CONTROL | Pistachio syrup | 1 × MONIN Pistachio, 0.7 L |
 | BUY FOR SOURCE-LED DEVELOPMENT | Roasted-hazelnut paste | 1 × KoRo Haselnussmus, 500 g, 100% roasted hazelnut |
-| BUY FOR CONTROL | Roasted-hazelnut syrup | 1 × MONIN Roasted Hazelnut; choose available pack and record it |
+| BUY FOR SERVICE/CONTROL | Roasted-hazelnut syrup | 1 × MONIN Roasted Hazelnut; commercial route selected 2026-09-19; choose available pack and record it; no house-syrup batch planned |
 | BUY FOR SOURCE-LED DEVELOPMENT | Black-sesame paste | 1 × machdeineis.de 100% black-sesame paste, 250 g; price remains to be captured |
 | DEFER | Whole pistachios | METRO Chef peeled kernels, 1 kg, article AAA0000920671; revisit after paste-led sensory/volume gate |
 | DEFER | Whole hazelnuts | METRO Chef Römer hazelnuts, 1 kg, article AAA0000909709; do not buy current four-pack online minimum for Batch 001 |
@@ -242,7 +242,7 @@ None. No production formulation has completed the required testing and validatio
 2. Bring/confirm the Ostmann packet; buy/confirm Sosa Fruit Pectin NH, FONTE control, 200 g granulated sugar, vanilla extract, standard 1/2 and 1 tsp measures, the two required containers, 103°C-capable thermometer, and dosing syringe. A precision scale is optional for check weights. Separate cinnamon, allspice, and ginger are not required for SYRUP-V02.
 3. Prepare PUREE-V03 exactly as written, then run KoRo vs PUREE-V03 vs FONTE through GC-20260830-PB001-01. Separately execute SYRUP-V02 only if a full 120 ml KoRo portion remains; use 2 level tsp Ostmann plus 1/2 tsp vanilla and record the spoon dose mass without improvising.
 4. Select a complete professional/commercial pumpkin-matcha application before opening a replacement for the superseded original house test.
-5. For PB-004 and PB-005, select complete professional paste-preparation and syrup lineages before opening batches; use small/single-jar paste inputs first and defer METRO bulk nuts.
+5. For PB-004 select complete paste and syrup lineages; for PB-005 select only a complete paste-based beverage lineage because the syrup remains commercial. Use small paste inputs first and defer METRO bulk nuts.
 6. For PB-006, resolve PR-0025's practical gram conversions and blender-equivalence gate, then decide between exact seed-to-paste execution and a disclosed purchased-paste adaptation.
 7. Record the canned-lychee label, actual drained fruit/liquid masses, syrup composition, and separate fruit/syrup Brix for the secondary fruit programme.
 8. Buy the remaining lychee/mango inputs and controls, and calibrate the shared equipment.
