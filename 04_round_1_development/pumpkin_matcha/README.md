@@ -6,7 +6,7 @@
 - **Formats:** Glass-cling pumpkin purée preparation + pourable pumpkin-spice syrup
 - **Applications:** Matcha; tea; coffee; zero-proof drinks; cocktails; desserts
 - **Primary use:** Seasonal iced pumpkin matcha with visible inner-glass pumpkin
-- **Current stage:** KoRo purée route executed positively; the 200°C Red Kuri roast failed by burning and a source-traced steamed Red Kuri replacement is planned
+- **Current stage:** Fresh Red Kuri is the intended production input by product-direction decision; the source-traced steamed V05 route is planned. KoRo V03 remains the successful consistency control and fallback.
 - **Preparation classification:** Two separate functional classes; neither is called a cordial
 - **Batch status:** KoRo V03 positive; roasted Red Kuri V04 failed; steamed Red Kuri V05 planned; Ostmann syrup V02 executed with a recorded sugar deviation
 - **Primary record:** `PB-001.md`
@@ -23,13 +23,13 @@
 |---|---|
 | Product Brief | `PB-001.md` — ACTIVE |
 | Professional Research | `../../01_research/pumpkin_matcha_professional_research.md` — IN PROGRESS |
-| Candidate Formulations | PUREE-V03 — café-practical KoRo adaptation of PR-0027 using 1 level 1/2 tsp NH pectin; SYRUP-V02 — PR-0028 Vitamix syrup adapted to the ordered Ostmann commercial blend |
+| Candidate Formulations | PUREE-V05 — preferred fresh Red Kuri input route using the unchanged PR-0027-derived cling formula; PUREE-V03 — successful KoRo control/fallback; SYRUP-V02 — executed PR-0028 Vitamix syrup adaptation using the ordered Ostmann blend |
 | Experimental Batches | `B-20260905-PUMPPURE-V03-01` and `B-20260905-PUMPSYR-V02-01` — PLANNED; earlier purée, exact Vitamix syrup and combined-sauce plans superseded unexecuted |
 | Application Testing | New source-only matcha application test NOT YET OPENED; `AT-20260830-001` superseded unexecuted |
 | Operational/Economic Evaluation | Not started; cost targets remain TBD |
 | Approved Production Version | None |
 
-## Option 1 — Glass-cling pumpkin purée preparation
+## Option 1 — Glass-cling pumpkin purée preparation (successful KoRo control)
 
 This is a high-pumpkin, pectin-structured purée preparation based on Les Vergers Boiron's exact pumpkin confit/compote (`PR-0027`). KoRo replaces the named Boiron purée, the batch is scaled to whole grams, and inner-glass service is a new test; it is therefore an `ADAPTATION OF SOURCED RECIPE`.
 
@@ -44,9 +44,11 @@ Heat purée with the first sugar portion. At 50°C whisk in the dry sugar–pect
 
 At a 280 g purée scale the exact PR-0027 amounts would be 63 g sugar and 1.96 g NH pectin. The operational 60 g sugar and level 1/2 tsp pectin are deliberately practical adaptations. SRC-2026-092 estimates that spoon at about 1.8 g, but the Sosa product's actual mass is not assumed exact.
 
-### Fresh Red Kuri comparison — PUREE-V05
+### Intended fresh Red Kuri production route — PUREE-V05
 
-The PR-0033 200°C roast in V04 burned most of the pumpkin after 40 minutes and is not to be repeated unchanged. `B-20260915-PUMPPURE-V05-01` instead adapts PR-0034: peel and evenly cube the Red Kuri, steam 10 minutes, then test and add 5-minute increments only until cooked through. Blend without additions; do not sieve by default. Measure yield and apparent Brix, then weigh 280 g into the unchanged cling formula. KoRo V03 remains the control.
+The PR-0033 200°C roast in V04 burned most of the pumpkin after 40 minutes and is not to be repeated unchanged. `B-20260915-PUMPPURE-V05-01` instead adapts PR-0034: peel and evenly cube the Red Kuri, steam 10 minutes, then test and add 5-minute increments only until cooked through. Blend without additions; do not sieve by default. Measure yield and apparent Brix, then weigh 280 g into the unchanged cling formula. This is now the intended production route; KoRo V03 remains the successful consistency control and practical fallback.
+
+This selection records the product direction, not a finding that fresh pumpkin is already superior. V05 still has to pass flavour, texture, squeeze-bottle and glass-cling comparison before production approval.
 
 ## Option 2 — Pumpkin-spice syrup / sweetener — Ostmann adaptation
 
@@ -64,6 +66,6 @@ Whisk everything in a stainless-steel saucepan; bring to a light simmer and cook
 
 ## Why both
 
-The KoRo can can already be used as the pumpkin input and as an unmodified comparison sample. It is not yet proven as a squeeze-bottle glass decoration or a balanced sweetener. Separating the formats lets the purée preparation own pumpkin visibility and wall cling while the syrup owns spice and adjustable sweetness. The first tests decide whether café service actually benefits from both; the two-component design is not pre-approved.
+Fresh steamed Red Kuri is the intended pumpkin input for the glass-cling preparation. KoRo can still be used as the successful control and fallback, and as an unmodified comparison sample. Separating the formats lets the purée preparation own pumpkin visibility and wall cling while the syrup owns spice and adjustable sweetness. The existing syrup V02 retains its recorded KoRo input: replacing that input is a separate future revision so the purée-route test does not silently change the syrup as well. The first tests decide whether café service actually benefits from both; the two-component design is not pre-approved.
 
 No shelf-life or safety outcome is approved. Source-stated storage periods in earlier professional references do not transfer to either new batch.

@@ -10,7 +10,8 @@ Updated: 2026-09-05
 
 | Item | Status | Exact action |
 |---|---|---|
-| KoRo Kürbispüree 425 g, product `KUERBIS_006` | USER-REPORTED ARRIVED 2026-09-04 | Photograph front/back, ingredient declaration, nutrition, origin, lot, BBD, net mass, and any opened-storage instruction. Record purchase price if available. Do not assume the online label overrides the physical can. |
+| Fresh Red Kuri squash | USER-REPORTED ON HAND; INTENDED PRODUCTION INPUT | Record whole and usable mass. Peel, deseed, cube evenly, steam only until tender and blend without additions; do not sieve by default. V05 requires 280 g finished plain purée. |
+| KoRo Kürbispüree 425 g, product `KUERBIS_006` | USER-REPORTED ARRIVED 2026-09-04; CONTROL/FALLBACK | Photograph front/back, ingredient declaration, nutrition, origin, lot, BBD, net mass, and any opened-storage instruction. Record purchase price if available. Do not assume the online label overrides the physical can. |
 | Ostmann Pumpkin Spice Latte mix, nominal 16 g | ORDERED/ON-HAND STATUS TO CONFIRM | Bring the packet to the café. Photograph front/back; record ingredients, allergens, nutrition, lot, BBD, net mass, and purchase price. |
 | Proster 0–80% Brix refractometer | Ordered previously; present status not reconfirmed | If received, inspect and calibrate exactly as its manual directs; record calibration and sample temperature. |
 | Russell Hobbs 25630-56 | AVAILABLE; not needed for these saucepan recipes | Do not introduce sous-vide processing into either source formulation. |
