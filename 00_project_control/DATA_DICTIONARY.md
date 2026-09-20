@@ -10,6 +10,15 @@
 
 Current formulation-authoring rule from 2026-08-31: active recipe, batch, and application formulations are limited to `EXACT SOURCED RECIPE` and `ADAPTATION OF SOURCED RECIPE` unless the user explicitly authorises an original formulation in writing. `ORIGINAL EXPERIMENTAL FORMULATION` remains available only to classify historical/imported material. `ORIGINAL EXPERIMENTAL METHOD` may be used for test protocols because a measurement method is not a recipe formulation.
 
+### Beverage-application relevance
+
+- `DIRECT BEVERAGE FORMULATION`: complete professional/commercial drink or drink-component recipe intended for beverage service.
+- `BEVERAGE PAIRING OR SERVICE PRECEDENT`: commercially active drink evidence that validates a pairing or service architecture but does not disclose a reproducible formulation.
+- `SUPPORTING CULINARY TECHNIQUE ONLY`: food, pastry, preserve or general culinary source that may support preparation of an input but cannot authorise a finished drink or drink component by itself.
+- `NOT RELEVANT TO BEVERAGE DEVELOPMENT`: source does not materially support the intended drink.
+
+From 2026-09-20, every newly selected active drink or drink-component lineage must include a `DIRECT BEVERAGE FORMULATION`. A source classified as `SUPPORTING CULINARY TECHNIQUE ONLY` may inform an input or process, but it must be paired with a professionally published or commercially active beverage application before an active café batch is opened. Match hot/cold service, milk/acidity context, dosing method and ordinary café equipment wherever the evidence allows; disclose every unresolved mismatch rather than treating generic culinary professionalism as beverage validation.
+
 ### Evidence type
 
 - `SOURCE-STATED FACT`

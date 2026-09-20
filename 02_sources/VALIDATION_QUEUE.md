@@ -55,6 +55,8 @@ Required before laboratory use as a professional benchmark:
 - any conversion or scaling documented separately; and
 - alcohol and other category constraints disclosed.
 
+For an active café drink or drink component, professional attribution alone is insufficient. The benchmark must be a beverage formulation intended for professional/commercial drink service, or be paired with one. Pastry, dessert, preserve, sauce and general culinary sources remain supporting technique evidence only. A menu listing proves commercial pairing/service but does not become a reproducible formulation when its quantities or method are undisclosed.
+
 A benchmark may pass B without passing A only if the record is not represented as an exact transcription and the remaining uncertainty does not require invented formulation details.
 
 ### C — Food-safety or shelf-life recommendation

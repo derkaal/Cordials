@@ -54,6 +54,8 @@ For every recipe or formulation:
 6. Record departures from a sourced formulation as `ADAPTATION OF SOURCED RECIPE` and show the changes.
 7. Do not create a new active `ORIGINAL EXPERIMENTAL FORMULATION` without explicit written user authorisation. Under the active source-only rule, formulate through `EXACT SOURCED RECIPE` or `ADAPTATION OF SOURCED RECIPE` and preserve the professional/commercial lineage. The original classification may still describe historical or imported material.
 8. Leave missing quantities, steps, yield, storage, shelf life, or attribution as `UNKNOWN`.
+9. Classify application relevance using the data dictionary. For drinks and drink components, require at least one complete professional/commercial beverage formulation before laboratory activation. Do not elevate a pastry, dessert, preserve, sauce or general culinary recipe into the primary drink lineage merely because it is professionally published.
+10. Treat a commercially active menu listing without reproducible quantities as pairing/service evidence only. It may justify further research but cannot supply undisclosed ratios or methods.
 
 ## 6. Detect conflicts and duplicates
 

@@ -60,6 +60,8 @@ Every formulation must use exactly one classification:
 
 **Active authoring constraint (2026-08-31):** New active recipe, batch, and application formulations may use only `EXACT SOURCED RECIPE` or `ADAPTATION OF SOURCED RECIPE`, unless the user explicitly reopens original formulation work in writing. `ORIGINAL EXPERIMENTAL FORMULATION` remains a controlled historical/import classification, not current authorisation. Original experimental test methods and measurement protocols remain permitted when clearly labelled as methods rather than recipes.
 
+**Beverage-relevance constraint (2026-09-20):** Because this project develops drinks for café service, the primary lineage for an active drink or drink component must be a professionally published or commercially active **beverage** formulation with reproducible quantities and method. A pastry, dessert, preserve, sauce or general culinary recipe may support an ingredient-preparation technique, but it cannot by itself authorise a drink formulation or be presented as proof of beverage performance. Before opening an active batch, connect any such supporting food technique to a professional/commercial beverage application relevant to the intended format: matcha, coffee, tea, zero-proof drink or cocktail. Prefer sources that also match the intended hot/cold service and café equipment.
+
 Never invent an existing recipe, attribution, measurement, or missing field. Record unavailable information as `UNKNOWN`. Preserve the distinction among:
 
 - source-stated facts;
